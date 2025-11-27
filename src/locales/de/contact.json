@@ -1,0 +1,51 @@
+{
+  "pageTitle": "Kontakt",
+  "validation": {
+    "required": "Pflichtfeld.",
+    "firstname": {
+      "min": "Der Vorname muss mindestens 2 Zeichen enthalten.",
+      "max": "Vorname zu lang."
+    },
+    "lastname": {
+      "min": "Der Nachname muss mindestens 2 Zeichen enthalten.",
+      "max": "Nachname zu lang."
+    },
+    "phone": {
+      "invalid": "Bitte geben Sie eine gültige Telefonnummer ein.",
+      "min": "Nummer zu kurz.",
+      "max": "Nummer zu lang."
+    },
+    "email": {
+      "invalid": "Bitte geben Sie eine gültige E-Mail-Adresse ein."
+    }
+  },
+  "description": {
+    "beforeEmail": "Sie können mich hier schreiben, mich eine Email an",
+    "betweenEmailPhone": "schicken oder mich auch unter",
+    "afterPhone": "anrufen."
+  },
+  "form": {
+    "firstname": {
+      "label": "Vorname"
+    },
+    "lastname": {
+      "label": "Nachname"
+    },
+    "phone": {
+      "label": "Telefon"
+    },
+    "email": {
+      "label": "E-mail"
+    },
+    "message": {
+      "label": "Nachricht",
+      "placeholder": "Ihre Nachricht hier"
+    },
+    "button": "Senden",
+    "errorMessage": "Fehler beim Absenden des Formulars, bitte versuchen Sie es erneut."
+  },
+  "address": {
+    "label": "Adresse"
+  },
+  "altContactPicture": "Anaïs am Telefon mit einem PC auf dem Schoß"
+}

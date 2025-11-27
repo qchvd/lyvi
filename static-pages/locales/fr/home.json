@@ -1,0 +1,33 @@
+{
+    "introText": "Chez LYVI, l'expertise de votre kiné rencontre la méthode Renata França pour vous offrir des drainages lymphatiques aux effets immédiats. À Lyon 1ᵉʳ ou à domicile, chaque séance est une parenthèse bien être\u00A0: un moment pour alléger et réénergiser votre corps.",
+    "myApproach": {
+        "title": "MON APPROCHE",
+        "p1": "C'est avec bonne humeur et professionnalisme que je vous accueille pour vous proposer le meilleur des soins Renata França.",
+        "p2": "Que ce soit pour une séance ou pour une cure, mon engagement est de vous accompagner avec bienveillance et efficacité vers vos objectifs.",
+        "p3": "C'est dans un cocon de bien être au centre Coream que je vous propose le drainage lymphatique, le remodelage et le Miracle Face, pour des résultats dès la premiere seance\u00A0:",
+        "listItem1": "Sensation de légèreté",
+        "listItem2": "Peau lisse",
+        "listItem3": "Effet sculptant",
+        "p4": "Chez Lyvi, j'ai à cœur un objectif\u00A0: que vous repartiez détendue, légère et rayonnante."
+    },
+    "treatments": {
+        "title": "LES SOINS",
+        "p1": "Les soins Renata França sont des massages manuels rythmés avec de la pression et des pompages, qui permettent d'obtenir des résultats visibles dès la première séance. La technique stimule la circulation sanguine, réduit les gonflements et favorise l'élimination des toxines. Les massages permettent d'affiner la silhouette et de réduire l'aspect de la cellulite, tout en renforçant le système immunitaire."
+    },
+    "altMiracleFacePicture": "Miracle Face - Massage du visage",
+    "altDrainagePicture": "Drainage - Massage d'une jambe",
+    "altRemodelagePicture": "Remodelage - Massage cuisse + fesse",
+    "carouselImages": [
+        "Drainage",
+        "Remodelage",
+        "Miracle Face",
+        "Salle de massage"
+    ],
+    "applications": "Applications",
+    "aesthetic": "Esthétique",
+    "wellness": "Bien-être",
+    "postOp": "Post-opératoire",
+    "maternity": "Maternité",
+    "sportsRecovery": "Récupération sportive",
+    "remodelage": "Remodelage"
+}

@@ -1,0 +1,50 @@
+{
+  "validation": {
+    "required": "Champ requis.",
+    "firstname": {
+      "min": "Le prénom doit contenir au moins 2 caractères.",
+      "max": "Prénom trop long."
+    },
+    "lastname": {
+      "min": "Le nom doit contenir au moins 2 caractères.",
+      "max": "Nom trop long."
+    },
+    "phone": {
+      "invalid": "Merci de renseigner un numéro de téléphone valide.",
+      "min": "Numéro trop court.",
+      "max": "Numéro trop long."
+    },
+    "email": {
+      "invalid": "Merci de renseigner un email valide."
+    }
+  },
+  "description": {
+    "beforeEmail": "Vous pouvez m'écrire ici, m'envoyer un email à",
+    "beforePhone": "ou m'appeler au",
+    "afterPhone": "."
+  },
+  "form": {
+    "firstname": {
+      "label": "Prénom"
+    },
+    "lastname": {
+      "label": "Nom"
+    },
+    "phone": {
+      "label": "Téléphone"
+    },
+    "email": {
+      "label": "Email"
+    },
+    "message": {
+      "label": "Message",
+      "placeholder": "Votre message ici"
+    },
+    "button": "Envoyer",
+    "errorMessage": "Erreur lors de l'envoi du formulaire, veuillez réessayer."
+  },
+  "address": {
+    "label": "Adresse"
+  },
+  "altContactPicture": "Anaïs au téléphone avec un PC portable sur les genoux"
+}

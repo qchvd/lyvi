@@ -1,0 +1,61 @@
+{
+    "description": {
+        "line1": "Au cas où vous vous demandiez, voici les questions les plus fréquentes que les gens me posent au sujet des drainages lymphatiques.",
+        "line2": "Vous avez encore des questions sans réponse\u00A0?"
+    },
+    "contactMe": "Contactez-moi",
+    "faq": {
+        "q1": {
+            "question": "Les soins sont-ils douloureux\u00A0?",
+            "answer": "Non, les soins ne sont pas douloureux. Le drainage lymphatique et le remodelage reposent sur des gestes fermes et rythmés mais maîtrisés, pensés pour stimuler les tissus sans les agresser. Certaines zones peuvent être plus sensibles selon votre circulation ou votre niveau de tension mais la pression est toujours adaptée à votre confort."
+        },
+        "q2": {
+            "question": "Y'a-t-il des contre-indications\u00A0?",
+            "answer": "Oui, les soins ne sont pas recommandés en cas de fièvre, de processus infectieux, bactériens et inflammatoires aigus, de suspicion de phlébite ou phlébite en cours, d'insuffisance cardiaque ou rénale non stabilisée. En cas de doute ou de condition médicale spécifique, il est nécessaire de demander l'avis de votre médecin avant de débuter les soins (ordonnance souhaitée). Chaque séance commence par un échange pour garantir un soin adapté et sécurisé."
+        },
+        "q3": {
+            "question": "Comment choisir entre le drainage lymphatique et le remodelage\u00A0?",
+            "answer": "Le drainage et le remodelage sont deux soins complémentaires. Le drainage vient d'abord relancer la circulation et activer le métabolisme. Le remodelage agit ensuite plus en profondeur\u00A0: il travaille sur les tissus adipeux, affine et sculpte la silhouette. Je recommande une cure sur mesure où je mixe les deux techniques après un bilan personnalisé de vos besoins et objectifs. Si vous ne deviez en choisir qu'un\u00A0: le drainage."
+        },
+        "q4": {
+            "question": "Le drainage lymphatique et le remodelage font-ils mincir\u00A0?",
+            "answer": "A eux seuls non. Le drainage et le remodelage ne remplacent pas une hygiène de vie équilibrée mais ils en sont de puissants compléments. En stimulant la circulation et le métabolisme, ils favorisent l'élimination et soutiennent le travail du corps en profondeur. Combinés à un rythme de vie sain, ces soins deviennent de véritables boosters de résultats visibles et pérennes."
+        },
+        "q5": {
+            "question": "En combien de séances observe-t-on des résultats visibles\u00A0?",
+            "answer": "Les effets se ressentent dès la première séance\u00A0: circulation relancée, jambes plus légères, peau plus lisse, silhouette affinée. Selon vos objectifs — aspect esthétique, bien-être, perte de poids, récupération — les résultats se construisent au fil des séances. Chaque corps évolue à son rythme, c'est pourquoi une cure permet d'obtenir des effets plus profonds et durables."
+        },
+        "q6": {
+            "question": "Pourquoi recommandez-vous une cure de plusieurs séances\u00A0?",
+            "answer": "La cure de 5 séances est le format le plus souvent choisi par mes patientes — celui qui permet au corps d'intégrer pleinement le travail des soins et d'ancrer les effets dans le temps. Selon votre évolution, le suivi peut se prolonger sur 8 séances pour affiner, stabiliser ou approfondir les effets obtenus."
+        },
+        "q7": {
+            "question": "Je viens d'être opérée, quand puis-je commencer les drainages\u00A0?",
+            "answer": "Dès que les points de suture ont cicatrisé. Chaque prise en charge post-opératoire commence par un bilan complet lors de la première séance, durant laquelle un devis personnalisé vous est proposé. Je recommande de commencer par des drainages classiques (non Renata) qui sont plus adaptés à un corps induré. Ces soins sont réservés à cette phase post-opératoire aiguë et permettent de réduire les œdèmes et d'aider la peau à se réadapter en douceur. Ils durent 30 minutes et sont facturés 65 €. Dès que le corps le permet, nous poursuivons avec les soins Renata pour relancer pleinement la circulation et affiner le résultat. Pour toute chirurgie récente, je demande une ordonnance médicale pour drainage lymphatique ou une attestation de non contre-indication. Cette démarche est purement juridique et vise à garantir un accompagnement sécurisé et conforme à votre situation."
+        },
+        "q8": {
+            "question": "Puis-je bénéficier de ces soins pendant la grossesse ou l'allaitement\u00A0?",
+            "answer": "Oui, le drainage lymphatique est particulièrement bénéfique pendant la grossesse. Il aide à soulager les jambes lourdes, à réduire les gonflements et à améliorer la circulation. Durant le premier trimestre, une attestation médicale de non contre-indication est nécessaire. Ces soins accompagnent le corps dans ses changements profonds. Ils sont un moment de bien-être, boostent votre énergie et aident la peau à rester lisse et tonique. En post-partum, ils participent à retrouver votre énergie et votre silhouette."
+        },
+        "q9": {
+            "question": "J'ai des courbatures ou une sensation de fatigue après l'entrainement, le drainage peut-il m'aider\u00A0?",
+            "answer": "Le drainage et le remodelage sont de véritables alliés pour la récupération sportive. Ils favorisent le processus de guérison des courbatures et optimisent les performances. En relançant la circulation et le métabolisme, ils soutiennent le corps dans l'effort tout en améliorant la qualité des tissus et la tonicité générale. Un atout pour performer sans épuiser votre énergie."
+        },
+        "q10": {
+            "question": "Proposez-vous des soins à domicile\u00A0?",
+            "answer": "Oui, à Lyon, dans l'ouest lyonnais et les Monts d'Or. Les séances sont réalisées dans les mêmes conditions de qualité qu'en cabinet, avec tout le matériel nécessaire pour garantir votre confort et l'efficacité du soin. Ce service est particulièrement adapté en post-opératoire, après un accouchement ou simplement si vous préférez recevoir votre soin dans le calme de votre foyer. Tarif\u00A0: +20 € par soin pour les déplacements à domicile."
+        },
+        "q11": {
+            "question": "Combien de temps dure une séance\u00A0?",
+            "answer": "La durée dépend du soin choisi\u00A0:\n\u00A0•\u00A0\u00A0Drainage Renata França\u00A0: ~1h.\n\u00A0•\u00A0\u00A0Remodelage\u00A0: ~1h.\n\u00A0•\u00A0\u00A0Miracle Face\u00A0: ~30 min.\n\u00A0•\u00A0\u00A0Drainage post-op classique\u00A0: ~30 min.\n\nChaque séance inclut en plus un temps d'échange pour adapter le protocole à votre état du jour et à vos besoins."
+        },
+        "q12": {
+            "question": "Y'a-t-il des précautions à prendre avant ou après le soin\u00A0?",
+            "answer": "Je vous recommande d'éviter l'alcool le jour de votre séance. Cela perturbe le processus d'élimination stimulé par le drainage. Il est aussi bénéfique de pratiquer une activité physique le jour-même — avant ou après la séance, peu importe. L'exercice active le système lymphatique et renforce les effets du soin. Et bien sûr, buvez beaucoup d'eau dans les heures qui suivent pour accompagner le travail d'élimination du corps."
+        },
+        "q13": {
+            "question": "Les soins sont-ils pris en charge par la sécurité sociale\u00A0?",
+            "answer": "Je suis kinésithérapeute conventionnée mais tous les soins proposés ne sont pas remboursés par la sécurité sociale. Même en post-opératoire, les drainages lymphatiques ne sont pas pris en charge. Je reste toutefois attentive à votre parcours médical afin d'adapter le protocole en toute sécurité."
+        }
+    }
+}

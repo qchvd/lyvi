@@ -1,0 +1,61 @@
+{
+    "description": {
+        "line1": "In case you were wondering, here are the most common things people ask me about lymphatic drainages.",
+        "line2": "Still got unanswered questions?"
+    },
+    "contactMe": "Contact me",
+    "faq": {
+        "q1": {
+            "question": "Are the treatments painful?",
+            "answer": "No, the treatments are not painful. Lymphatic drainage and body sculpting are based on firm, rhythmic but controlled movements designed to stimulate the tissues without damaging them. Certain areas may be more sensitive depending on your circulation or tension levels, but the pressure is always adjusted to ensure your comfort."
+        },
+        "q2": {
+            "question": "Are there any contraindications?",
+            "answer": "Yes, treatments are not recommended in cases of fever, acute bacterial or inflammatory infections, suspected or existing phlebitis, or unstable heart or kidney failure. If you have any doubts or specific medical conditions, you should consult your doctor before starting treatment (prescription required). Each session begins with a discussion to ensure that the treatment is appropriate and safe."
+        },
+        "q3": {
+            "question": "How to choose between lymphatic drainage and body sculpting?",
+            "answer": "Drainage and body sculpting are two complementary treatments. Drainage first stimulates circulation and activates the metabolism. Body sculpting then works more deeply. It acts on fatty tissue, refining and sculpting the silhouette. I recommend a customized treatment plan where I combine both techniques after a personalized assessment of your needs and goals. If you had to choose just one: drainage."
+        },
+        "q4": {
+            "question": "Do lymphatic drainage and body sculpting help you lose weight?",
+            "answer": "Not on their own. Drainage and body sculpting cannot replace a balanced lifestyle, but they are powerful complements to it. By stimulating circulation and metabolism, they promote elimination and support the body's deep-acting processes. Combined with a healthy lifestyle, these treatments become real boosters of visible and lasting results."
+        },
+        "q5": {
+            "question": "How many sessions does it take to see visible results?",
+            "answer": "The effects can be felt from the very first session: improved circulation, lighter legs, smoother skin, and a slimmer figure. Depending on your goals—aesthetic appearance, well-being, weight loss, recovery—the results build up over the course of the sessions. Every body evolves at its own pace, which is why a course of treatment allows you to achieve deeper and longer-lasting effects."
+        },
+        "q6": {
+            "question": "Why do you recommend a treatment of several sessions?",
+            "answer": "The 5-session treatment is the format most often chosen by my patients—the one that allows the body to fully integrate the work of the treatments and anchor the effects over time. Depending on your progress, follow-up may be extended to 8 sessions to refine, stabilize, or deepen the effects achieved."
+        },
+        "q7": {
+            "question": "I just had surgery. When can I start drainage?",
+            "answer": "As soon as the stitches have healed. Each post-operative treatment begins with a complete assessment during the first session, during which a personalized quote is provided. I recommend starting with classic drainage techniques (not Renata), which are more suitable for a hardened body. These treatments are reserved for the acute post-operative phase and help to reduce swelling and allow the skin to gently readjust. They last 30 minutes and are billed at 65€. As soon as the body allows, we continue with Renata treatments to fully restore circulation and refine the results. For any recent surgery, I require a medical prescription for lymphatic drainage or a certificate of no contraindication. This is purely a legal requirement and is intended to ensure safe treatment that is appropriate for your situation."
+        },
+        "q8": {
+            "question": "Can I receive these treatments during pregnancy or while breastfeeding?",
+            "answer": "Yes, lymphatic drainage is particularly beneficial during pregnancy. It helps relieve heavy legs, reduce swelling, and improve circulation. During the first trimester, a medical certificate stating that there are no contraindications is required. These treatments support the body through its profound changes. They provide a moment of well-being, boost your energy, and help keep your skin smooth and toned. After giving birth, they help you regain your energy and figure."
+        },
+        "q9": {
+            "question": "I have muscle soreness or feel tired after training. Can drainage help me?",
+            "answer": "Drainage and body sculpting are powerful allies in athletic recovery. They promote the healing process for sore muscles and optimize performance. By boosting circulation and metabolism, they support the body during exercise while improving tissue quality and overall tone. An asset for performing without exhausting your energy."
+        },
+        "q10": {
+            "question": "Do you offer at-home treatments?",
+            "answer": "Yes, in Lyon, in western Lyon and the Monts d'Or. The sessions are carried out under the same high-quality conditions as in the practice, with all the necessary equipment to ensure your comfort and the effectiveness of the treatment. This service is particularly suitable for post-operative care, after childbirth, or simply if you prefer to receive your treatment in the comfort of your own home. Price: +20€ per treatment for home visits."
+        },
+        "q11": {
+            "question": "How long does a session last?",
+            "answer": "The duration depends on the treatment chosen:\n\u00A0•\u00A0\u00A0Renata França drainage: ~1h.\n\u00A0•\u00A0\u00A0Body sculpting: ~1h.\n\u00A0•\u00A0\u00A0Miracle Face: ~30 min.\n\u00A0•\u00A0\u00A0Classic post-operative drainage: ~30 min.\n\nEach session also includes time for discussion to adapt the protocol to your condition on that day and your needs."
+        },
+        "q12": {
+            "question": "Are there any precautions to take before or after the treatment?",
+            "answer": "I recommend avoiding alcohol on the day of your session. It disrupts the elimination process stimulated by drainage. It is also beneficial to engage in physical activity on the same day—before or after the session, it doesn't matter. Exercise activates the lymphatic system and enhances the effects of the treatment. And of course, drink plenty of water in the hours following the session to support the body's elimination process."
+        },
+        "q13": {
+            "question": "Are treatments covered by social security?",
+            "answer": "I am a licensed physical therapist, but not all treatments offered are covered by social security. Even in the post-operative period, lymphatic drainages are not covered. However, I remain attentive to your medical history in order to adapt the protocol safely."
+        }
+    }
+}

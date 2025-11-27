@@ -1,0 +1,18 @@
+{
+    "home": "Startseite",
+    "languageSelector": "Wähle deine Sprache",
+    "form": {
+        "required": "Pflichtfeld"
+    },
+    "instagramLink": "Folgen Sie mir auf Instagram",
+    "doctolibLink": "Termin auf Doctolib vereinbaren",
+    "sessionSelector1": "Wählen Sie 1 Sitzung aus",
+    "sessionSelector5": "Wählen Sie 5 Sitzungen aus",
+    "sessionSelector8": "Wählen Sie 8 Sitzungen aus",
+    "homeTypeWriterTitle": "GLÄTTEN. FORMEN. STRAHLEN.",
+    "aboutTypeWriterTitle": "ÜBER MICH",
+    "treatmentsTypeWriterTitle": "BEHANDLUNGEN",
+    "faqTypeWriterTitle": "FREQUENTLY ASKED QUESTIONS",
+    "openMenu": "Menü öffnen",
+    "closeMenu": "Menü schließen"
+}

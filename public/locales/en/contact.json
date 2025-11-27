@@ -1,0 +1,51 @@
+{
+  "pageTitle": "Contact",
+  "validation": {
+    "required": "Field required.",
+    "firstname": {
+      "min": "Firstname must be at least 2 characters.",
+      "max": "Firstname too long."
+    },
+    "lastname": {
+      "min": "Name must be at least 2 characters.",
+      "max": "Name too long."
+    },
+    "phone": {
+      "invalid": "Please enter a valid phone number.",
+      "min": "Number too short.",
+      "max": "Number too long."
+    },
+    "email": {
+      "invalid": "Please enter a valid email address."
+    }
+  },
+  "description": {
+    "beforeEmail": "You can write to me here, send me an email at",
+    "beforePhone": "or call me at",
+    "afterPhone": "."
+  },
+  "form": {
+    "firstname": {
+      "label": "First name"
+    },
+    "lastname": {
+      "label": "Last name"
+    },
+    "phone": {
+      "label": "Phone"
+    },
+    "email": {
+      "label": "Email"
+    },
+    "message": {
+      "label": "Message",
+      "placeholder": "Your message here"
+    },
+    "button": "Send",
+    "errorMessage": "Error sending the form, please try again."
+  },
+  "address": {
+    "label": "Address"
+  },
+  "altContactPicture": "Anaïs on the phone with a laptop on her lap"
+}

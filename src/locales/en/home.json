@@ -1,0 +1,33 @@
+{
+    "introText": "At LYVI, your physical therapist's expertise combines with the Renata França method to offer you lymphatic drainage treatments with immediate results. In Lyon's 1ˢᵗ arrondissement or in the comfort of your own home, each session is a wellness break: a moment to lighten and reenergize your body.",
+    "myApproach": {
+        "title": "MY APPROACH",
+        "p1": "It is with warmth and professionalism that I welcome you to offer you the best Renata França treatments.",
+        "p2": "Whether for a single session or a course of treatment, I am committed to supporting you with care and efficiency towards your goals.",
+        "p3": "In a wellness cocoon at the Coream center, I offer lymphatic drainage, body sculpting, and Miracle Face, with visible results from the very first session:",
+        "listItem1": "A feeling of lightness",
+        "listItem2": "Smooth skin",
+        "listItem3": "Sculpting effect",
+        "p4": "At Lyvi, I have one goal: for you to leave feeling relaxed, light, and radiant."
+    },
+    "treatments": {
+        "title": "TREATMENTS",
+        "p1": "Renata França treatments are rhythmic manual massages using pressure and pumping movements that deliver visible results from the very first session. The technique stimulates blood circulation, reduces swelling, and promotes the elimination of toxins. The massages help refine the silhouette and reduce the appearance of cellulite, while strengthening the immune system."
+    },
+    "altMiracleFacePicture": "Miracle Face - Facial Massage",
+    "altDrainagePicture": "Drainage - Massage of a leg",
+    "altRemodelagePicture": "Body Sculpting - Thigh + Buttock Massage",
+    "carouselImages": [
+        "Drainage",
+        "Body sculpting",
+        "Miracle Face",
+        "Massage room"
+    ],
+    "applications": "Applications",
+    "aesthetic": "Aesthetic",
+    "wellness": "Wellness",
+    "postOp": "Post-operative",
+    "maternity": "Maternity",
+    "sportsRecovery": "Sports recovery",
+    "remodelage": "Body Sculpting"
+}

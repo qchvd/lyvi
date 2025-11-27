@@ -1,0 +1,18 @@
+{
+    "home": "Home",
+    "languageSelector": "Select your language",
+    "form": {
+        "required": "required"
+    },
+    "instagramLink": "Follow me on Instagram",
+    "doctolibLink": "Book an appointment on Doctolib",
+    "sessionSelector1": "Select 1 session",
+    "sessionSelector5": "Select 5 sessions",
+    "sessionSelector8": "Select 8 sessions",
+    "homeTypeWriterTitle": "SMOOTH. SCULPT. GLOW.",
+    "aboutTypeWriterTitle": "ABOUT",
+    "treatmentsTypeWriterTitle": "TREATMENTS",
+    "faqTypeWriterTitle": "FREQUENTLY ASKED QUESTIONS",
+    "openMenu": "Open menu",
+    "closeMenu": "Close menu"
+}

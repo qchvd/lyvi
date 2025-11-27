@@ -1,0 +1,44 @@
+{
+    "hello": "Hello, I'm",
+    "introductionText": {
+        "p1": "When I trained in the Renata França method in 2023, I first practiced in the physical therapy clinics where I was working. ",
+        "p2": "But I quickly felt out of place. I was offering premium wellness treatments in a place that was inherently medical, noisy, and impersonal. It was the opposite of my vision.",
+        "p3": "I wanted to offer something intimate and cosy, an escape of relaxation and serenity in a busy life.",
+        "p4": "That's how Lyvi was born, from the desire to combine the immediate effects of Renata treatments with my skills as a physical therapist, in an elegant and soothing setting.",
+        "pilars": "Lyvi is based on four pillars: helping you achieve your goals, making each session an exceptional moment focused on you, providing you with professional support rooted in my expertise as a high-level sports physiotherapist, and offering a treatment experience that reflects who I am."
+    },
+    "objectivesText": {
+        "title": "MY GOAL: TO HELP YOU ACHIEVE YOURS",
+        "p1": "Whatever your long-term goal, each session begins with a moment of listening and discussion to define your goal for the day based on how you feel, what you want, and your energy level.",
+        "p2": "I then tailor the treatment to best suit your current needs, always promising that you will leave feeling energized, radiant, and filled with a sense of lightness.",
+        "p3": "The results are visible, you feel that something has already been set in motion in your body, and you reach your final goal gently and smoothly."
+    },
+    "youMatterText": {
+        "title": "MAKE YOU THE CENTER OF THE WORLD, FOR A MOMENT",
+        "p1": "Beyond personalized care, Lyvi is an experience in itself, centered around you.",
+        "p2": "Everything has been thoughtfully designed to make you feel at home. I welcome you with a smile, in French, German, or English, so that language is never a barrier.",
+        "p3": "The space is warm, cozy, intimate, and comforting—what Germans sum up in a single word: gemütlich.",
+        "p4": "Every one of your needs is anticipated, everything flows seamlessly to make this moment truly unique."
+    },
+    "physioText": {
+        "title": "RENATA TREATMENTS WITH THE EXPERTISE OF YOUR PHYSICAL THERAPIST",
+        "p1": "I have always been passionate about motorsports. My childhood dream was to work at Porsche. And in my little girl's mind, joining them meant I had to know how to speak German. So that's why I started learning it on my own at the age of 8. 😅",
+        "p2": "Today, I don't (yet) work at Porsche, but being fluent in German has opened other doors for me, including into high-level sports.",
+        "p3": "Among other things, I was a physical therapist for the German men's artistic gymnastics national team in Berlin for several years. I had the opportunity to work with athletes, some of whom went on to become world champions or Olympic silver medalists.",
+        "p4": "Working in high-performance sports requires you to be effective no matter what. It is this heightened efficiency and body expertise that I bring to Renata treatments, both in the precision of my movements and in the advice I give."
+    },
+    "likeMeText": {
+        "title": "AN EXPERIENCE THAT REFLECTS WHO I AM",
+        "p1": "Lyvi is ultimately a reflection of my identity: professional care provided in a relaxed atmosphere where simplicity is key.",
+        "p2BeforeLiv": "The name Lyvi is inspired by the Scandinavian word",
+        "liv": "liv",
+        "p2AfterLiv":", which means \"life\" — life as I see it: in motion, made up of encounters and projects, laughter and lightness, which I hope to communicate to you.",
+        "p3": "Be yourself, it's the best way to feel comfortable and have a good time.",
+        "p4": "I'm looking forward to welcoming you."
+    },
+    "heart": "heart",
+    "altObjectivesPicture": "Notebook and pen",
+    "altYouMatterPicture": "Hand on shoulder",
+    "altPhysioPicture": "Anaïs from behind wearing the German gymnastics team jacket",
+    "altLikeMePicture": "Anaïs laughing"
+}

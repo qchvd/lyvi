@@ -1,0 +1,151 @@
+[build.processing]
+  skip_processing = true
+
+# =======================================================
+# Redirection du domaine Netlify vers domaine principal
+# =======================================================
+
+[[redirects]]
+  from = "https://lyvicare.netlify.app/*"
+  to = "https://lyvicare.com/:splat"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "http://lyvicare.netlify.app/*"
+  to = "https://lyvicare.com/:splat"
+  status = 301
+  force = true
+
+# =======================================================
+# Détection de langue pour la racine "/"
+# =======================================================
+
+# FR
+[[redirects]]
+  from = "/"
+  to = "/fr"
+  status = 302
+  conditions = {Language = ["fr"]}
+
+# DE
+[[redirects]]
+  from = "/"
+  to = "/de"
+  status = 302
+  conditions = {Language = ["de"]}
+
+# EN (fallback)
+[[redirects]]
+  from = "/"
+  to = "/en"
+  status = 302
+
+# =======================================================
+# Forcer Netlify à servir /fr, /en, /de SANS le slash
+# (contre le trailing slash redirect automatique)
+# =======================================================
+
+[[redirects]]
+  from = "/fr"
+  to = "/fr/index.html"
+  status = 200
+  force = true
+
+[[redirects]]
+  from = "/en"
+  to = "/en/index.html"
+  status = 200
+  force = true
+
+[[redirects]]
+  from = "/de"
+  to = "/de/index.html"
+  status = 200
+  force = true
+
+# =======================================================
+# Rewrites explicites pour les pages individuelles
+# =======================================================
+
+# EN
+[[redirects]]
+  from = "/en/about"
+  to = "/en-about/index.html"
+  status = 200
+
+[[redirects]]
+  from = "/en/treatments"
+  to = "/en-treatments/index.html"
+  status = 200
+
+[[redirects]]
+  from = "/en/contact"
+  to = "/en-contact/index.html"
+  status = 200
+
+[[redirects]]
+  from = "/en/faq"
+  to = "/en-faq/index.html"
+  status = 200
+
+# FR
+[[redirects]]
+  from = "/fr/a-propos"
+  to = "/fr-a-propos/index.html"
+  status = 200
+
+[[redirects]]
+  from = "/fr/soins"
+  to = "/fr-soins/index.html"
+  status = 200
+
+[[redirects]]
+  from = "/fr/contact"
+  to = "/fr-contact/index.html"
+  status = 200
+
+[[redirects]]
+  from = "/fr/faq"
+  to = "/fr-faq/index.html"
+  status = 200
+
+# DE
+[[redirects]]
+  from = "/de/uber-mich"
+  to = "/de-uber-mich/index.html"
+  status = 200
+
+[[redirects]]
+  from = "/de/behandlungen"
+  to = "/de-behandlungen/index.html"
+  status = 200
+
+[[redirects]]
+  from = "/de/kontakt"
+  to = "/de-kontakt/index.html"
+  status = 200
+
+[[redirects]]
+  from = "/de/faq"
+  to = "/de-faq/index.html"
+  status = 200
+
+# =======================================================
+# Fallback SPA dans chaque langue
+# =======================================================
+
+[[redirects]]
+  from = "/en/*"
+  to = "/en/index.html"
+  status = 200
+
+[[redirects]]
+  from = "/fr/*"
+  to = "/fr/index.html"
+  status = 200
+
+[[redirects]]
+  from = "/de/*"
+  to = "/de/index.html"
+  status = 200

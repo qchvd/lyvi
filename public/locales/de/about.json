@@ -1,0 +1,44 @@
+{
+    "hello": "Halo, ich bin",
+    "introductionText": {
+        "p1": "Als ich 2023 die Renata-França-Methode erlernte, praktizierte ich zunächst in den Physiotherapiepraxen, in denen ich arbeitete. ",
+        "p2": "Aber schon bald fühlte ich mich fehl am Platz. Ich bot Premium-Wellnessbehandlungen an einem Ort an, der von Natur aus medizinisch, laut und unpersönlich war. Das war das Gegenteil meiner Vision.",
+        "p3": "Ich wollte etwas Intimes, etwas zum Wohlfühlen bieten, eine Auszeit voller Entspannung und Gelassenheit in einem vollen Leben.",
+        "p4": "So entstand Lyvi, aus dem Wunsch heraus, die unmittelbaren Wirkungen der Renata-Behandlungen mit meinen Fähigkeiten als Physiotherapeutin in einem eleganten und beruhigenden Ambiente zu verbinden.",
+        "pilars": "Lyvi basiert auf vier Säulen: Ihnen dabei zu helfen, Ihre Ziele zu erreichen, jede Sitzung zu einem außergewöhnlichen Moment zu machen, der sich ganz auf Sie konzentriert, Sie mit professioneller Begleitung auf Basis meiner Expertise als Physiotherapeutin im Spitzensport zu unterstützen, und Ihnen eine Behandlungserfahrung zu bieten, die zu mir passt."
+    },
+    "objectivesText": {
+        "title": "MEIN ZIEL: SIE ZU IHREM ZU BRINGEN",
+        "p1": "Unabhängig davon, welches langfristige Ziel Sie verfolgen, beginnt jede Sitzung mit einer Phase des Zuhörens und Austauschs, um Ihr Tagesziel entsprechend Ihrem Befinden, Ihren Wünschen und Ihrem Ermüdungsgrad festzulegen.",
+        "p2": "Anschließend passe ich die Behandlung individuell an, damit sie Ihren aktuellen Bedürfnissen bestmöglich entspricht, mit dem Versprechen, dass Sie sich danach energiegeladen, strahlend und mit einem Gefühl der Leichtigkeit fühlen werden.",
+        "p3": "Die Ergebnisse sind sichtbar, Sie spüren, dass sich in Ihrem Körper bereits etwas in Gang gesetzt hat, und Sie erreichen Ihr endgültiges Ziel auf sanfte und fließende Weise."
+    },
+    "youMatterText": {
+        "title": "SIE FÜR EINEN MOMENT ZUM MITTELPUNKT DER WELT MACHEN",
+        "p1": "Über die individuelle Pflege hinaus ist Lyvi ein ganz besonderes Erlebnis, bei dem Sie im Mittelpunkt stehen.",
+        "p2": "Alles ist darauf ausgerichtet, dass Sie sich wie zu Hause fühlen. Ich empfange Sie mit einem Lächeln, auf Französisch, Deutsch oder Englisch, damit die Sprache niemals eine Barriere darstellt.",
+        "p3": "Der Ort verkörpert das, was wir Deutsche so schätzen: Gemütlichkeit.",
+        "p4": "Jedes Ihrer Bedürfnisse wird antizipiert, alles verläuft reibungslos und komfortabel, um diesen Moment einzigartig zu machen."
+    },
+    "physioText": {
+        "title": "RENATA-BEHANDLUNGEN MIT DER EXPERTISE IHRER PHYSIOTHERAPEUTIN",
+        "p1": "Ich habe mich schon immer für den Motorsport begeistert. Mein Kindheitstraum war es, bei Porsche zu arbeiten. Und in meinem Kinderkopf bedeutete das zwangsläufig, dass ich Deutsch sprechen musste. Mit diesem Ziel vor Augen begann ich im Alter von 8 Jahren, mir die Sprache selbst beizubringen. 😅",
+        "p2": "Heute arbeite ich (noch) nicht bei Porsche, aber meine fließenden Deutschkenntnisse haben mir andere Türen geöffnet, darunter die zum Spitzensport.",
+        "p3": "Unter anderem war ich mehrere Jahre lang Physiotherapeutin bei der deutschen Nationalmannschaft im Kunstturnen der Männer in Berlin. Und ich hatte die Gelegenheit, Athleten zu begleiten, von denen einige Weltmeister oder Vize-Olympiasieger geworden sind.",
+        "p4": "Im Leistungssport muss man unter allen Umständen effizient sein. Diese gesteigerte Effizienz und dieses Fachwissen über den Körper bringe ich in die Renata-Behandlungen ein, sowohl in der Präzision der Handgriffe als auch in der Beratung."
+    },
+    "likeMeText": {
+        "title": "EINE BEGLEITUNG NACH MEINEM BILD",
+        "p1": "Lyvi spiegelt schließlich meine Identität wider: professionelle Pflege in einer entspannten Atmosphäre, in der Einfachheit großgeschrieben wird.",
+        "p2BeforeLiv": "Der Name Lyvi ist vom skandinavischen Wort",
+        "liv": "liv",
+        "p2AfterLiv": " inspiriert, das \"Leben\" bedeutet — das Leben, wie ich es sehe: in Bewegung, geprägt von Begegnungen und Projekten, von Lachen und Unbeschwertheit, die ich Ihnen gerne vermitteln möchte.",
+        "p3": "Seien Sie ganz Sie selbst, denn so fühlen Sie sich am wohlsten und können einen angenehmen Moment genießen.",
+        "p4": "Ich freue mich darauf, Sie willkommen zu heißen."
+    },
+    "heart": "Hertz",
+    "altObjectivesPicture": "Notizbuch und Stift",
+    "altYouMatterPicture": "Hand auf der Schulter",
+    "altPhysioPicture": "Anaïs von hinten mit der Jacke der deutschen Turnmannschaft",
+    "altLikeMePicture": "Lachende Anaïs"
+}

@@ -1,0 +1,61 @@
+{
+    "description": {
+        "line1": "Falls Sie sich das gefragt haben, hier sind die häufigsten Fragen, die mich zu Lymphdrainagen gestellt werden.",
+        "line2": "Haben Sie noch unbeantwortete Fragen?"
+    },
+    "contactMe": "Kontaktieren Sie mich",
+        "faq": {
+        "q1": {
+            "question": "Sind die Behandlung schmerzhaft?",
+            "answer": "Nein, die Behandlungen sind nicht schmerzhaft. Die Lymphdrainage und die Körpermodellierung basieren auf festen, rhythmischen, aber kontrollierten Bewegungen, die das Gewebe stimulieren, ohne es zu verletzen. Je nach Durchblutung oder Spannungszustand können bestimmte Bereiche empfindlicher sein, aber der Druck wird immer an Ihr Wohlbefinden angepasst."
+        },
+        "q2": {
+            "question": "Gibt es Kontraindikationen?",
+            "answer": "Ja, die Behandlungen werden nicht empfohlen bei Fieber, akuten infektiösen, bakteriellen und entzündlichen Prozessen, Verdacht auf Venenentzündung oder bestehender Venenentzündung, nicht stabilisierter Herz- oder Niereninsuffizienz. Bei Zweifeln oder bestimmten Erkrankungen ist es notwendig, vor Beginn der Behandlung den Rat Ihres Arztes einzuholen (Rezept erwünscht). Jede Sitzung beginnt mit einem Gespräch, um eine angemessene und sichere Behandlung zu gewährleisten."
+        },
+        "q3": {
+            "question": "Wie entscheidet man sich zwischen Lymphdrainage und Körpermodellierung?",
+            "answer": "Drainage und Körpermodellierung sind zwei sich ergänzende Behandlungen. Die Drainage regt zunächst die Durchblutung an und aktiviert den Stoffwechsel. Die Körpermodellierung wirkt dann tiefer. Sie wirkt auf das Fettgewebe, verfeinert und formt die Silhouette. Ich empfehle eine maßgeschneiderte Kur, bei der ich nach einer individuellen Analyse Ihrer Bedürfnisse und Ziele beide Techniken kombiniere. Wenn Sie sich für eine entscheiden müssten: die Drainage."
+        },
+        "q4": {
+            "question": "Führen Lymphdrainage und Körpermodellierung zu einer Gewichtsabnahme?",
+            "answer": "Allein nicht. Drainage und Körpermodellierung ersetzen keine ausgewogene Lebensweise, sind jedoch eine wirksame Ergänzung dazu. Durch die Anregung der Durchblutung und des Stoffwechsels fördern sie die Ausscheidung und unterstützen die Arbeit des Körpers in der Tiefe. In Kombination mit einem gesunden Lebensrhythmus werden diese Behandlungen zu echten Boostern für sichtbare und dauerhafte Ergebnisse."
+        },
+        "q5": {
+            "question": "Nach wie vielen Sitzungen sind sichtbare Ergebnisse zu beobachten?",
+            "answer": "Die Wirkung ist bereits nach der ersten Sitzung spürbar: verbesserte Durchblutung, leichtere Beine, glattere Haut, schlankere Silhouette. Je nach Ihren Zielen — ästhetisches Erscheinungsbild, Wohlbefinden, Gewichtsabnahme, Erholung — bauen sich die Ergebnisse im Laufe der Sitzungen auf. Jeder Körper entwickelt sich in seinem eigenen Tempo, weshalb eine Kur tiefgreifendere und nachhaltigere Effekte erzielt."
+        },
+        "q6": {
+            "question": "Warum empfehlen Sie eine Kur mit mehreren Sitzungen?",
+            "answer": "Die Kur mit 5 Sitzungen ist das von meinen Patientinnen am häufigsten gewählte Format — es ermöglicht dem Körper, die Behandlung vollständig zu integrieren und die Wirkung langfristig zu verankern. Je nach Ihrem Fortschritt kann die Behandlung auf 8 Sitzungen verlängert werden, um die erzielten Effekte zu verfeinern, zu stabilisieren oder zu vertiefen."
+        },
+        "q7": {
+            "question": "Ich wurde gerade operiert, wann kann ich mit den Drainagen beginnen?",
+            "answer": "Sobald die Nähte verheilt sind. Jede postoperative Behandlung beginnt mit einer umfassenden Untersuchung bei der ersten Sitzung, bei der Ihnen ein individueller Kostenvoranschlag unterbreitet wird. Ich empfehle, mit klassischen Drainagen (nicht Renata) zu beginnen, die für einen verhärteten Körper besser geeignet sind. Diese Behandlungen sind für die akute postoperative Phase reserviert und helfen, Ödeme zu reduzieren und die Haut sanft wieder anzupassen. Sie dauern 30 Minuten und kosten 65 €. Sobald es der Körper zulässt, fahren wir mit den Renata-Behandlungen fort, um die Durchblutung wieder vollständig anzuregen und das Ergebnis zu verfeinern. Bei allen kürzlich durchgeführten Operationen bitte ich um ein ärztliches Rezept für eine Lymphdrainage oder eine Bescheinigung über das Nichtvorliegen von Kontraindikationen. Dieser Schritt ist rein rechtlicher Natur und dient dazu, eine sichere und Ihrer Situation entsprechende Betreuung zu gewährleisten."
+        },
+        "q8": {
+            "question": "Kann ich diese Behandlungen während der Schwangerschaft oder Stillzeit in Anspruch nehmen?",
+            "answer": "Ja, Lymphdrainagen sind während der Schwangerschaft besonders wohltuend. Sie helfen, schwere Beine zu entlasten, Schwellungen zu reduzieren und die Durchblutung zu verbessern. Im ersten Trimester ist ein ärztliches Attest erforderlich, das keine Kontraindikationen bescheinigt. Diese Behandlungen begleiten den Körper bei seinen tiefgreifenden Veränderungen. Sie sorgen für Wohlbefinden, steigern Ihre Energie und helfen Ihrer Haut, glatt und straff zu bleiben. Nach der Geburt tragen sie dazu bei, dass Sie Ihre Energie und Ihre Figur zurückgewinnen."
+        },
+        "q9": {
+            "question": "Ich habe Muskelkater oder fühle mich nach dem Training müde. Kann Drainage mir helfen?",
+            "answer": "Drainage und Körpermodellierung sind echte Verbündete für die sportliche Erholung. Sie fördern den Heilungsprozess von Muskelkater und optimieren die Leistungsfähigkeit. Indem sie die Durchblutung und den Stoffwechsel ankurbeln, unterstützen sie den Körper bei der Anstrengung und verbessern gleichzeitig die Gewebequalität und die allgemeine Spannkraft. Ein Vorteil, um Leistung zu bringen, ohne Ihre Energie zu erschöpfen."
+        },
+        "q10": {
+            "question": "Bieten Sie auch Behandlungen zu Hause an?",
+            "answer": "Ja, in Lyon, im Westen von Lyon und in den Monts d'Or. Die Behandlungen werden unter denselben Qualitätsbedingungen wie in der Praxis durchgeführt, mit allem notwendigen Material, um Ihren Komfort und die Wirksamkeit der Behandlung zu garantieren. Dieser Service eignet sich besonders nach Operationen, nach einer Entbindung oder einfach, wenn Sie Ihre Behandlung lieber in der Ruhe Ihres Zuhauses erhalten möchten. Preis: +20 € pro Behandlung für Hausbesuche."
+        },
+        "q11": {
+            "question": "Wie lange dauert eine Sitzung?",
+            "answer": "Die Dauer hängt von der gewählten Behandlung ab:\n\u00A0•\u00A0\u00A0Renata França-Drainage: ~1 Std.\n\u00A0•\u00A0\u00A0Körpermodellierung: ~1 Std.\n\u00A0•\u00A0\u00A0Miracle Face\u00A0: ~30 Min.\n\u00A0•\u00A0\u00A0Klassische postoperative Drainage: ~30 Min.\n\nJede Sitzung beinhaltet zusätzlich eine Beratungszeit, um das Protokoll an Ihren aktuellen Zustand und Ihre Bedürfnisse anzupassen."
+        },
+        "q12": {
+            "question": "Gibt es Vorsichtsmaßnahmen, die vor oder nach der Behandlung zu beachten sind?",
+            "answer": "Ich empfehle Ihnen, am Tag Ihrer Behandlung auf Alkohol zu verzichten. Dieser stört den durch die Drainage angeregten Ausscheidungsprozess. Es ist auch vorteilhaft, am selben Tag körperlich aktiv zu sein — egal ob vor oder nach der Behandlung. Bewegung aktiviert das Lymphsystem und verstärkt die Wirkung der Behandlung. Und natürlich sollten Sie in den folgenden Stunden viel Wasser trinken, um die Ausscheidungsarbeit des Körpers zu unterstützen."
+        },
+        "q13": {
+            "question": "Werden die Behandlungskosten von der Krankenkasse übernommen?",
+            "answer": "Ich bin zugelassene Physiotherapeutin, aber nicht alle angebotenen Behandlungen werden von der Krankenkasse erstattet. Selbst nach einer Operation werden Lymphdrainagen nicht übernommen. Ich behalte jedoch Ihren medizinischen Werdegang im Auge, um das Protokoll sicher anzupassen."
+        }
+    }
+}

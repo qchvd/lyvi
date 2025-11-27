@@ -1,0 +1,33 @@
+{
+    "introText": "Bei LYVI trifft das Fachwissen Ihrer Physiotherapeutin auf die Renata-França-Methode, um Ihnen Lymphdrainagen mit sofortiger Wirkung anzubieten. In Lyon 1 oder bei Ihnen zu Hause ist jede Sitzung eine Wohlfühlpause: ein Moment, um Ihren Körper zu entlasten und neue Energie zu tanken.",
+    "myApproach": {
+        "title": "MEIN ANSATZ",
+        "p1": "Mit Herzlichkeit und Professionalität heiße ich Sie willkommen und biete Ihnen die besten Renata França Behandlungen.",
+        "p2": "Ob für eine einzelne Sitzung oder eine Kur, ich begleite Sie mit Aufmerksamkeit und Effizienz auf dem Weg zu Ihren Zielen.",
+        "p3": "In einer Wohlfühloase im Coream-Zentrum biete ich Ihnen Lymphdrainage, Körpermodellierung und Miracle Face an, mit sichtbaren Ergebnissen bereits nach der ersten Sitzung:",
+        "listItem1": "Gefühl der Leichtigkeit",
+        "listItem2": "Glatte Haut",
+        "listItem3": "Modellierender Effekt",
+        "p4": "Bei Lyvi habe ich ein Ziel: dass Sie entspannt, leicht und strahlend wieder gehen."
+    },
+    "treatments": {
+        "title": "DIE BEHANDLUNGEN",
+        "p1": "Die Renata França-Behandlungen sind rhythmische Handmassagen mit Druck und Pumpbewegungen, die bereits nach der ersten Sitzung sichtbare Ergebnisse erzielen. Die Technik regt die Durchblutung an, reduziert Schwellungen und fördert die Ausscheidung von Giftstoffen. Die Massagen verfeinern die Silhouette, reduzieren das Erscheinungsbild von Cellulite und stärken gleichzeitig das Immunsystem."
+    },
+    "altMiracleFacePicture": "Miracle Face - Gesichtsmassage",
+    "altDrainagePicture": "Drainage - Massage eines Beines",
+    "altRemodelagePicture": "Körpermodellierung - Massage von Oberschenkeln + Gesäß",
+    "carouselImages": [
+        "Drainage",
+        "Körpermodellierung",
+        "Miracle Face",
+        "Massageraum"
+    ],
+    "applications": "Anwendungen",
+    "aesthetic": "Ästhetik",
+    "wellness": "Wellness",
+    "postOp": "Postoperativ",
+    "maternity": "Mutterschaft",
+    "sportsRecovery": "Sportliche Regeneration",
+    "remodelage": "Körpermodellierung"
+}
