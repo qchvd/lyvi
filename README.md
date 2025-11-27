@@ -55,7 +55,7 @@ Persistent language preference in localStorage
 
 1. **Clone the repository**
    ```bash
-   git clone https://github.com/yourusername/lyvi.git
+   git clone https://github.com/qchvd/lyvi.git
    cd lyvi
    ```
 
