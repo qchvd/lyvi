@@ -11,14 +11,14 @@ export function CookieBanner() {
         // Checks first if the user made a choice
         const cookieValue = getCookieConsentValue("lyviCookieConsent")
         
-        // If no existing cookie, shows the pop-up after 500ms
+        // If no existing cookie, shows the pop-up after 1500ms
         if (!cookieValue) {
             const timer = setTimeout(() => {
                 setIsVisible(true)
                 setTimeout(() => {
                     setHasAnimated(true)
                 }, 600)
-            }, 500)
+            }, 1500)
             return () => clearTimeout(timer)
         }
     }, [])
