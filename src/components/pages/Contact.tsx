@@ -3,7 +3,7 @@ import { useIsMobile } from "../../hooks/useIsMobile"
 import * as Yup from "yup"
 import { Formik, Form, Field, ErrorMessage, type FormikHelpers } from "formik"
 import { useTranslation } from "react-i18next"
-import { useEffect, useState, Suspense } from "react"
+import { useEffect, useState, Suspense, useRef, useLayoutEffect, type ReactNode, type CSSProperties } from "react"
 import { LazyConfirmationMessageSent } from "../routes/LazyRoutes"
 import { type FormValues } from "../../types/form"
 import { useArchScrollEffect } from "../../hooks/useArchScrollEffect"
@@ -30,6 +30,52 @@ function renderAnimatedTitle(text: string, spaceAfterIndex?: number) {
       {letter}
     </span>
   ))
+}
+
+// Side-dock pill that reveals its label on hover; expanded width is measured
+// from the label itself so the left/right padding stays symmetric regardless
+// of text length or font size.
+function SocialPill({ href, ariaLabel, label, icon, className, style }: {
+  href: string
+  ariaLabel: string
+  label: string
+  icon: ReactNode
+  className?: string
+  style?: CSSProperties
+}) {
+  const anchorRef = useRef<HTMLAnchorElement>(null)
+  const labelRef = useRef<HTMLSpanElement>(null)
+
+  useLayoutEffect(() => {
+    const anchor = anchorRef.current
+    const labelEl = labelRef.current
+    if (!anchor || !labelEl) return
+
+    const updateWidth = () => {
+      const width = labelEl.offsetLeft + labelEl.offsetWidth
+      anchor.style.setProperty('--social-pill-expanded-width', `${width}px`)
+    }
+
+    updateWidth()
+    const observer = new ResizeObserver(updateWidth)
+    observer.observe(labelEl)
+    return () => observer.disconnect()
+  }, [label])
+
+  return (
+    <a
+      ref={anchorRef}
+      href={href}
+      target="_blank"
+      rel="noopener noreferrer"
+      aria-label={ariaLabel}
+      className={`social-pill shadow-md cursor-pointer ${className ?? ''}`}
+      style={style}
+    >
+      <span className="social-pill-icon">{icon}</span>
+      <span ref={labelRef} className="social-pill-label">{label}</span>
+    </a>
+  )
 }
 
 export function Contact() {
@@ -162,26 +208,21 @@ export function Contact() {
       <Header />
       <main inert={isSidebarOpen ? true : undefined} className="pt-18 h-full relative">
         {/* Fixed sidebar with Instagram and Doctolib links */}
-        <div className="fixed top-1/2 translate-y-[-50%] right-0 h-25 w-11 z-10 rounded-l-md shadow-lg">
-          <a
+        <div className="fixed top-1/2 -translate-y-1/2 right-0 z-10 flex flex-col items-end gap-2 w-12">
+          <SocialPill
             href={INSTAGRAM_URL}
-            target="_blank"
-            rel="noopener noreferrer"
-            aria-label={t("ariaLabels:instagramLink")}
-            className="border-b border-white h-1/2 flex instagram-background justify-center items-center rounded-tl-md cursor-pointer"
-          >
-            <InstagramLogo className="w-8 fill-white" aria-hidden="true" />
-          </a>
-          <a
+            ariaLabel={t("ariaLabels:instagramLink")}
+            label="Instagram"
+            className="instagram-background"
+            icon={<InstagramLogo className="w-6 h-6 fill-white" aria-hidden="true" />}
+          />
+          <SocialPill
             href={DOCTOLIB_URL}
-            target="_blank"
-            rel="noopener noreferrer"
-            aria-label={t("ariaLabels:doctolibLink")}
-            className="h-1/2 border-t border-white flex justify-center items-center rounded-bl-md cursor-pointer"
+            ariaLabel={t("ariaLabels:doctolibLink")}
+            label="Doctolib"
             style={{ backgroundColor: 'var(--color-doctolib-blue)' }}
-          >
-            <DoctolibLogo className="w-6 fill-white" aria-hidden="true" />
-          </a>
+            icon={<DoctolibLogo className="w-6 h-6 fill-white" aria-hidden="true" />}
+          />
         </div>
         <div className="lg:flex">
           <section className="lg:w-1/2">

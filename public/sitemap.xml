@@ -31,6 +31,12 @@
     <priority>0.8</priority>
   </url>
   <url>
+    <loc>https://lyvicare.com/fr/post-op</loc>
+    <lastmod>2026-09-19</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>1.0</priority>
+  </url>
+  <url>
     <loc>https://lyvicare.com/fr/contact</loc>
     <lastmod>2025-10-27</lastmod>
     <changefreq>monthly</changefreq>
@@ -55,6 +61,12 @@
     <priority>0.8</priority>
   </url>
   <url>
+    <loc>https://lyvicare.com/en/post-op</loc>
+    <lastmod>2026-09-19</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>1.0</priority>
+  </url>
+  <url>
     <loc>https://lyvicare.com/en/contact</loc>
     <lastmod>2025-10-27</lastmod>
     <changefreq>monthly</changefreq>
@@ -77,6 +89,12 @@
     <lastmod>2025-10-27</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://lyvicare.com/de/post-op</loc>
+    <lastmod>2026-09-19</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>1.0</priority>
   </url>
   <url>
     <loc>https://lyvicare.com/de/kontakt</loc>

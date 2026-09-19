@@ -164,7 +164,7 @@ function StorySection({ imageName, imageAlt, children, reverse = false, isFirst 
         />
       </div>
 
-      <div className={`${reverse ? 'md:order-1' : 'md:order-2'} text-justify md:text-center md:sticky md:top-32 md:self-start`}>
+      <div className={`${reverse ? 'md:order-1' : 'md:order-2'} md:text-center md:sticky md:top-32 md:self-start`}>
         {children}
       </div>
     </section>

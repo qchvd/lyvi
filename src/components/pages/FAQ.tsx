@@ -144,21 +144,18 @@ export function FAQ() {
         }
     }
 
-    // Formats answer text by splitting paragraphs and handling bullet points alignment
+    // Formats answer text by splitting paragraphs
     const formatAnswer = (answer: string) => {
         const paragraphs = answer.split('\n\n')
 
-        return paragraphs.map((paragraph, index) => {
-            const hasBullet = paragraph.trim().startsWith("•")
-            return (
-                <p
-                    key={index}
-                    className={`${hasBullet ? "text-left" : "text-justify"} ${index > 0 ? "mt-4" : ""} whitespace-pre-line`}
-                >
-                    {paragraph}
-                </p>
-            )
-        })
+        return paragraphs.map((paragraph, index) => (
+            <p
+                key={index}
+                className={`text-left ${index > 0 ? "mt-4" : ""} whitespace-pre-line`}
+            >
+                {paragraph}
+            </p>
+        ))
     }
 
     // Contact CTA button with analytics tracking (used in both desktop and mobile layouts)
@@ -192,11 +189,11 @@ export function FAQ() {
                                 transition={{ duration: 0.6 }}
                                 exit={{ opacity: 0 }}
                             >
-                                <p className="lg:mt-7 leading-relaxed text-justify">
+                                <p className="lg:mt-7 leading-relaxed">
                                     {t("description.line1")}
                                 </p>
                                 <div className="hidden lg:mt-6 lg:flex lg:flex-col lg:gap-4">
-                                    <p className="leading-relaxed text-justify">
+                                    <p className="leading-relaxed">
                                         {t("description.line2")}
                                     </p>
                                     <ContactButton source="desktop" />
@@ -261,7 +258,7 @@ export function FAQ() {
                                 </div>
                             ))}
                             <div className="mt-12 flex flex-col gap-4 lg:hidden">
-                                <p className="leading-relaxed text-justify">
+                                <p className="leading-relaxed">
                                     {t("description.line2")}
                                 </p>
                                 <ContactButton source="mobile" />

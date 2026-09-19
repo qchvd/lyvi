@@ -80,6 +80,11 @@
   status = 200
 
 [[redirects]]
+  from = "/en/post-op"
+  to = "/en-post-op/index.html"
+  status = 200
+
+[[redirects]]
   from = "/en/contact"
   to = "/en-contact/index.html"
   status = 200
@@ -101,6 +106,11 @@
   status = 200
 
 [[redirects]]
+  from = "/fr/post-op"
+  to = "/fr-post-op/index.html"
+  status = 200
+
+[[redirects]]
   from = "/fr/contact"
   to = "/fr-contact/index.html"
   status = 200
@@ -119,6 +129,11 @@
 [[redirects]]
   from = "/de/behandlungen"
   to = "/de-behandlungen/index.html"
+  status = 200
+
+[[redirects]]
+  from = "/de/post-op"
+  to = "/de-post-op/index.html"
   status = 200
 
 [[redirects]]

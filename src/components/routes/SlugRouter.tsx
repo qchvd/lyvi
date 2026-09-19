@@ -6,6 +6,7 @@ import {
   LazyPageNotFound,
   LazyAbout,
   LazyTreatments,
+  LazyPostOp,
   LazyContact,
   LazyFAQ
 } from "./LazyRoutes"
@@ -13,13 +14,14 @@ import { useLayoutEffect, Suspense, type ComponentType, useMemo } from "react"
 import { Helmet } from "react-helmet-async"
 import { useTranslatedSlug } from "../../hooks/useTranslatedSlug"
 
-type RouteKey = "home" | "about" | "treatments" | "contact" | "faq"
+type RouteKey = "home" | "about" | "treatments" | "postOp" | "contact" | "faq"
 
 // Maps route keys to their corresponding page components
 const routeMap: Record<RouteKey, ComponentType> = {
   home: Home,
   about: LazyAbout,
   treatments: LazyTreatments,
+  postOp: LazyPostOp,
   contact: LazyContact,
   faq: LazyFAQ
 }

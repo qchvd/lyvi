@@ -92,11 +92,11 @@ export function TreatmentPricingCard({
     return (
         <article className="w-75 md:w-80 lg:w-85 h-fit pb-10 shadow-md rounded-lg overflow-hidden bg-[var(--color-brand-dark-green)]">
             <img src={imageSrc} alt={imageAlt} className="w-full h-auto" fetchPriority="high" />
-            <div className="flex flex-col items-center px-5 gap-6">
+            <div className="flex flex-col items-center px-5 gap-4">
                 {/* Header */}
                 <header className="flex flex-col items-center gap-3">
                     <h2 className={customTitleClass || "mt-4 text-4xl"}>{treatmentName}</h2>
-                    <p className="text-justify leading-relaxed">
+                    <p className="leading-relaxed">
                         {catchPhrase}
                     </p>
                     <p>
@@ -164,7 +164,7 @@ export function TreatmentPricingCard({
                         </div>
 
                         {/* Price display */}
-                        <p className="text-[5.5rem] md:text-8xl mt-4">
+                        <p className="text-[5.5rem] md:text-5xl mt-4">
                             {displayedPrice}€<span className="text-sm">/{t("session")}</span>
                         </p>
                         <p className={`mt-1 text-center ${selectedSessions === 1 ? 'invisible' : ''}`}>
@@ -224,7 +224,7 @@ export function TreatmentPricingCard({
                                     transition={{ duration: 0.3, ease: "easeInOut" }}
                                     className="overflow-hidden"
                                 >
-                                    <p className="text-justify leading-relaxed">
+                                    <p className="leading-relaxed">
                                         {getFilterDescription(activeFilter)}
                                     </p>
                                 </motion.div>

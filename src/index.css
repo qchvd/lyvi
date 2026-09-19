@@ -96,6 +96,10 @@ li a::after {
   }
 }
 
+li a.lang-link::after {
+  content: none !important;
+}
+
 *:focus-visible:not(input):not(textarea),
 button.force-outline {
   outline: 2px solid #7CCF00;
@@ -128,6 +132,10 @@ textarea:focus {
   font-size: clamp(2.2rem, 12cqw, 6rem);
 }
 
+.fluid-post-op-title1 {
+  font-size: clamp(3.3rem, 15cqw, 6rem);
+}
+
 .fluid-about-me-title1 {
   font-size: clamp(3.3rem, 15cqw, 6rem);
 }
@@ -148,7 +156,7 @@ textarea:focus {
   box-shadow: 0 10px 15px -3px rgb(0 0 0 / 0.1), 0 4px 6px -4px rgb(0 0 0 / 0.1);
   width: fit-content;
   padding: 0.75rem 1.25rem;
-  border-radius: 0.375rem;
+  border-radius: 9999px;
   background-image: linear-gradient(to bottom right, var(--color-golden-light), var(--color-golden-mid), var(--color-golden-dark));
   color: var(--color-brand-dark-green);
   font-weight: 500;
@@ -383,6 +391,54 @@ textarea:focus {
   background-image: url("./assets/logos/fondLogoInstagram.webp");
   background-size: cover;
   background-position: center
+}
+
+.social-pill {
+  --social-pill-gap: 0.75rem;
+  --social-pill-icon-size: 1.5rem;
+  position: relative;
+  display: flex;
+  align-items: center;
+  height: 3rem;
+  /* Collapsed width is derived from the same gap used on both sides of the
+     icon, so the left inset and right inset are equal by construction. */
+  width: calc(var(--social-pill-gap) * 2 + var(--social-pill-icon-size));
+  overflow: hidden;
+  border-top-left-radius: 9999px;
+  border-bottom-left-radius: 9999px;
+  padding-left: var(--social-pill-gap);
+  transition: width 300ms ease-out;
+}
+
+.social-pill-icon {
+  flex-shrink: 0;
+  width: var(--social-pill-icon-size);
+  height: var(--social-pill-icon-size);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.social-pill-label {
+  flex-shrink: 0;
+  margin-left: var(--social-pill-gap);
+  padding-right: var(--social-pill-gap);
+  white-space: nowrap;
+  color: white;
+  font-size: 1rem;
+  font-weight: 500;
+  opacity: 0;
+  transition: opacity 200ms ease-out;
+}
+
+@media (hover: hover) {
+  .social-pill:hover {
+    width: var(--social-pill-expanded-width, 11rem);
+  }
+
+  .social-pill:hover .social-pill-label {
+    opacity: 1;
+  }
 }
 
 @layer utilities {

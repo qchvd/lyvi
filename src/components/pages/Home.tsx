@@ -341,7 +341,7 @@ export function Home() {
                             initial={{ opacity: 0, y: 100 }}
                             animate={{ opacity: 1, y: 0 }}
                             transition={{ duration: 0.6 }}
-                            className="leading-relaxed text-justify md:text-lg" style={{ marginTop: `${Math.max(100 * scale, 60)}px` }}>
+                            className="leading-relaxed md:text-lg" style={{ marginTop: `${Math.max(100 * scale, 60)}px` }}>
                             {t("introText")}
                         </motion.p>
                     </div>
@@ -397,11 +397,11 @@ export function Home() {
                 <section className="bg-[var(--color-brand-cream)] text-[var(--color-brand-green)] py-8 flex flex-col items-center">
                     <div className="px-8 lg:px-10 md:max-w-[1000px]">
                         <h2 className="text-[1.7rem] text-center mb-5 lg:text-4xl lg:mb-8">{t("myApproach.title")}</h2>
-                        <div className="md:text-lg flex flex-col gap-4 text-justify leading-relaxed">
+                        <div className="md:text-lg flex flex-col gap-4 leading-relaxed">
                             <p>{t("myApproach.p1")}</p>
                             <p>{t("myApproach.p2")}</p>
                             <p>{t("myApproach.p3")}</p>
-                            <ul className="list-disc pl-12">
+                            <ul className="list-disc pl-8">
                                 <li>{t("myApproach.listItem1")}</li>
                                 <li>{t("myApproach.listItem2")}</li>
                                 <li>{t("myApproach.listItem3")}</li>
@@ -415,7 +415,7 @@ export function Home() {
                     <div className="px-8 lg:px-10 md:max-w-[1000px]">
                         <div>
                             <h2 className="text-[1.7rem] text-center mb-5 lg:text-4xl lg:mb-8">{t("treatments.title")}</h2>
-                            <p className="md:text-lg text-justify leading-relaxed">
+                            <p className="md:text-lg leading-relaxed">
                                 {t("treatments.p1")}
                             </p>
                         </div>

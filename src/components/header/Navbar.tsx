@@ -9,7 +9,7 @@ interface NavbarProps {
 export function Navbar({ windowWidth }: NavbarProps) {
     const { i18n, t } = useTranslation(["header", "routes"])
     const { setIsSidebarOpen } = useSidebar()
-    const tabs = ["home", "about", "treatments", "contact", "faq"]
+    const tabs = ["home", "about", "treatments", "postOp", "contact", "faq"]
 
     // Resets contact form and closes sidebar on navigation
     const handleNavClick = (key: string) => {
