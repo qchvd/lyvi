@@ -1,62 +1,232 @@
 {
-    "mainTitle": "Soins pré et post-opératoires après une chirurgie esthétique ou réparatrice",
-    "intro.p1": "Vous avez prévu une opération de chirurgie esthétique ou réparatrice — ou vous venez d'être opérée\u00A0? Bienvenue\u00A0!",
-    "intro.p2": "Cette page répond à toutes les questions que vous pourriez vous poser sur l'accompagnement kiné avant et après votre intervention\u00A0: liposuccion, liposculpture, lifting, blaphéroplastie, abdominoplastie, ou toute autre chirurgie.",
-    "intro.p3": "En tant que kinésithérapeute, je vous propose mon expertise paramédicale. Spécialiste de la réparation tissulaire, je suis formée à la prise en charge péri-opératoire et à reconnaître les signaux cliniques qui nécessitent l'avis de votre chirurgien. Je construis pour vous un protocole de soins adapté, pour des résultats esthétiques optimisés.",
-    "beforeOpMainTitle": "Avant l'opération\u00A0: préparez votre corps pour de meilleurs résultats",
-    "beforeOp.p1": "Vous avez fixé une date avec votre chirurgien et vous souhaitez maximiser les résultats de votre intervention\u00A0? C'est le bon moment pour penser à la préparation pré-opératoire.",
-    "beforeOp.p2": "Elle est trop souvent négligée, alors qu'elle joue un rôle essentiel dans la qualité de la cicatrisation, le confort post-opératoire et la rapidité avec laquelle votre corps retrouve son équilibre après le choc chirurgical.",
-    "eachProtocoleIsDifferent": "Chaque protocole est différent",
-    "beforeOp.p3s1": ", car il dépend de l'acte chirurgical que vous allez recevoir. C'est pourquoi tout commence par une ",
-    "reviewSession": "séance de bilan",
-    "beforeOp.p3s2": ", qui a lieu idéalement ",
-    "sixWeeks": "6 semaines",
-    "beforeOp.p3s3": " avant l'opération. Ce moment me permet d'apprendre à vous connaître, de comprendre votre intervention, votre mode de vie et vos objectifs, et de vous proposer un parcours de soins sur mesure, qui peut associer selon vos besoins\u00A0:",
-    "beforeOp.listItem1": "Des séances de drainage lymphatique.",
-    "beforeOp.listItem2": "De la rééducation par le mouvement, pour préparer votre corps à la récupération post-opératoire.",
-    "beforeOp.listItem3": "Des massages thérapeutiques.",
-    "beforeOp.p4": "C'est également l'occasion d'échanger sur des questions très concrètes que se posent la plupart de mes patientes\u00A0: quelle gaine de compression choisir et comment bien la porter, ou encore quelles habitudes alimentaires adopter dans les semaines qui précèdent l'intervention pour favoriser une bonne cicatrisation.",
-    "afterOpMainTitle": "Après l'opération\u00A0: un accompagnement pensé pour votre récupération",
-    "afterOpSubTitle1": "L'ordonnance, un préalable indispensable",
-    "afterOp.p1": "Pour des raisons médicales et légales, les soins post-opératoires ne peuvent commencer sans ordonnance de séances de kinésithérapie\u00A0:",
-    "afterOp.listItem1": "Si vous avez été opérée en France, une ordonnance de votre chirurgien ou de votre médecin traitant.",
-    "afterOp.listItem2": "Si vous avez été opérée à l'étranger, une ordonnance d'un médecin traitant français, qui prend le relais du suivi sur le territoire.",
-    "afterOpSubTitle2": "Quand commencer les soins\u00A0?",
-    "afterOp.p2s1": "Les soins peuvent débuter dès que votre chirurgien vous donne son feu vert. Selon le type d'intervention et les habitudes de votre praticien, ce délai varie généralement de ",
-    "j3j15": "J+3 à J+15",
-    "afterOp.p2s2": ". Il n'y a pas de règle unique\u00A0: c'est votre chirurgien qui valide le moment adapté à votre cas.",
-    "afterOpSubTitle3": "La première séance\u00A0: un bilan pour construire votre parcours de soins",
-    "afterOp.p3": "Comme en pré-opératoire, la première séance post-opératoire est un bilan. Il me permet d'évaluer précisément votre état (œdème, ecchymoses, mobilité, cicatrices, ressenti) et de vous proposer un parcours de soins détaillé qui, selon votre intervention et l'avancée de votre récupération, peut associer\u00A0:",
-    "afterOp.listItem3": "Du drainage lymphatique (technique adaptée à l'état de vos tissus), pour résorber les œdèmes et prévenir la fibrose.",
-    "afterOp.listItem4": "Du taping, pour soutenir les tissus et améliorer la résorption de l'œdème.",
-    "afterOp.listItem5": "De la rééducation par le mouvement, pour retrouver mobilité et tonicité en douceur.",
-    "afterOp.listItem6": "Des conseils personnalisés sur la reprise du sport, adaptés au rythme de votre cicatrisation.",
-    "afterOpSubTitle4": "Un suivi pluridisciplinaire, en lien avec votre médecin",
-    "afterOp.p5": "Votre sécurité passe avant tout. Je veille à transmettre régulièrement à votre médecin prescripteur un retour sur les soins pratiqués et sur l'évolution de votre état. Si une douleur inhabituelle ou un signe clinique m'interpellent, je vous réoriente immédiatement vers le professionnel de santé compétent.",
-    "interventionsMainTitle": "Quelles interventions puis-je accompagner\u00A0?",
-    "interventions.p1": "J'accompagne les suites de la plupart des chirurgies esthétiques et réparatrices, notamment\u00A0:",
-    "interventions.listItem1": "Liposuccion / liposculpture",
-    "interventions.listItem2": "Lifting (visage, bras, cuisses, abdominoplastie)",
-    "interventions.listItem3": "Blaphéroplastie",
-    "interventions.listItem4": "Chirurgie mammaire",
-    "interventions.listItem5": "Chirurgie réparatrice",
-    "interventions.p2": "Chaque protocole est individualisé\u00A0: le drainage après une liposuccion ne ressemble pas à celui d'un lifting, ni aux besoins d'une chirurgie réparatrice.",
-    "lipedemaMainTitle": "Vous souffrez de lipœdème\u00A0?",
-    "lipedema.p1": "Le lipœdème est une pathologie chronique du tissu adipeux, souvent confondue avec une simple prise de poids, qui touche principalement les jambes et parfois les bras. Il se caractérise par une accumulation de graisse disproportionnée, sensible, associée à une tendance aux hématomes.",
-    "lipedema.p2": "Le drainage lymphatique manuel est un pilier de la prise en charge du lipœdème, que vous soyez suivie en amont d'une liposuccion spécifique ou dans une prise en charge conservatrice. Si vous pensez être concernée ou si le diagnostic vient de vous être posé par un angiologue, n'hésitez pas à m'en parler lors du bilan. J'adapterai votre parcours de soins en conséquence.",
-    "faqMainTitle": "Questions fréquentes",
-    "faq.q1": "Combien de temps après l'opération puis-je commencer le drainage\u00A0?",
-    "faq.a1": "Cela dépend entièrement de la validation de votre chirurgien, généralement entre J+3 et J+15 selon l'intervention et le praticien.",
-    "faq.q2": "Ai-je besoin d'une ordonnance\u00A0?",
-    "faq.a2": "Oui, systématiquement. Si vous avez été opérée en France : ordonnance du chirurgien ou du médecin traitant. Si vous avez été opérée à l'étranger : ordonnance d'un médecin traitant français.",
-    "faq.q3": "Combien de séances sont nécessaires\u00A0?",
-    "faq.a3": "Cela varie selon l'intervention, l'ampleur de l'œdème et votre rythme de récupération. Le nombre exact de séances est déterminé lors du bilan initial et détaillé dans votre devis.",
-    "faq.q4": "Le drainage post-opératoire est-il remboursé par la Sécurité Sociale\u00A0?",
-    "faq.a4": "Le remboursement du drainage lymphatique par l'Assurance Maladie répond à des critères très spécifiques, indépendants du cadre esthétique de la chirurgie. Dans le cas des chirurgies réparatrices prises en charges par la sécurité sociale, oui les soins sont pris en partie en charge par la sécurité sociale. Pour les chirurgies esthétiques non prises en charges par la sécurité sociale, les soins post opératoires ne seront également pas pris en charge par l'assurance maladie.",
-    "faq.q5": "Puis-je commencer un accompagnement avant même d'avoir une date d'opération\u00A0?",
-    "faq.a5": "Oui, il n'est jamais trop tôt pour poser vos questions. Mais pour construire un protocole pré-opératoire sur mesure, je recommande un bilan environ 6 semaines avant la date de votre intervention.",
-    "faq.q6": "Pourquoi choisir une kinésithérapeute\u00A0?",
-    "faq.a6": "Une kinésithérapeute a une formation médicale qui lui permet de reconnaitre les différents états des tissus en cours de cicatrisation, de travailler sur prescription médicale, de détecter les signaux nécessitant l'avis d'un médecin, et de coordonner votre suivi avec votre chirurgien. C'est une garantie de sécurité en plus de l'efficacité esthétique.",
-    "readyToStartMainTitle": "Prête à démarrer votre accompagnement\u00A0?",
-    "readyToStart.p1": "Que vous soyez en train d'organiser votre intervention ou tout juste sortie du bloc, la première étape est toujours la même\u00A0: un bilan pour faire connaissance, comprendre vos besoins, et construire ensemble votre parcours de soins."
+    "hero": {
+        "title": "Kinésithérapie pré et post-opératoire en chirurgie esthétique et réparatrice à Lyon",
+        "text": "Je vous accompagne **avant et après votre intervention**, pour une récupération optimale, **en lien avec votre chirurgien**. Consultations à Lyon 1 et à Lyon 5.",
+        "pricesButton": "Voir les tarifs",
+        "imageAlt": "Marquage pré-opératoire tracé par le chirurgien avant une chirurgie esthétique"
+    },
+    "keyFacts": {
+        "title": "L'essentiel en un coup d'œil",
+        "items": [
+            {
+                "label": "Ordonnance",
+                "value": "Obligatoire",
+                "detail": "De votre chirurgien ou de votre médecin"
+            },
+            {
+                "label": "Début des soins",
+                "value": "Entre J+3 et J+15",
+                "detail": "Selon l'accord de votre chirurgien"
+            },
+            {
+                "label": "Nombre de séances",
+                "value": "4 à 25 séances",
+                "detail": "Selon l'intervention, défini au bilan"
+            },
+            {
+                "label": "Remboursement",
+                "value": "Chirurgie réparatrice",
+                "detail": "La chirurgie esthétique n'est pas remboursée"
+            }
+        ]
+    },
+    "journey": {
+        "title": "Votre parcours, étape par étape",
+        "steps": [
+            {
+                "when": "6 semaines avant",
+                "title": "Bilan pré-opératoire",
+                "text": "Comprendre votre intervention et préparer votre corps : drainage, exercices, conseils."
+            },
+            {
+                "when": "Le jour J",
+                "title": "L'intervention",
+                "text": "Votre chirurgien vous opère et vous remet l'ordonnance de kinésithérapie."
+            },
+            {
+                "when": "Dès J+3",
+                "title": "Soins post-opératoires",
+                "text": "Bilan, puis drainage adapté, taping et travail des cicatrices."
+            },
+            {
+                "when": "À partir de 3 mois",
+                "title": "Reprise des activités",
+                "text": "Retour progressif au mouvement et au sport, au rythme de votre récupération."
+            }
+        ]
+    },
+    "protocol": {
+        "title": "Les soins de votre protocole",
+        "subtitle": "Choisis après le bilan, selon votre intervention et l'état de vos tissus.",
+        "soon": "Bientôt",
+        "items": [
+            {
+                "title": "Drainage lymphatique",
+                "text": "Manuel, adapté à vos tissus, pour réduire l'œdème et prévenir la fibrose."
+            },
+            {
+                "title": "Thérapie manuelle",
+                "text": "Des techniques manuelles pour redonner de la mobilité aux tissus et soulager les tensions."
+            },
+            {
+                "title": "Taping",
+                "text": "Pour soutenir les tissus et favoriser la résorption de l'œdème."
+            },
+            {
+                "title": "Cicatrices",
+                "text": "Un travail ciblé pour les assouplir et améliorer leur aspect."
+            },
+            {
+                "title": "Mouvement",
+                "text": "Une rééducation douce pour retrouver mobilité et tonicité."
+            },
+            {
+                "title": "Conseils",
+                "text": "Compression, hygiène de vie, reprise du sport : un accompagnement personnalisé."
+            },
+            {
+                "title": "LPG",
+                "text": "Une technique mécanisée qui complète le travail manuel sur les tissus.",
+                "soon": true
+            },
+            {
+                "title": "Photobiomodulation (LED)",
+                "text": "Un soin par la lumière, en complément du protocole.",
+                "soon": true
+            }
+        ]
+    },
+    "interventions": {
+        "title": "Les interventions que j'accompagne",
+        "subtitle": "Des fourchettes indicatives, car chaque récupération est unique. Le nombre de séances dépend aussi du nombre de zones opérées : il est défini ensemble lors du bilan, puis précisé dans votre devis.",
+        "items": [
+            {
+                "name": "Lipoaspiration abdominale + abdominoplastie",
+                "sessions": "10 à 25 séances",
+                "details": ["Séances de 45min à 1h", "Rythme : 3×/sem. le 1er mois, 2×/sem. le 2e, 1×/sem. le 3e"]
+            },
+            {
+                "name": "Liposuccion du lipœdème",
+                "sessions": "10 à 25 séances",
+                "details": ["Séances de 45min à 1h", "Rythme : 3×/sem. le 1er mois, 2×/sem. le 2e, 1×/sem. le 3e"]
+            },
+            {
+                "name": "Abdominoplastie, avec ou sans diastasis",
+                "sessions": "10 à 20 séances",
+                "details": ["Séances de 30 à 45min"]
+            },
+            {
+                "name": "Lipoaspiration isolée du menton",
+                "sessions": "6 à 20 séances",
+                "details": ["Séances de 30min", "Rythme : 3×/sem. le 1er mois, 2×/sem. le 2e, 1×/sem. le 3e"]
+            },
+            {
+                "name": "Lifting du visage",
+                "sessions": "5 à 12 séances",
+                "details": ["Séances de 30min"]
+            },
+            {
+                "name": "Chirurgie mammaire",
+                "sessions": "4 à 10 séances",
+                "details": ["Séances de 30min"]
+            },
+            {
+                "name": "Blépharoplastie",
+                "sessions": "4 à 10 séances",
+                "details": ["Séances de 30min"]
+            },
+            {
+                "name": "Liftings corporels (bras, cuisses)",
+                "sessions": "8 à 15 séances",
+                "details": ["Séances de 30 à 45min selon les zones travaillées"]
+            },
+            {
+                "name": "Chirurgie réparatrice",
+                "sessions": "Selon la prescription"
+            }
+        ],
+        "rhythmNote": "À titre indicatif, après une liposuccion : trois séances par semaine le premier mois, deux par semaine le deuxième mois, puis une par semaine le troisième mois.",
+        "lipedemaText": "Vous avez un lipœdème, opéré ou non ? ",
+        "lipedemaLink": "Le drainage thérapeutique peut vous aider."
+    },
+    "safety": {
+        "title": "Votre sécurité passe avant tout",
+        "text": "Je suis les consignes de votre chirurgien et je le tiens informé de votre évolution. Si un signe clinique m'inquiète, je vous oriente sans attendre vers le bon professionnel."
+    },
+    "prices": {
+        "title": "Tarifs",
+        "aesthetic": {
+            "title": "Chirurgie esthétique",
+            "subtitle": "Soins non remboursés, devis remis au bilan",
+            "lines": [
+                {
+                    "label": "Bilan (30min)",
+                    "price": "50€"
+                },
+                {
+                    "label": "Séance de 30min",
+                    "price": "50€"
+                },
+                {
+                    "label": "Séance de 45min",
+                    "price": "75€"
+                },
+                {
+                    "label": "Séance de 1h",
+                    "price": "100€"
+                }
+            ]
+        },
+        "reconstructive": {
+            "title": "Chirurgie réparatrice",
+            "subtitle": "Prise en charge par l'Assurance Maladie, à Lyon 5",
+            "lines": [
+                {
+                    "label": "Bilan",
+                    "price": "23,65€"
+                },
+                {
+                    "label": "Séances",
+                    "price": "Tarif conventionnel"
+                }
+            ],
+            "note": "Selon votre situation, certains soins complémentaires peuvent être proposés hors nomenclature. Ils sont détaillés dans votre devis et ne sont pas remboursés par l'Assurance Maladie. Certaines mutuelles en remboursent une partie : renseignez-vous auprès de la vôtre."
+        },
+        "payment": "Paiement : espèces, chèque, virement, Wero."
+    },
+    "faq": {
+        "title": "Questions fréquentes",
+        "items": [
+            {
+                "question": "Combien de temps après l'opération puis-je commencer ?",
+                "answer": "Dès l'accord de votre chirurgien, en général entre J+3 et J+15 selon l'intervention et les habitudes du praticien."
+            },
+            {
+                "question": "Ai-je besoin d'une ordonnance ?",
+                "answer": "Oui, toujours. Opéré(e) en France : ordonnance de votre chirurgien ou de votre médecin traitant. Opéré(e) à l'étranger : ordonnance d'un médecin français."
+            },
+            {
+                "question": "Combien de séances faut-il prévoir ?",
+                "answer": "Chaque récupération est unique : le nombre de séances dépend de l'intervention, du nombre de zones opérées, de l'œdème et de votre rythme de récupération. À titre indicatif : 6 à 20 séances après une lipoaspiration isolée du menton, 5 à 12 après un lifting du visage, 10 à 20 après une abdominoplastie, 10 à 25 après une lipoaspiration abdominale associée à une abdominoplastie ou une liposuccion du lipœdème. Après une liposuccion, le rythme est en général de trois séances par semaine le premier mois, deux le deuxième, puis une le troisième. Le nombre exact est défini lors du bilan et précisé dans votre devis."
+            },
+            {
+                "question": "Les soins sont-ils remboursés ?",
+                "answer": "Uniquement si la chirurgie elle-même est prise en charge par l'Assurance Maladie (chirurgie réparatrice), et dans ce cas à Lyon 5. Après une chirurgie esthétique, les soins ne sont pas remboursés. En chirurgie réparatrice, certains soins complémentaires hors nomenclature peuvent être proposés sur devis : ils ne sont pas remboursés par l'Assurance Maladie, mais parfois en partie par les mutuelles."
+            },
+            {
+                "question": "Puis-je commencer avant d'avoir une date d'opération ?",
+                "answer": "Oui. Pour un protocole pré-opératoire adapté, je recommande un bilan environ 6 semaines avant l'intervention."
+            },
+            {
+                "question": "Où se déroulent les séances ?",
+                "answer": "À Lyon 1 (Coream, 22 rue Pizay) ou à Lyon 5 (59 bis avenue du Point du Jour). Les soins remboursés ont lieu à Lyon 5."
+            }
+        ]
+    },
+    "ready": {
+        "title": "Prête à commencer ?",
+        "training": "Formée à la rééducation péri-opératoire en chirurgie esthétique, plastique et reconstructrice (AIME). ",
+        "aboutLink": "Mon parcours",
+        "addresses": "Lyon 1 – 22 rue Pizay (Coream) · Lyon 5 – 59 bis avenue du Point du Jour"
+    }
 }

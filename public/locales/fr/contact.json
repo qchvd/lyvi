@@ -40,11 +40,9 @@
       "label": "Message",
       "placeholder": "Votre message ici"
     },
+    "requiredNote": "Les champs marqués d'un astérisque (*) sont obligatoires.",
     "button": "Envoyer",
     "errorMessage": "Erreur lors de l'envoi du formulaire, veuillez réessayer."
-  },
-  "address": {
-    "label": "Adresse"
   },
   "altContactPicture": "Anaïs au téléphone avec un PC portable sur les genoux"
 }

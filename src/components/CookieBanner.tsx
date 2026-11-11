@@ -1,15 +1,20 @@
 import CookieConsent, { getCookieConsentValue } from "react-cookie-consent"
 import { useTranslation } from "react-i18next"
 import { useState, useEffect } from "react"
+import { updateConsent } from "../utils/analytics"
+
+// Also read in index.html (Google consent mode). Renamed from "lyviCookieConsent" when Google Ads was added
+// to the banner text: consents given before did not cover ads, so everyone is asked again once.
+const CONSENT_COOKIE = "lyviCookieConsent2"
 
 export function CookieBanner() {
-    const { i18n, t } = useTranslation("cookies")
+    const { t } = useTranslation("cookies")
     const [isVisible, setIsVisible] = useState(false)
     const [hasAnimated, setHasAnimated] = useState(false)
 
     useEffect(() => {
         // Checks first if the user made a choice
-        const cookieValue = getCookieConsentValue("lyviCookieConsent")
+        const cookieValue = getCookieConsentValue(CONSENT_COOKIE)
         
         // If no existing cookie, shows the pop-up after 1500ms
         if (!cookieValue) {
@@ -23,21 +28,8 @@ export function CookieBanner() {
         }
     }, [])
 
-    const handleAccept = () => {
-        if (window.gtag) {
-            window.gtag('consent', 'update', {
-                'analytics_storage': 'granted'
-            })
-        }
-    }
-
-    const handleDecline = () => {
-        if (window.gtag) {
-            window.gtag('consent', 'update', {
-                'analytics_storage': 'denied'
-            })
-        }
-    }
+    const handleAccept = () => updateConsent(true)
+    const handleDecline = () => updateConsent(false)
 
     // Doesn't render if not visible
     if (!isVisible) return null
@@ -48,9 +40,14 @@ export function CookieBanner() {
             buttonText={t("accept")}
             declineButtonText={t("decline")}
             enableDeclineButton
+            // Without these, the library names the buttons "Accept cookies" / "Decline cookies" in English for screen readers
+            ariaAcceptLabel={t("accept")}
+            ariaDeclineLabel={t("decline")}
+            // "Accept" comes first in the HTML, so the Tab order matches the display order (Accept, then Decline)
+            flipButtons
             onAccept={handleAccept}
             onDecline={handleDecline}
-            cookieName="lyviCookieConsent"
+            cookieName={CONSENT_COOKIE}
             containerClasses={`cookie-banner-container ${hasAnimated ? 'no-animation' : ''}`}
             style={{
                 background: "#FAF2E8",
@@ -87,13 +84,13 @@ export function CookieBanner() {
                 cursor: "pointer",
                 margin: "0px",
             }}
-            buttonWrapperClasses="flex gap-3 flex-row-reverse mt-6"
+            buttonWrapperClasses="flex gap-3 mt-6"
             expires={30}
         >
             <div className="flex flex-col gap-2">
                 <h2 className="text-black text-2xl font-extrabold leading-tight">
                     {t("title1")}
-                    <br className={i18n.language === "fr" ? "md:hidden" : "hidden"} />
+                    <br className="md:hidden" />
                     {' '}
                     {t("title2")}
                 </h2>

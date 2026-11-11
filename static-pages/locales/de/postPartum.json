@@ -1,0 +1,184 @@
+{
+    "hero": {
+        "title": "Rückbildung, Bauchmuskeltraining und Rektusdiastase nach der Geburt in Lyon",
+        "text": "Ihr Baby ist da, und Sie möchten Ihren Körper, Ihre Energie und Ihren Sport zurückgewinnen? Ich begleite Sie **von den ersten Wochen nach der Geburt bis zum Wiedereinstieg in den Sport**, in Ihrem Tempo und sicher. Ich empfange Sie in Lyon 5, im Viertel Point du Jour, und begleite Sie auch online.",
+        "formulasButton": "Angebote ansehen",
+        "imageAlt": "Frau in Shorts und Sportsocken in voller Bewegung, Symbol für den Wiedereinstieg in den Sport nach der Geburt"
+    },
+    "keyFacts": {
+        "title": "Das Wichtigste auf einen Blick",
+        "items": [
+            {
+                "label": "Vor dem Start",
+                "value": "Beckenbodentraining begonnen",
+                "detail": "Mit Ihrer Hebamme oder einer ausgebildeten Physiotherapeutin"
+            },
+            {
+                "label": "Dauer",
+                "value": "Von der Zeit nach der Geburt bis zum Wiedereinstieg in den Sport",
+                "detail": "In Ihrem Tempo, Schritt für Schritt"
+            },
+            {
+                "label": "Wo",
+                "value": "Lyon 5 und online",
+                "detail": "Zwei Angebote zur Wahl"
+            },
+            {
+                "label": "Kostenerstattung",
+                "value": "Sitzungen in der Praxis, auf Verordnung",
+                "detail": "Die Online-Begleitung erfolgt auf Kostenvoranschlag"
+            }
+        ]
+    },
+    "forWhom": {
+        "title": "Für wen?",
+        "items": [
+            {
+                "title": "Sie waren vor der Schwangerschaft sportlich",
+                "text": "Ihre Schwangerschaft war vielleicht wenig aktiv: Bettruhe, große Müdigkeit … Sie wissen nicht, wie Sie wieder anfangen sollen, ohne sich zu verletzen."
+            },
+            {
+                "title": "Sie möchten mit Sport anfangen",
+                "text": "Jetzt ist der ideale Moment, um eine gute Grundlage aufzubauen, mit einer Begleitung, die auf Ihren Körper als frischgebackene Mutter abgestimmt ist."
+            },
+            {
+                "title": "Sie haben eine Rektusdiastase",
+                "text": "Ein Bauch, der „nicht zurückgeht“, Rücken- oder Beckenschmerzen: Sie möchten verstehen, was passiert und was Sie tun können."
+            }
+        ]
+    },
+    "drainageNote": "Sie wünschen sich leichtere Beine und einen leichteren Bauch? [Entdecken Sie auch die Renata-França-Drainage], angepasst an frischgebackene Mütter und Schwangere.",
+    "perineum": {
+        "title": "Vor dem Start: das Beckenbodentraining",
+        "text": "Der Beckenboden ist die Grundlage für alles Weitere. Ihr **Beckenbodentraining muss bereits begonnen haben**, mit Ihrer Hebamme oder einer auf Beckenbodentherapie spezialisierten Physiotherapeutin. Die Bauchmuskeln auf einem Beckenboden zu kräftigen, der noch nicht bereit ist, kann Inkontinenz und ein Senkungsgefühl auslösen oder verstärken."
+    },
+    "diastasis": {
+        "title": "Was ist eine Rektusdiastase?",
+        "p1": "Während der Schwangerschaft weichen die beiden geraden Bauchmuskeln auseinander, um Platz für das Baby zu schaffen. Das ist normal. Bei manchen Frauen **bleibt dieser Abstand nach der Geburt bestehen**: vorgewölbter Bauch, Gefühl von Schwäche in der Bauchmuskulatur, Rückenschmerzen.",
+        "p2": "Bei der Befundaufnahme messe ich Ihre Rektusdiastase und beurteile, wie Ihre Bauchwand arbeitet, um die Übungen anzupassen.",
+        "p3": "Manchmal wird eine Operation in Betracht gezogen, oft im Rahmen einer Bauchdeckenstraffung: ",
+        "p3Link": "Ich begleite Sie vor und nach dem Eingriff",
+        "p3End": ".",
+        "imageAlt": "Vergleichsschema: links die beiden geraden Bauchmuskeln, die entlang der Linea alba aneinanderliegen; rechts eine Rektusdiastase mit einem spindelförmigen Abstand rund um den Bauchnabel, ober- und unterhalb, während die Muskeln oben an den Rippen und unten am Schambein verankert bleiben.",
+        "labelRibs": "Rippen",
+        "labelNavel": "Nabel",
+        "labelPubis": "Schambein",
+        "captionWithout": "Ohne Rektusdiastase",
+        "captionWith": "Mit Rektusdiastase",
+        "caption": "Die geraden Bauchmuskeln bleiben an den Rippen und am Schambein verankert: Der Abstand liegt rund um den Nabel, ober- und unterhalb."
+    },
+    "approach": {
+        "title": "Mein Ansatz: der Körper als Ganzes",
+        "p1": "Schwangerschaft und Geburt verändern das Haltungsgleichgewicht: Neun Monate lang haben sich Becken, Rücken, Atemmuskulatur, Brustkorb und Bauchmuskeln angepasst, ebenso wie die Muskulatur Ihrer Beine. Deshalb biete ich Ihnen eine **ganzheitliche Behandlung** an, damit Sie Ihre Aktivitäten mit Zuversicht wieder aufnehmen können, so schnell es Ihr Körper erlaubt.",
+        "p2": "Der Spitzensport hat mich gelehrt, dass ein Comeback Schritt für Schritt vorbereitet wird, mit klaren Etappen. Mutter und Sportlerin zu sein hat mich alles Übrige gelehrt: die Müdigkeit, den Zeitmangel, den Wunsch, den eigenen Körper zurückzugewinnen. Diese beiden Erfahrungen verbinde ich, um Sie zu begleiten.",
+        "trainingLabel": "Ausgebildet in",
+        "trainings": [
+            "Hypopressives Bauchmuskeltraining – ITMP",
+            "Laufen für Frauen – La Clinique du Coureur",
+            "Pilates – KINESPORT Paris",
+            "Master Bewegung, Leistung, Gesundheit, Ingenieurwesen"
+        ]
+    },
+    "steps": {
+        "title": "Wie läuft die Begleitung ab?",
+        "items": [
+            {
+                "title": "Die Befundaufnahme",
+                "text": "Schwangerschaft, Geburt, sportliches Niveau, Müdigkeit, Stillen. Ich beurteile Haltung, Atmung, Bauchwand und Rektusdiastase."
+            },
+            {
+                "title": "Wieder verbinden",
+                "text": "Atmung, Haltung, Alltagsbewegungen (das Baby tragen, stillen), erste sanfte Übungen."
+            },
+            {
+                "title": "Wieder aufbauen",
+                "text": "Schrittweise Ganzkörperkräftigung: hypopressives Training, Pilates, Rumpfstabilität, Rücken, Becken, Beine."
+            },
+            {
+                "title": "Zurück zum Sport",
+                "text": "Laufen, Mannschaftssport, Fitness, Tanz … mit klaren Etappen, damit Sie wissen, wann Sie weitergehen können."
+            }
+        ]
+    },
+    "formulas": {
+        "title": "Zwei Angebote, passend zu Ihrem Leben als frischgebackene Mutter",
+        "featuredBadge": "Am häufigsten gewählt",
+        "items": [
+            {
+                "title": "Kombiniert: Praxis und Online-Begleitung",
+                "intro": "Die Praxis in Lyon 5 und die Online-Begleitung, für weniger Termine.",
+                "points": [
+                    "Zwei Sitzungen in der Praxis in Lyon 5 für die Befundaufnahme und die Grundlagen",
+                    "Ihr Programm in der App Andrew, mit Videos",
+                    "Austausch per Nachricht und Anpassungen",
+                    "Regelmäßige Termine in der Praxis"
+                ],
+                "price": [
+                    "Sitzungen in der Praxis: Kassenleistung, auf Verordnung erstattet",
+                    "Online-Begleitung: monatliche Pauschale außerhalb des Leistungskatalogs, 50 € / Monat"
+                ],
+                "featured": true
+            },
+            {
+                "title": "100 % online",
+                "intro": "Sie wohnen weit weg oder können nicht in die Praxis kommen.",
+                "points": [
+                    "Befundaufnahme per Video",
+                    "Programm in der App Andrew",
+                    "Nachrichten (Antwort innerhalb von 48 Std. an Werktagen)",
+                    "Ein 30-minütiges Videogespräch pro Monat"
+                ],
+                "price": [
+                    "Befundaufnahme per Video, 30 Min.: 50 €",
+                    "Monatliche Pauschale außerhalb des Leistungskatalogs: 90 € / Monat"
+                ]
+            }
+        ],
+        "footnote": "Die Online-Begleitung wird Ihnen auf Kostenvoranschlag angeboten und von der französischen Krankenversicherung (Assurance Maladie) nicht erstattet. Zahlung: bar, per Scheck, Überweisung, Wero."
+    },
+    "faq": {
+        "title": "Häufige Fragen",
+        "items": [
+            {
+                "question": "Wann kann ich beginnen?",
+                "answer": "Sobald Ihr Beckenbodentraining begonnen hat. Die ersten Sitzungen können früh nach der Geburt stattfinden, mit sanfter Arbeit, die auf Ihre Erholung abgestimmt ist. Im kombinierten Angebot finden die ersten beiden Sitzungen in der Praxis in Lyon 5 statt."
+            },
+            {
+                "question": "Ich hatte in der Schwangerschaft Bettruhe. Ändert das etwas?",
+                "answer": "Ja: Nach mehreren wenig aktiven Monaten hat Ihr Körper an Kraft und Ausdauer verloren, zusätzlich zu den Veränderungen durch die Schwangerschaft. Der Wiedereinstieg muss noch schrittweiser erfolgen. Genau diese Situation begleite ich häufig."
+            },
+            {
+                "question": "Wann kann ich wieder mit dem Laufen anfangen?",
+                "answer": "Es gibt kein festes Datum: Das hängt von Ihrem Beckenboden, Ihrer Bauchwand, Ihrer körperlichen Verfassung und Ihrer Erholung ab. Gemeinsam legen wir Etappen fest, die vor dem Wiedereinstieg erreicht werden sollten."
+            },
+            {
+                "question": "Ich habe noch nie Sport gemacht. Ist das etwas für mich?",
+                "answer": "Ja. Die Zeit nach der Geburt ist ein sehr guter Moment, um anzufangen, mit einer soliden Grundlage und einer passenden Begleitung."
+            },
+            {
+                "question": "Kann ich kommen, wenn ich stille?",
+                "answer": "Ja, ich passe die Übungen an Ihre Müdigkeit und Ihren Alltag als frischgebackene Mutter an."
+            },
+            {
+                "question": "Kann ich nach der Geburt Drainagen machen?",
+                "answer": "Ja. Ergänzend zu Ihrer Rückbildung hilft Ihnen [die Drainage nach der Renata-França-Methode], wieder ein Gefühl von Leichtigkeit in Beinen und Bauch zu finden. Es ist eine Wellness-Behandlung und wird nicht erstattet. Sie ist auch während der Schwangerschaft möglich, auf Verordnung, mit einer angepassten Beinbehandlung."
+            },
+            {
+                "question": "Kann ich meine Rückbildung online machen?",
+                "answer": "Ja, darauf beruhen meine beiden Angebote. Das kombinierte Angebot verbindet einige Sitzungen in der Praxis in Lyon 5 mit einer Online-Begleitung über die App Andrew und Nachrichten. Das Angebot 100 % online beginnt mit einer Befundaufnahme per Video."
+            },
+            {
+                "question": "Wird das erstattet?",
+                "answer": "Die Sitzungen in der Praxis in Lyon 5 sind Kassenleistungen und werden auf ärztliche Verordnung von der französischen Krankenversicherung erstattet. Die Online-Begleitung als monatliche Pauschale wird nicht erstattet: Sie wird Ihnen auf Kostenvoranschlag angeboten. Alle Preise werden Ihnen vor Beginn der Behandlung mitgeteilt."
+            },
+            {
+                "question": "Welche Zahlungsmittel akzeptieren Sie?",
+                "answer": "Bargeld, Scheck, Überweisung und Wero."
+            }
+        ]
+    },
+    "ready": {
+        "title": "Bereit, Ihren Körper und Ihren Sport zurückzugewinnen?",
+        "text": "Der erste Schritt ist eine Befundaufnahme, um eine Bestandsaufnahme zu machen und gemeinsam Ihr Programm aufzubauen."
+    }
+}

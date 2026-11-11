@@ -9,7 +9,8 @@ interface NavbarProps {
 export function Navbar({ windowWidth }: NavbarProps) {
     const { i18n, t } = useTranslation(["header", "routes"])
     const { setIsSidebarOpen } = useSidebar()
-    const tabs = ["home", "about", "treatments", "postOp", "contact", "faq"]
+    // Same order as the home title: post-op first, then lymphatic drainage ("treatments"), then post-partum
+    const tabs = ["home", "about", "postOp", "treatments", "postPartum", "contact"]
 
     // Resets contact form and closes sidebar on navigation
     const handleNavClick = (key: string) => {
@@ -50,7 +51,8 @@ export function Navbar({ windowWidth }: NavbarProps) {
                 renderTabs("flex flex-col max-w-fit gap-4 pl-5")
             }
             {windowWidth && windowWidth >= 1024 &&
-                renderTabs("gap-5 flex")
+                // Long labels: tighter spacing on small desktops, no line breaks
+                renderTabs("gap-3 xl:gap-5 flex whitespace-nowrap")
             }
         </nav>
     )

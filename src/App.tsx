@@ -1,57 +1,38 @@
 import { I18nextProvider } from "react-i18next"
-import { BrowserRouter, Routes, Route, useLocation } from "react-router-dom"
+import { BrowserRouter, Routes, Route } from "react-router-dom"
 import i18n from "./i18n"
 import { RootRouter } from "./components/routes/RootRouter"
 import { LangRouter } from "./components/routes/LangRouter"
 import { SlugRouter } from "./components/routes/SlugRouter"
+import { LazyPageNotFound } from "./components/routes/LazyRoutes"
 import { useSmoothScroll } from "./hooks/useSmoothScroll"
+import { useKeyboardNavigationClass } from "./hooks/useKeyboardNavigationClass"
 import { SidebarProvider } from './contexts/SidebarContext'
-import { useEffect } from "react"
-import { lazyInitGA, trackPageView } from "./utils/analytics"
+import { Suspense } from "react"
 import { CookieBanner } from "./components/CookieBanner"
 import { ScrollToTop } from "./components/ScrollToTop"
+import { MotionConfig } from "framer-motion"
 
 function AppContent() {
-  const location = useLocation()
   useSmoothScroll()
-
-  useEffect(() => {
-    lazyInitGA()
-  }, [])
-
-  // Disable right-click context menu
-  useEffect(() => {
-    const handleContextMenu = (e: MouseEvent): void => {
-      e.preventDefault()
-    }
-
-    document.addEventListener('contextmenu', handleContextMenu)
-
-    return () => {
-      document.removeEventListener('contextmenu', handleContextMenu)
-    }
-  }, [])
-
-  // Track page view changes for analytics
-  useEffect(() => {
-    const pathParts = location.pathname.split('/').filter(Boolean)
-    const lang = pathParts[0]
-    const pageTitle = document.title
-
-    trackPageView(location.pathname, lang, pageTitle)
-  }, [location])
+  useKeyboardNavigationClass()
 
   return (
     <I18nextProvider i18n={i18n}>
+      {/* "Reduce motion" setting of the device: appear animations keep their fade but no longer slide */}
+      <MotionConfig reducedMotion="user">
       <SidebarProvider>
         <ScrollToTop />
         <Routes>
           <Route path="/" element={<RootRouter />}></Route>
           <Route path="/:lang" element={<LangRouter />}></Route>
           <Route path="/:lang/:slug" element={<SlugRouter />}></Route>
+          {/* Any deeper or unknown path (e.g. /fr/a/b): 404 */}
+          <Route path="*" element={<Suspense><LazyPageNotFound /></Suspense>}></Route>
         </Routes>
         <CookieBanner />
       </SidebarProvider>
+      </MotionConfig>
     </I18nextProvider>
   )
 }

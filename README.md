@@ -64,14 +64,7 @@ Persistent language preference in localStorage
    npm install
    ```
 
-3. **Set up environment variables**
-
-   Create a `.env` file in the root directory:
-   ```env
-   VITE_GA_MEASUREMENT_ID=your_google_analytics_id
-   ```
-
-4. **Start development server**
+3. **Start development server**
    ```bash
    npm run dev
    ```
@@ -127,11 +120,11 @@ lymphacare/
 │   │   ├── home/            # Home page specific components
 │   │   ├── pages/           # Page-level components
 │   │   ├── routes/          # Routing components
-│   │   ├── treatments/      # Treatments page specific components
+│   │   ├── treatments/      # Lymphatic drainage page components (Renata França card)
 │   │   ├── CookieBanner.tsx
 │   │   └── ScrollToTop.tsx
 │   ├── constants/           # Application constants
-│   │   ├── contactInfo.tsx
+│   │   ├── contactInfo.ts
 │   │   └── urls.ts
 │   ├── contexts/            # React contexts
 │   │   └── SidebarContext.tsx
@@ -153,6 +146,7 @@ lymphacare/
 │   └── vite-env.d.ts        # Vite type definitions
 ├── scripts/                 # Build & optimization scripts
 │   ├── copy-static-files.cjs
+│   ├── prerender.mjs        # Build + prerender into static-pages/ (used by npm run prerender)
 │   └── resize-images.js
 ├── eslint.config.js         # ESLint configuration
 ├── index.html               # HTML entry point

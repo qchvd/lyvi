@@ -1,10 +1,13 @@
 {
     "home": "Accueil",
-    "about": "A propos",
-    "treatments": "Soins",
-    "benefits": "Bienfaits",
+    "about": "À propos",
+    "treatments": "Drainage lymphatique",
     "postOp": "Post-op",
+    "postPartum": "Post-partum",
     "contact": "Contact",
-    "faq": "FAQ",
-    "appointment": "Prendre rendez-vous"
+    "appointment": "Prendre rendez-vous",
+    "careBadges": {
+        "medical": "Soin médical",
+        "wellness": "Bien-être"
+    }
 }

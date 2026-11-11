@@ -13,7 +13,7 @@ function renderAnimatedTitle(text: string, spaceAfterIndex?: number) {
   return text.split('').map((letter, index) => (
     <span
       key={index}
-      className="inline-block"
+      className="inline-block animated-letter"
       style={{
         animation: `fadeIn 0.3s ease-out ${0.1 + index * 0.05}s both`,
         marginLeft: spaceAfterIndex !== undefined && index === spaceAfterIndex + 1 ? '1rem' : undefined
@@ -178,11 +178,10 @@ function IntroductionContent({ t }: { t: ReturnType<typeof useTranslation>["t"] 
       <h2 className="text-[1.7rem] mb-5 lg:text-4xl lg:mb-8 text-center">
         {t("hello")} <span className="bg-[var(--color-brand-dark-green)] px-2 py-1 rounded-2xl">Anaïs</span>
       </h2>
-      <p className="mb-6">{t("introductionText.p1")}</p>
-      <p className="mb-6">{t("introductionText.p2")}</p>
-      <p className="mb-6">{t("introductionText.p3")}</p>
-      <p className="mb-6">{t("introductionText.p4")}</p>
-      <p>{t("introductionText.pilars")}</p>
+      {/* The last paragraph keeps no bottom margin */}
+      {["p1", "p2", "p3"].map((key, index, keys) => (
+        <p key={key} className={index < keys.length - 1 ? "mb-6" : undefined}>{t(`introductionText.${key}`)}</p>
+      ))}
     </div>
   )
 }
@@ -193,7 +192,6 @@ function ObjectivesContent({ t }: { t: ReturnType<typeof useTranslation>["t"] })
       <h3 className="text-2xl text-center">{t("objectivesText.title")}</h3>
       <p>{t("objectivesText.p1")}</p>
       <p>{t("objectivesText.p2")}</p>
-      <p>{t("objectivesText.p3")}</p>
     </div>
   )
 }
@@ -211,6 +209,8 @@ function YouMatterContent({ t }: { t: ReturnType<typeof useTranslation>["t"] }) 
 }
 
 function PhysioContent({ t }: { t: ReturnType<typeof useTranslation>["t"] }) {
+  const trainings = t("physioText.trainings", { returnObjects: true }) as string[]
+
   return (
     <div className="flex flex-col gap-6 leading-relaxed">
       <h3 className="text-2xl text-center">{t("physioText.title")}</h3>
@@ -218,6 +218,16 @@ function PhysioContent({ t }: { t: ReturnType<typeof useTranslation>["t"] }) {
       <p>{t("physioText.p2")}</p>
       <p>{t("physioText.p3")}</p>
       <p>{t("physioText.p4")}</p>
+      <div className="flex flex-col gap-3">
+        <h4 className="text-sm font-bold tracking-wider text-center">{t("physioText.trainingsTitle")}</h4>
+        <ul className="flex flex-wrap justify-center gap-2">
+          {trainings.map((training, index) => (
+            <li key={index} className="px-3 py-1 text-sm text-center leading-snug rounded-2xl border border-[var(--color-brand-green)]">
+              {training}
+            </li>
+          ))}
+        </ul>
+      </div>
     </div>
   )
 }
@@ -239,7 +249,7 @@ function LikeMeContent({ t, i18n }: { t: ReturnType<typeof useTranslation>["t"];
         </em>
       </p>
       <p className="flex justify-center items-baseline gap-1">
-        <Heart className="w-3 h-3 shrink-0 fill-[var(--color-brand-cream)]" aria-label={t("heart")} />
+        <Heart className="w-3 h-3 shrink-0 fill-[var(--color-brand-cream)]" role="img" aria-label={t("heart")} />
         <span>Anaïs</span>
       </p>
     </div>
@@ -317,12 +327,14 @@ export function About() {
       </Helmet>
       <Header />
       {/* containerType: 'inline-size' enables container queries for responsive fluid typography */}
-      <main inert={isSidebarOpen ? true : undefined} className="pt-18 min-h-screen" style={{ containerType: 'inline-size' }}>
+      <main id="main-content" inert={isSidebarOpen ? true : undefined} className="pt-18 min-h-screen" style={{ containerType: 'inline-size' }}>
         {/* Animated title with staggered fade-in effect for each letter */}
-        <h1 className="font-bold my-2 fluid-about-me-title1 px-8 lg:px-10" aria-label={t("ariaLabels:aboutTypeWriterTitle")}>
+        {/* Real h1 for search engines and screen readers; the animated title (one span per letter) is decorative */}
+        <h1 className="sr-only">{t("meta:aboutH1")}</h1>
+        <div className="font-bold my-2 fluid-about-me-title1 px-8 lg:px-10" aria-hidden="true">
           {(() => {
             const titleConfig = {
-              fr: { text: "APROPOS", spaceAfter: 0 as number | undefined },
+              fr: { text: "ÀPROPOS", spaceAfter: 0 as number | undefined },
               de: { text: "ÜBERMICH", spaceAfter: 3 as number | undefined },
               en: { text: "ABOUT", spaceAfter: undefined as number | undefined }
             } as const
@@ -330,7 +342,7 @@ export function About() {
             const config = titleConfig[i18n.language as keyof typeof titleConfig] || titleConfig.en
             return renderAnimatedTitle(config.text, config.spaceAfter)
           })()}
-        </h1>
+        </div>
         <motion.div
           initial={{ opacity: 0, y: 100 }}
           animate={{ opacity: 1, y: 0 }}

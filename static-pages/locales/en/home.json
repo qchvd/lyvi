@@ -1,33 +1,97 @@
 {
-    "introText": "At LYVI, your physical therapist's expertise combines with the Renata França method to offer you lymphatic drainage treatments with immediate results. In Lyon's 1ˢᵗ arrondissement or in the comfort of your own home, each session is a wellness break: a moment to lighten and reenergize your body.",
+    "hero": {
+        "titleLines": [
+            "Pre- and post-operative physical therapy for cosmetic and reconstructive surgery",
+            "Lymphatic drainage",
+            "Postpartum abdominal rehabilitation"
+        ],
+        "text": "Appointments in Lyon 1, near the Opera, and in Lyon 5, Point du Jour district."
+    },
     "myApproach": {
-        "title": "MY APPROACH",
-        "p1": "It is with warmth and professionalism that I welcome you to offer you the best Renata França treatments.",
-        "p2": "Whether for a single session or a course of treatment, I am committed to supporting you with care and efficiency towards your goals.",
-        "p3": "In a wellness cocoon at the Coream center, I offer lymphatic drainage, body sculpting, and Miracle Face, with visible results from the very first session:",
-        "listItem1": "A feeling of lightness",
-        "listItem2": "Smooth skin",
-        "listItem3": "Sculpting effect",
-        "p4": "At Lyvi, I have one goal: for you to leave feeling relaxed, light, and radiant."
+        "title": "MY APPROACH TO CARE",
+        "p1": "I have been a physical therapist since 2012. For several years, I worked with elite athletes, including the German national artistic gymnastics team. It taught me high standards of care, the habit of working as a team with surgeons and doctors, and the conviction that every treatment plan must start from the person: their history, their body, their goals.",
+        "p2": "I welcome you in a calm and warm setting, where I take the time to listen to you. My commitment is to support you with kindness and effectiveness towards your goals.",
+        "button": "Learn more"
     },
     "treatments": {
-        "title": "TREATMENTS",
-        "p1": "Renata França treatments are rhythmic manual massages using pressure and pumping movements that deliver visible results from the very first session. The technique stimulates blood circulation, reduces swelling, and promotes the elimination of toxins. The massages help refine the silhouette and reduce the appearance of cellulite, while strengthening the immune system."
+        "title": "THE CARE I OFFER"
     },
-    "altMiracleFacePicture": "Miracle Face - Facial Massage",
-    "altDrainagePicture": "Drainage - Massage of a leg",
-    "altRemodelagePicture": "Body Sculpting - Thigh + Buttock Massage",
+    "careCards": {
+        "drainage": {
+            "title": "Lymphatic drainage",
+            "text": "Therapeutic drainage adapted to your tissues for lipedema or other venous or lymphatic conditions, or Renata França wellness drainage for a feeling of lightness and smoother skin.",
+            "alt": "Lymphatic drainage of the leg"
+        },
+        "postOp": {
+            "title": "Pre- and post-operative physical therapy for cosmetic and reconstructive surgery",
+            "text": "Assessment before and after the operation, adapted drainage, taping, scar work and a gradual return to movement, in coordination with your surgeon.",
+            "alt": "Pre-operative markings drawn by the surgeon before cosmetic surgery"
+        },
+        "postPartum": {
+            "title": "Postpartum abdominal rehabilitation",
+            "text": "Diastasis, overall strengthening, hypopressive abs and Pilates, from the first weeks after giving birth until you return to sport. In Lyon 5 and online.",
+            "alt": "Hands resting on the belly"
+        },
+        "discover": "Discover",
+        "soon": {
+            "badge": "Coming soon to the practice",
+            "text": "Photobiomodulation (LED) from late November, then LPG: alongside your post-operative care or as a wellness treatment."
+        }
+    },
+    "process": {
+        "title": "How does treatment work?",
+        "medical": {
+            "title": "Medical care",
+            "steps": [
+                {
+                    "lead": "The prescription",
+                    "text": ": a referral from your surgeon or doctor. As a physical therapist, I need it to start treatment, but it does not always entitle you to reimbursement: care after cosmetic surgery, for example, is not covered by the French national health insurance (Assurance Maladie)."
+                },
+                {
+                    "lead": "The assessment",
+                    "text": ": to understand your operation or your pregnancy, assess your needs and draw up a personalized program, with a quote if the treatment is not reimbursed."
+                },
+                {
+                    "lead": "The sessions",
+                    "text": ": in Lyon 1 or in Lyon 5 (treatment covered by health insurance). Postpartum abdominal rehabilitation takes place in Lyon 5 and online."
+                },
+                {
+                    "lead": "Coordinated follow-up",
+                    "text": " with your surgeon, your midwife or your doctor."
+                }
+            ]
+        },
+        "wellness": {
+            "title": "Wellness treatments",
+            "steps": [
+                {
+                    "lead": "Booking",
+                    "text": ": book directly, no prescription needed, except during pregnancy or if you have a medical condition."
+                },
+                {
+                    "lead": "A short talk at the start of the session",
+                    "text": ": your expectations and medical history, to make sure the treatment is right for you."
+                },
+                {
+                    "lead": "The session",
+                    "text": ": Renata França drainage, Body Sculpting or Miracle Face, in Lyon 1 or Lyon 5."
+                },
+                {
+                    "lead": "Personalized advice",
+                    "text": " to make the feeling of lightness last and, if you wish, a session schedule that suits you."
+                }
+            ]
+        }
+    },
+    "doctors": {
+        "title": "Are you a surgeon or a doctor?",
+        "text": "I treat your patients according to your instructions and send you a progress report.",
+        "button": "Contact me"
+    },
     "carouselImages": [
-        "Drainage",
-        "Body sculpting",
-        "Miracle Face",
-        "Massage room"
-    ],
-    "applications": "Applications",
-    "aesthetic": "Aesthetic",
-    "wellness": "Wellness",
-    "postOp": "Post-operative",
-    "maternity": "Maternity",
-    "sportsRecovery": "Sports recovery",
-    "remodelage": "Body Sculpting"
+        "Pre-operative assessment",
+        "Post-operative drainage",
+        "Taping & scars",
+        "The practice"
+    ]
 }

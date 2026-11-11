@@ -9,7 +9,7 @@ export const useSmoothScroll = () => {
     })
 
     // Expose lenis globally so it can be controlled throughout the app
-    ;(window as any).lenis = lenis
+    window.lenis = lenis
 
     function raf(time: number) {
       lenis.raf(time)
@@ -20,7 +20,7 @@ export const useSmoothScroll = () => {
 
     return () => {
       lenis.destroy()
-      delete (window as any).lenis
+      delete window.lenis
     }
   }, [])
 }

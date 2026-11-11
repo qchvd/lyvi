@@ -1,11 +1,12 @@
 import { useEffect, useRef } from "react"
 import { useLocation } from "react-router-dom"
 import { useTranslation } from "react-i18next"
+import { focusPageHeading } from "../utils/focusPageHeading"
 
-type RouteKey = "home" | "about" | "treatments" | "benefits" | "contact" | "faq"
+type RouteKey = "home" | "about" | "treatments" | "postOp" | "postPartum" | "contact"
 
 // All valid route keys for mapping slugs to normalized paths
-const ROUTE_KEYS: RouteKey[] = ['home', 'about', 'treatments', 'benefits', 'contact', 'faq']
+const ROUTE_KEYS: RouteKey[] = ['home', 'about', 'treatments', 'postOp', 'postPartum', 'contact']
 
 /**
  * Component that handles scroll behavior on navigation
@@ -41,12 +42,14 @@ export function ScrollToTop() {
     const isRouteChange = prevPathRef.current !== normalizedPath
     const isLanguageChangeOnly = prevPathRef.current === normalizedPath
 
-    // Handle route change: scroll to top
+    // Handle route change: scroll to top, then move focus to the new page title so it is announced
     if (!isFirstNavigation && isRouteChange) {
-      const lenis = (window as any).lenis
+      const lenis = window.lenis
       if (lenis) {
         lenis.scrollTo(0, { immediate: true })
       }
+      prevPathRef.current = normalizedPath
+      return focusPageHeading()
     }
     // Handle language change: emit event for other components to respond
     else if (!isFirstNavigation && isLanguageChangeOnly) {

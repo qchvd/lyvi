@@ -1,0 +1,45 @@
+<!DOCTYPE html><html lang="fr" class="lenis lenis-smooth"><head>
+    <!-- Google consent mode: must run before GTM. Everything is denied until the visitor accepts the cookie banner;
+         a previous choice (cookie "lyviCookieConsent2", set by the banner) is applied right away.
+         The banner covers audience measurement and Google Ads conversions: accepting grants both.
+         (Cookie renamed from "lyviCookieConsent" when ads were added: earlier consents did not cover ads.) -->
+    <script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag(){dataLayer.push(arguments);}
+    var lyviConsent = /(?:^|; )lyviCookieConsent2=true(?:;|$)/.test(document.cookie) ? 'granted' : 'denied';
+    gtag('consent', 'default', {
+        analytics_storage: lyviConsent,
+        ad_storage: lyviConsent,
+        ad_user_data: lyviConsent,
+        ad_personalization: lyviConsent
+    });
+    </script>
+    <!-- Google Tag Manager. Not loaded during the prerender (Puppeteer sets navigator.webdriver):
+         otherwise the scripts GTM injects are baked into the static pages (GTM then loads twice)
+         and every build sends fake visits to Google. -->
+    <script>if (!navigator.webdriver) (function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+    new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+    j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
+    'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
+    })(window,document,'script','dataLayer','GTM-5PHH5488');</script>
+    <!-- End Google Tag Manager -->
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" type="image/svg+xml" href="/lyviFavicon.svg">
+    <link rel="preload" href="/fonts/figtree-v9-latin-regular.woff2" as="font" type="font/woff2" crossorigin="">
+    <link rel="preload" href="/fonts/figtree-v9-latin-700.woff2" as="font" type="font/woff2" crossorigin="">
+    <link rel="preload" href="/fonts/figtree-v9-latin-800.woff2" as="font" type="font/woff2" crossorigin="">
+    <title>Page introuvable - Lyvi</title>
+  <script type="module" crossorigin="" src="/assets/index.D-Iz9bws.js"></script>
+  <link rel="modulepreload" crossorigin="" href="/assets/i18n.C-BMLAeQ.js">
+  <link rel="modulepreload" crossorigin="" href="/assets/motion.Ml7Y9w6Z.js">
+  <link rel="modulepreload" crossorigin="" href="/assets/react-vendor.BcGiyDNi.js">
+  <link rel="modulepreload" crossorigin="" href="/assets/helmet.CSouIy6O.js">
+  <link rel="stylesheet" crossorigin="" href="/assets/index.T9wt-pKK.css">
+<link rel="modulepreload" as="script" crossorigin="" href="/assets/PageNotFound.CHzqGDF5.js"><meta name="robots" content="noindex" data-rh="true"></head>
+
+<body>
+    <div id="root"><main id="main-content" class="bg-not-found h-screen"><div class="not-found-main-div w-full h-full"><div class="not-found-sub-div flex flex-col"><h1 class="main-title text-black font-extrabold">Page introuvable.</h1><h2 class="sub-title text-black font-extrabold">Oups, on dirait que vous vous êtes perdue...</h2><a class="not-found-button btn-golden" href="/" data-discover="true">Accueil</a></div></div></main></div>
+
+
+</body></html>
