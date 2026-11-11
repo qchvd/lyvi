@@ -44,8 +44,7 @@ export default defineConfig({
           'motion': ['framer-motion'],
           'i18n': ['i18next', 'react-i18next', 'i18next-http-backend'],
           'forms': ['formik', 'yup'],
-          'helmet': ['react-helmet-async'],
-          'analytics': ['react-ga4']
+          'helmet': ['react-helmet-async']
         }
       }
     }

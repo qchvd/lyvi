@@ -1,54 +1,64 @@
 import { Header } from "../header/Header"
 import { useSidebar } from "../../contexts/SidebarContext"
-import { useEffect, useRef, useState } from "react"
+import { useEffect, useRef, useState, type MouseEvent } from "react"
 import { useTranslation } from "react-i18next"
 import { useWindowWidth } from "../../hooks/useWindowWidth"
 import drainagePicture400 from "../../assets/images/optimized/drainagePicture-400w.webp"
 import drainagePicture800 from "../../assets/images/optimized/drainagePicture-800w.webp"
 import drainagePicture1200 from "../../assets/images/optimized/drainagePicture-1200w.webp"
-import remodelagePicture400 from "../../assets/images/optimized/remodelagePicture-400w.webp"
-import remodelagePicture800 from "../../assets/images/optimized/remodelagePicture-800w.webp"
-import remodelagePicture1200 from "../../assets/images/optimized/remodelagePicture-1200w.webp"
-import miracleFacePicture400 from "../../assets/images/optimized/miracleFacePicture-400w.webp"
-import miracleFacePicture800 from "../../assets/images/optimized/miracleFacePicture-800w.webp"
-import miracleFacePicture1200 from "../../assets/images/optimized/miracleFacePicture-1200w.webp"
+import postOpMarkingPicture400 from "../../assets/images/optimized/postOpMarkingPicture-400w.webp"
+import postOpMarkingPicture800 from "../../assets/images/optimized/postOpMarkingPicture-800w.webp"
 import { Footer } from "../footer/Footer"
 import { useIsMobile } from "../../hooks/useIsMobile"
-import { motion } from "framer-motion"
+import { motion, useReducedMotion } from "framer-motion"
 import { usePreserveScrollOnLanguageChange } from "../../hooks/usePreserveScrollOnLanguageChange"
 import { CTA } from "../header/CTA"
 import { Helmet } from "react-helmet-async"
-import { TreatmentCard } from "../home/TreatmentCard"
+import { CareCard } from "../home/CareCard"
+import { CareBadge } from "../CareBadge"
+import { Link } from "react-router-dom"
+import { trackEvent } from "../../utils/analytics"
 
-// Helper function to render animated title with staggered fade-in, supporting line breaks
-// Use "|" to insert a line break between words
-function renderAnimatedTitle(text: string) {
-  const parts = text.split("|")
+// Letter-by-letter reveal of the title lines
+// Each word is kept whole so lines only wrap between words; the delay runs on from one line to the next
+function renderTypedLines(lines: string[]) {
+  let letterIndex = 0
 
-  return parts.map((part, partIndex) => {
-    const letters = part.split("").map((letter, letterIndex) => {
-      const globalIndex = parts.slice(0, partIndex).reduce((sum, p) => sum + p.length, 0) + letterIndex
-
-      return (
-        <span
-          key={`${partIndex}-${letterIndex}`}
-          className="inline-block"
-          style={{
-            animation: `fadeIn 0.3s ease-out ${0.1 + globalIndex * 0.05}s both`
-          }}
-        >
-          {letter}
+  return lines.map((line, lineIndex) => (
+    <span key={lineIndex} className="block">
+      {line.split(" ").map((word, wordIndex) => (
+        <span key={wordIndex}>
+          {wordIndex > 0 && " "}
+          <span className="inline-block whitespace-nowrap">
+            {word.split("").map((letter, i) => (
+              <span
+                key={i}
+                className="hero-title-letter"
+                style={{ animationDelay: `${0.1 + letterIndex++ * 0.025}s` }}
+              >
+                {letter}
+              </span>
+            ))}
+          </span>
         </span>
-      )
-    })
+      ))}
+    </span>
+  ))
+}
 
-    return (
-      <span key={partIndex}>
-        {letters}
-        {partIndex < parts.length - 1 && <br />}
-      </span>
-    )
-  })
+// Scrolls to the contact details in the footer without adding "#contact" to the URL
+function scrollToFooterContact(event: MouseEvent<HTMLAnchorElement>) {
+    event.preventDefault()
+    const target = document.getElementById("contact")
+    if (!target) return
+    // The footer starts right below the fixed header
+    const headerHeight = document.querySelector("header")?.offsetHeight ?? 72
+    const top = target.getBoundingClientRect().top + window.scrollY - headerHeight
+    if (window.lenis) {
+        window.lenis.scrollTo(top)
+    } else {
+        window.scrollTo({ top, behavior: "smooth" })
+    }
 }
 
 export function Home() {
@@ -60,6 +70,8 @@ export function Home() {
     const [leftHeight, setLeftHeight] = useState<number>(0)
     const isMobile = useIsMobile()
     const carouselAlts = t("carouselImages", { returnObjects: true }) as string[]
+    const reduceMotion = useReducedMotion()
+    const titleLines = t("hero.titleLines", { returnObjects: true }) as string[]
 
     // ===== RESIZE OBSERVER =====
     // Syncs the carousel height with the left content section height
@@ -133,8 +145,8 @@ export function Home() {
     const maxHeight = leftHeight  // Height of the left content section (synced via ResizeObserver)
     const isPortrait = window.matchMedia('(orientation: portrait)').matches
     const mobileOrPortraitHeight = windowWidth < 768 || (windowWidth < 1024 && isPortrait) || isMobileLandscape ? 600 : maxHeight
-    let imageHeight = Math.min(mobileOrPortraitHeight, imageHeightFromWidth)
-    let imageWidth = imageHeight / aspectRatio
+    const imageHeight = Math.min(mobileOrPortraitHeight, imageHeightFromWidth)
+    const imageWidth = imageHeight / aspectRatio
 
     // Calculate spacing between stacked images and total carousel container width
     const imageSpacing = imageWidth * 0.216
@@ -319,31 +331,29 @@ export function Home() {
         />
       </Helmet>
             <Header />
-            <main inert={isSidebarOpen ? true : undefined} className="pt-18 min-h-screen overflow-x-hidden">
+            <main id="main-content" inert={isSidebarOpen ? true : undefined} className="pt-18 min-h-screen overflow-x-hidden">
                 <div
                     className={`flex ${shouldStack ? 'flex-col' : 'md:flex-row'} py-8 md:py-10`}
                     style={{
-                        height: !shouldStack && window.matchMedia('(orientation: landscape)').matches
+                        // The hero may grow beyond the screen height instead of overflowing
+                        minHeight: !shouldStack && window.matchMedia('(orientation: landscape)').matches
                             ? `calc(100vh - 4.5rem)`
                             : 'auto'
                     }}
                 >
-                    <div className={`w-full ${shouldStack ? '' : 'md:w-1/2'} px-8 lg:px-10`} ref={leftRef} style={{ containerType: 'inline-size' }}>
-                        <h1 className="fluid-home-title1 font-extrabold leading-none" aria-label={t("ariaLabels:homeTypeWriterTitle")}>
-                            {i18n.language === "fr"
-                                ? renderAnimatedTitle("LISSEZ.|SCULPTEZ.|RAYONNEZ.")
-                                : i18n.language === "de"
-                                ? renderAnimatedTitle("GLÄTTEN.|FORMEN.|STRAHLEN.")
-                                : renderAnimatedTitle("SMOOTH.|SCULPT.|GLOW.")
-                            }
-                        </h1>
-                        <motion.p
-                            initial={{ opacity: 0, y: 100 }}
-                            animate={{ opacity: 1, y: 0 }}
-                            transition={{ duration: 0.6 }}
-                            className="leading-relaxed md:text-lg" style={{ marginTop: `${Math.max(100 * scale, 60)}px` }}>
-                            {t("introText")}
-                        </motion.p>
+                    {/* The text block is centred vertically next to the carousel */}
+                    <div className={`w-full ${shouldStack ? '' : 'md:w-1/2'} px-8 lg:px-10 flex flex-col justify-center`} ref={leftRef} style={{ containerType: 'inline-size' }}>
+                            {/* Three-line h1, present in the HTML for search engines; typed letter by letter (CSS, skipped with reduced motion) */}
+                            <h1 className="text-[1.7rem] leading-snug lg:text-4xl font-bold flex flex-col gap-4 lg:gap-5" aria-label={titleLines.join(". ")}>
+                                {renderTypedLines(titleLines)}
+                            </h1>
+                            <motion.div
+                                initial={reduceMotion ? false : { opacity: 0, y: 100 }}
+                                animate={{ opacity: 1, y: 0 }}
+                                transition={{ duration: 0.6 }}>
+                                <p className="leading-relaxed md:text-lg mt-12 lg:mt-16">{t("hero.text")}</p>
+                                <CTA className="mt-8" source="Home - Hero" />
+                            </motion.div>
                     </div>
 
                     <motion.div
@@ -394,79 +404,113 @@ export function Home() {
                         </div>
                     </motion.div>
                 </div>
-                <section className="bg-[var(--color-brand-cream)] text-[var(--color-brand-green)] py-8 flex flex-col items-center">
-                    <div className="px-8 lg:px-10 md:max-w-[1000px]">
-                        <h2 className="text-[1.7rem] text-center mb-5 lg:text-4xl lg:mb-8">{t("myApproach.title")}</h2>
-                        <div className="md:text-lg flex flex-col gap-4 leading-relaxed">
-                            <p>{t("myApproach.p1")}</p>
-                            <p>{t("myApproach.p2")}</p>
-                            <p>{t("myApproach.p3")}</p>
-                            <ul className="list-disc pl-8">
-                                <li>{t("myApproach.listItem1")}</li>
-                                <li>{t("myApproach.listItem2")}</li>
-                                <li>{t("myApproach.listItem3")}</li>
-                            </ul>
-                            <p>{t("myApproach.p4")}</p>
-                        </div>
-                    </div>
-                    <CTA className="mt-6" source="Home - Approach §" />
-                </section>
-                <section className="py-8 flex flex-col items-center">
-                    <div className="px-8 lg:px-10 md:max-w-[1000px]">
-                        <div>
+                    {/* Care cards first (cream), then "my approach" (sage green) to keep the background alternation */}
+                    <section className="bg-[var(--color-brand-cream)] text-[var(--color-brand-green)] py-8 flex flex-col items-center">
+                        <div className="px-8 lg:px-10 md:max-w-[1000px] w-full">
                             <h2 className="text-[1.7rem] text-center mb-5 lg:text-4xl lg:mb-8">{t("treatments.title")}</h2>
-                            <p className="md:text-lg leading-relaxed">
-                                {t("treatments.p1")}
-                            </p>
+                            <div className="grid grid-cols-1 justify-items-center gap-16 md:grid-cols-3 md:gap-6 lg:gap-8 mt-10">
+                                {/* Same order as the home title: post-op first */}
+                                <CareCard
+                                    src={postOpMarkingPicture800}
+                                    srcSet={`${postOpMarkingPicture400} 400w, ${postOpMarkingPicture800} 800w`}
+                                    altText={t("careCards.postOp.alt")}
+                                    title={t("careCards.postOp.title")}
+                                    badges={["medical"]}
+                                    text={t("careCards.postOp.text")}
+                                    linkTo={`/${i18n.language}${t("routes:postOp")}`}
+                                    discoverLabel={t("careCards.discover")}
+                                    isMobile={isMobile}
+                                    trackingLabel="Kinésithérapie pré et post-opératoire"
+                                />
+                                <CareCard
+                                    src={drainagePicture800}
+                                    srcSet={`${drainagePicture400} 400w, ${drainagePicture800} 800w, ${drainagePicture1200} 1200w`}
+                                    altText={t("careCards.drainage.alt")}
+                                    title={t("careCards.drainage.title")}
+                                    badges={["medical", "wellness"]}
+                                    text={t("careCards.drainage.text")}
+                                    linkTo={`/${i18n.language}${t("routes:treatments")}`}
+                                    discoverLabel={t("careCards.discover")}
+                                    isMobile={isMobile}
+                                    trackingLabel="Drainage lymphatique"
+                                />
+                                <CareCard
+                                    src={images[0].src800}
+                                    srcSet={`${images[0].src400} 400w, ${images[0].src800} 800w`}
+                                    altText={t("careCards.postPartum.alt")}
+                                    title={t("careCards.postPartum.title")}
+                                    badges={["medical"]}
+                                    text={t("careCards.postPartum.text")}
+                                    linkTo={`/${i18n.language}${t("routes:postPartum")}`}
+                                    discoverLabel={t("careCards.discover")}
+                                    isMobile={isMobile}
+                                    trackingLabel="Rééducation abdominale post-partum"
+                                />
+                            </div>
                         </div>
-                        <div className="flex flex-col items-center gap-20 md:flex-row md:items-start md:gap-8 mt-10">
-                            <TreatmentCard
-                                src400={drainagePicture400}
-                                src800={drainagePicture800}
-                                src1200={drainagePicture1200}
-                                title="Drainage"
-                                altText={t("altDrainagePicture")}
-                                applications={[t("aesthetic"), t("wellness"), t("maternity"), t("postOp"), t("sportsRecovery")]}
-                                applicationsTitle={t("applications")}
-                                linkTo={`/${i18n.language}${t("routes:treatments")}`}
-                                ariaLabel="Drainage"
-                                isMobile={isMobile}
-                                trackingLabel="Drainage"
-                                showMobileCTA={true}
-                                ctaComponent={<CTA className="mt-4 mx-auto md:hidden" source="Home - Treatments § - Drainage Card (mobile only)" />}
-                            />
-                            <TreatmentCard
-                                src400={remodelagePicture400}
-                                src800={remodelagePicture800}
-                                src1200={remodelagePicture1200}
-                                title={t("remodelage")}
-                                altText={t("altRemodelagePicture")}
-                                applications={[t("aesthetic"), t("maternity"), t("postOp")]}
-                                applicationsTitle={t("applications")}
-                                linkTo={`/${i18n.language}${t("routes:treatments")}`}
-                                ariaLabel={t("remodelage")}
-                                isMobile={isMobile}
-                                trackingLabel="Remodelage"
-                                showMobileCTA={true}
-                                ctaComponent={<CTA className="mt-4 mx-auto md:hidden" source="Home - Treatments § - Remodelage Card (mobile only)" />}
-                            />
-                            <TreatmentCard
-                                src400={miracleFacePicture400}
-                                src800={miracleFacePicture800}
-                                src1200={miracleFacePicture1200}
-                                title="Miracle Face"
-                                altText={t("altMiracleFacePicture")}
-                                applications={[t("aesthetic"), t("wellness"), t("postOp")]}
-                                applicationsTitle={t("applications")}
-                                linkTo={`/${i18n.language}${t("routes:treatments")}`}
-                                ariaLabel="Miracle Face"
-                                isMobile={isMobile}
-                                trackingLabel="Miracle Face"
-                            />
+                        {/* "Coming soon" insert, on a very light gold background */}
+                        <div className="px-8 lg:px-10 w-full flex justify-center mt-14">
+                            <div className="flex flex-col items-center gap-3 text-center rounded-lg bg-[var(--color-golden-light)]/20 px-6 py-5 max-w-full">
+                                <span className="w-fit px-3 py-0.5 text-sm font-bold rounded-full border border-[var(--color-brand-green)]">
+                                    {t("careCards.soon.badge")}
+                                </span>
+                                <p className="leading-relaxed">{t("careCards.soon.text")}</p>
+                            </div>
                         </div>
-                    </div>
-                    <CTA className="mt-6" source="Home - Treatments § - Miracle Face Card" />
-                </section>
+                        <CTA className="mt-10" source="Home - Treatments §" />
+                    </section>
+                    <section className="py-8 flex flex-col items-center">
+                        <div className="px-8 lg:px-10 md:max-w-[1000px]">
+                            <h2 className="text-[1.7rem] text-center mb-5 lg:text-4xl lg:mb-8">{t("myApproach.title")}</h2>
+                            <div className="md:text-lg flex flex-col gap-4 leading-relaxed">
+                                <p>{t("myApproach.p1")}</p>
+                                <p>{t("myApproach.p2")}</p>
+                            </div>
+                        </div>
+                        <Link
+                            to={`/${i18n.language}${t("routes:about")}`}
+                            className="btn-golden block mt-6"
+                            onClick={() => trackEvent('CTA', 'Click', 'About - Home - Approach §')}
+                        >
+                            {t("myApproach.button")}
+                        </Link>
+                    </section>
+                    <section className="bg-[var(--color-brand-cream)] text-[var(--color-brand-green)] py-8 flex flex-col items-center">
+                        <div className="px-8 lg:px-10 md:max-w-[1000px] w-full">
+                            <h2 className="text-[1.7rem] text-center uppercase mb-5 lg:text-4xl lg:mb-8">{t("process.title")}</h2>
+                            {/* Medical path on the left (first on mobile), well-being path on the right */}
+                            <div className="grid grid-cols-1 md:grid-cols-2 gap-6 lg:gap-8 mt-10">
+                                {(["medical", "wellness"] as const).map((type) => (
+                                    <div key={type} className="flex flex-col rounded-lg bg-[var(--color-brand-green)]/10 p-6 lg:p-8">
+                                        <CareBadge type={type} />
+                                        <h3 className="font-semibold text-xl leading-snug mt-3">{t(`process.${type}.title`)}</h3>
+                                        <ol className="list-decimal pl-6 flex flex-col gap-3 mt-4 leading-relaxed">
+                                            {(t(`process.${type}.steps`, { returnObjects: true }) as { lead: string; text: string }[]).map((step, index) => (
+                                                <li key={index}><strong>{step.lead}</strong>{step.text}</li>
+                                            ))}
+                                        </ol>
+                                    </div>
+                                ))}
+                            </div>
+                        </div>
+                        <CTA className="mt-10" source="Home - Process §" />
+                    </section>
+                    <section className="py-8 flex flex-col items-center">
+                        <div className="px-8 lg:px-10 md:max-w-[1000px]">
+                            <h2 className="text-[1.7rem] text-center uppercase mb-5 lg:text-4xl lg:mb-8">{t("doctors.title")}</h2>
+                            <p className="md:text-lg leading-relaxed text-center">{t("doctors.text")}</p>
+                        </div>
+                        <a
+                            href="#contact"
+                            className="btn-golden block mt-6"
+                            onClick={(event) => {
+                                trackEvent('CTA', 'Click', 'Contact - Home - Doctors §')
+                                scrollToFooterContact(event)
+                            }}
+                        >
+                            {t("doctors.button")}
+                        </a>
+                    </section>
             </main >
             <Footer />
         </>

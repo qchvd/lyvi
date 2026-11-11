@@ -1,33 +1,97 @@
 {
-    "introText": "Bei LYVI trifft das Fachwissen Ihrer Physiotherapeutin auf die Renata-França-Methode, um Ihnen Lymphdrainagen mit sofortiger Wirkung anzubieten. In Lyon 1 oder bei Ihnen zu Hause ist jede Sitzung eine Wohlfühlpause: ein Moment, um Ihren Körper zu entlasten und neue Energie zu tanken.",
+    "hero": {
+        "titleLines": [
+            "Prä- und postoperative Physiotherapie in der ästhetischen und rekonstruktiven Chirurgie",
+            "Lymphdrainage",
+            "Rückbildung und Bauchmuskeltraining nach der Geburt"
+        ],
+        "text": "Termine in Lyon 1, nahe der Oper, und in Lyon 5, im Viertel Point du Jour."
+    },
     "myApproach": {
-        "title": "MEIN ANSATZ",
-        "p1": "Mit Herzlichkeit und Professionalität heiße ich Sie willkommen und biete Ihnen die besten Renata França Behandlungen.",
-        "p2": "Ob für eine einzelne Sitzung oder eine Kur, ich begleite Sie mit Aufmerksamkeit und Effizienz auf dem Weg zu Ihren Zielen.",
-        "p3": "In einer Wohlfühloase im Coream-Zentrum biete ich Ihnen Lymphdrainage, Körpermodellierung und Miracle Face an, mit sichtbaren Ergebnissen bereits nach der ersten Sitzung:",
-        "listItem1": "Gefühl der Leichtigkeit",
-        "listItem2": "Glatte Haut",
-        "listItem3": "Modellierender Effekt",
-        "p4": "Bei Lyvi habe ich ein Ziel: dass Sie entspannt, leicht und strahlend wieder gehen."
+        "title": "MEIN VERSTÄNDNIS VON BEHANDLUNG",
+        "p1": "Ich bin seit 2012 Physiotherapeutin. Mehrere Jahre lang habe ich Spitzensportler betreut, darunter die deutsche Nationalmannschaft im Kunstturnen. Daraus habe ich hohe Ansprüche an die Behandlung mitgenommen, die Gewohnheit, im Team mit Chirurgen und Ärzten zu arbeiten, und die Überzeugung, dass jede Behandlung vom Menschen ausgehen muss: von seiner Geschichte, seinem Körper, seinen Zielen.",
+        "p2": "Ich empfange Sie in einer ruhigen und herzlichen Atmosphäre und nehme mir Zeit, Ihnen zuzuhören. Mein Anspruch ist es, Sie einfühlsam und wirksam auf dem Weg zu Ihren Zielen zu begleiten.",
+        "button": "Mehr erfahren"
     },
     "treatments": {
-        "title": "DIE BEHANDLUNGEN",
-        "p1": "Die Renata França-Behandlungen sind rhythmische Handmassagen mit Druck und Pumpbewegungen, die bereits nach der ersten Sitzung sichtbare Ergebnisse erzielen. Die Technik regt die Durchblutung an, reduziert Schwellungen und fördert die Ausscheidung von Giftstoffen. Die Massagen verfeinern die Silhouette, reduzieren das Erscheinungsbild von Cellulite und stärken gleichzeitig das Immunsystem."
+        "title": "MEINE BEHANDLUNGEN"
     },
-    "altMiracleFacePicture": "Miracle Face - Gesichtsmassage",
-    "altDrainagePicture": "Drainage - Massage eines Beines",
-    "altRemodelagePicture": "Körpermodellierung - Massage von Oberschenkeln + Gesäß",
+    "careCards": {
+        "drainage": {
+            "title": "Lymphdrainage",
+            "text": "Eine therapeutische Drainage, abgestimmt auf Ihr Gewebe, bei Lipödem oder anderen venösen oder lymphatischen Erkrankungen, oder eine Wellness-Drainage nach der Renata-França-Methode für ein Gefühl von Leichtigkeit und eine glattere Haut.",
+            "alt": "Lymphdrainage am Bein"
+        },
+        "postOp": {
+            "title": "Prä- und postoperative Physiotherapie in der ästhetischen und rekonstruktiven Chirurgie",
+            "text": "Befundaufnahme vor und nach dem Eingriff, angepasste Drainage, Taping, Narbenbehandlung und schrittweise Rückkehr zur Bewegung, in Abstimmung mit Ihrem Chirurgen.",
+            "alt": "Präoperative Markierung durch den Chirurgen vor einer ästhetischen Operation"
+        },
+        "postPartum": {
+            "title": "Rückbildung und Bauchmuskeltraining nach der Geburt",
+            "text": "Rektusdiastase, Ganzkörperkräftigung, hypopressives Bauchmuskeltraining und Pilates, von den ersten Wochen nach der Geburt bis zum Wiedereinstieg in den Sport. In Lyon 5 und online.",
+            "alt": "Hände auf dem Bauch"
+        },
+        "discover": "Entdecken",
+        "soon": {
+            "badge": "Bald in der Praxis",
+            "text": "Photobiomodulation (LED) ab Ende November, danach LPG: ergänzend zu Ihrer postoperativen Behandlung oder als Wellness-Anwendung."
+        }
+    },
+    "process": {
+        "title": "Wie läuft die Behandlung ab?",
+        "medical": {
+            "title": "Medizinische Behandlungen",
+            "steps": [
+                {
+                    "lead": "Die ärztliche Verordnung",
+                    "text": ": eine Verordnung Ihres Chirurgen oder Arztes. Als Physiotherapeutin benötige ich sie, um mit der Behandlung zu beginnen, sie berechtigt aber nicht immer zu einer Kostenerstattung: Die Nachbehandlung einer ästhetischen Operation zum Beispiel wird von der französischen Krankenversicherung (Assurance Maladie) nicht übernommen."
+                },
+                {
+                    "lead": "Die Befundaufnahme",
+                    "text": ": um Ihren Eingriff oder Ihre Schwangerschaft zu verstehen, Ihren Bedarf einzuschätzen und ein persönliches Programm zu erstellen, mit einem Kostenvoranschlag, falls die Behandlung nicht erstattet wird."
+                },
+                {
+                    "lead": "Die Sitzungen",
+                    "text": ": in Lyon 1 oder in Lyon 5 (von der Krankenversicherung erstattungsfähige Behandlungen). Die Rückbildung nach der Geburt findet in Lyon 5 und online statt."
+                },
+                {
+                    "lead": "Eine abgestimmte Betreuung",
+                    "text": " mit Ihrem Chirurgen, Ihrer Hebamme oder Ihrem Arzt."
+                }
+            ]
+        },
+        "wellness": {
+            "title": "Wellness-Behandlungen",
+            "steps": [
+                {
+                    "lead": "Der Termin",
+                    "text": ": direkt buchbar, ohne Verordnung, außer während der Schwangerschaft oder bei Vorerkrankungen."
+                },
+                {
+                    "lead": "Ein kurzes Gespräch zu Beginn der Sitzung",
+                    "text": ": Ihre Erwartungen und Ihre Vorgeschichte, um sicherzugehen, dass die Behandlung zu Ihnen passt."
+                },
+                {
+                    "lead": "Die Sitzung",
+                    "text": ": Drainage nach der Renata-França-Methode, Körpermodellierung oder Miracle Face, in Lyon 1 oder Lyon 5."
+                },
+                {
+                    "lead": "Persönliche Tipps",
+                    "text": ", damit das Gefühl von Leichtigkeit anhält, und auf Wunsch ein passender Sitzungsrhythmus."
+                }
+            ]
+        }
+    },
+    "doctors": {
+        "title": "Sie sind Chirurg oder Arzt?",
+        "text": "Ich behandle Ihre Patientinnen und Patienten nach Ihren Vorgaben und schicke Ihnen einen Verlaufsbericht.",
+        "button": "Kontakt aufnehmen"
+    },
     "carouselImages": [
-        "Drainage",
-        "Körpermodellierung",
-        "Miracle Face",
-        "Massageraum"
-    ],
-    "applications": "Anwendungen",
-    "aesthetic": "Ästhetik",
-    "wellness": "Wellness",
-    "postOp": "Postoperativ",
-    "maternity": "Mutterschaft",
-    "sportsRecovery": "Sportliche Regeneration",
-    "remodelage": "Körpermodellierung"
+        "Präoperative Befundaufnahme",
+        "Postoperative Drainage",
+        "Taping & Narben",
+        "Die Praxis"
+    ]
 }

@@ -20,6 +20,7 @@ export function LanguageSelector() {
 
     const [isOpen, setIsOpen] = useState(false)
     const containerRef = useRef<HTMLDivElement>(null)
+    const buttonRef = useRef<HTMLButtonElement>(null)
 
     // Close the dropdown on outside click or Escape
     useEffect(() => {
@@ -34,6 +35,8 @@ export function LanguageSelector() {
         const handleKeyDown = (event: KeyboardEvent) => {
             if (event.key === "Escape") {
                 setIsOpen(false)
+                // Focus returns to the button that opened the list
+                buttonRef.current?.focus()
             }
         }
 
@@ -48,15 +51,18 @@ export function LanguageSelector() {
 
     return (
         <div className="relative" ref={containerRef}>
+            {/* Simple show/hide list of links (no "menu" role, which would promise arrow-key navigation).
+                The visible code ("FR") starts the accessible name, so voice control ("click FR") finds the button */}
             <button
+                ref={buttonRef}
                 type="button"
                 onClick={() => setIsOpen((prev) => !prev)}
                 className="flex items-center gap-1 font-black cursor-pointer"
-                aria-label={t("languageSelector")}
-                aria-haspopup="true"
                 aria-expanded={isOpen}
+                aria-controls="language-list"
             >
                 {activeLang.toUpperCase()}
+                <span className="sr-only">, {t("languageSelector")}</span>
                 <ChevronDown
                     className={`size-4 transition-transform duration-200 ${isOpen ? "rotate-180" : ""}`.trim()}
                     aria-hidden="true"
@@ -65,8 +71,8 @@ export function LanguageSelector() {
 
             {isOpen && (
                 <ul
+                    id="language-list"
                     className="absolute right-0 top-full mt-2 flex flex-col items-center gap-2 bg-[#627156] border border-[#FAF2E8] rounded-md p-2 min-w-12 z-10"
-                    role="menu"
                     aria-label={t("languageSelector")}
                 >
                     {otherLangs.map((lang) => {
@@ -74,16 +80,16 @@ export function LanguageSelector() {
                         const fullPath = `/${lang}${translatedSlug}`
 
                         return (
-                            <li key={lang} role="none" className="w-full text-center">
+                            <li key={lang} className="w-full text-center">
                                 <Link
                                     to={fullPath}
-                                    className="lang-link cursor-pointer block"
+                                    className="cursor-pointer block"
                                     lang={lang}
-                                    aria-label={langLabels[lang]}
-                                    role="menuitem"
+                                    hrefLang={lang}
                                     onClick={() => setIsOpen(false)}
                                 >
                                     {lang.toUpperCase()}
+                                    <span className="sr-only"> – {langLabels[lang]}</span>
                                 </Link>
                             </li>
                         )

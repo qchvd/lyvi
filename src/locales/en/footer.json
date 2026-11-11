@@ -1,6 +1,14 @@
 {
     "contact": "Contact",
     "altAnaïsPortrait": "Anaïs' portrait",
-    "home": "Home",
-    "or": "or"
+    "addressesLabel": "Addresses",
+    "lyon5": {
+        "name": "Lyon 5 – Point du Jour",
+        "conditions": "Treatments covered and not covered by health insurance"
+    },
+    "lyon1": {
+        "name": "Lyon 1 – Coream, Health & Wellness Space",
+        "floor": "1<sup>st</sup> floor",
+        "conditions": "Treatments not covered by health insurance"
+    }
 }

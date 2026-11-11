@@ -1,0 +1,214 @@
+{
+    "hero": {
+        "title": "Lymphdrainage in Lyon",
+        "text": "Hinter dem Wort „Drainage“ verbergen sich zwei sehr unterschiedliche Anwendungen. Welche ist die richtige für Sie?",
+        "wellness": {
+            "title": "Ich möchte mich leichter fühlen",
+            "text": "Drainage, Körpermodellierung und Miracle Face nach der Renata-França-Methode. Ohne Verordnung, außer während der Schwangerschaft.",
+            "link": "Die Renata-França-Behandlungen entdecken"
+        },
+        "medical": {
+            "title": "Ich brauche eine Drainage für meine Gesundheit",
+            "text": "Nach einer Operation, bei Lipödem, schweren Beinen, nach einer Krebsbehandlung … Eine therapeutische Drainage, abgestimmt auf Ihr Gewebe, auf ärztliche Verordnung.",
+            "link": "Die therapeutische Drainage entdecken"
+        }
+    },
+    "renata": {
+        "title": "Behandlungen nach der Renata-França-Methode",
+        "text": "Rhythmische, umhüllende Behandlungen für ein Gefühl von Leichtigkeit und einen modellierenden Effekt. In der Praxis in Lyon 1 und in Lyon 5.",
+        "mostBooked": "Am häufigsten gebucht",
+        "sessions": "Sitzungen",
+        "session": "Sitzung",
+        "price": "{{price}} €",
+        "cards": {
+            "drainage": {
+                "title": "Drainage",
+                "text": "Die Drainage, die guttut und die man spürt. Mit wenigen präzisen, rhythmischen Griffen findet Ihr Körper zu einem angenehmen Gefühl von Leichtigkeit zurück.",
+                "duration": "Dauer: ca. 1 Std.",
+                "benefits": [
+                    "Leichte Beine",
+                    "Leichtigkeit im ganzen Körper",
+                    "Leichterer Bauch",
+                    "Glatter wirkende Haut",
+                    "Modellierender Effekt",
+                    "Entspannung"
+                ]
+            },
+            "remodelage": {
+                "title": "Körpermodellierung",
+                "text": "Die Behandlung, die die Drainage ergänzt. Rhythmisch und tief, sorgt sie für einen modellierenden Effekt und eine Haut, die sich glatter anfühlt.",
+                "duration": "Dauer: ca. 1 Std.",
+                "benefits": [
+                    "Formender Effekt",
+                    "Konturierender Effekt",
+                    "Glättender Effekt",
+                    "Modellierender Effekt"
+                ]
+            },
+            "miracleFace": {
+                "title": "Miracle Face",
+                "text": "Eine rhythmische, umhüllende Gesichtsbehandlung für ein Gefühl von Frische und einen erholten Ausdruck.",
+                "duration": "Dauer: ca. 30 Min.",
+                "benefits": [
+                    "Leichter wirkendes Gesicht",
+                    "Neu definierte Konturen",
+                    "Erholter Blick",
+                    "Straffender Effekt",
+                    "Beruhigender Effekt"
+                ]
+            }
+        },
+        "pregnancy": {
+            "title": "In der Schwangerschaft und nach der Geburt",
+            "pregnant": {
+                "title": "Sie sind schwanger",
+                "text": "Schwere Beine, ein Gefühl von Schwellung: Die Drainage nach der Renata-França-Methode kann Ihnen während der Schwangerschaft ein echtes Gefühl von Leichtigkeit schenken. Sie erfolgt auf ärztliche Verordnung.",
+                "formula": "Nur Beine, an die Schwangerschaft angepasst:",
+                "price": "Sitzung von 40 Min. – 85 €"
+            },
+            "newMother": {
+                "title": "Sie sind frischgebackene Mutter",
+                "text": "Nach der Geburt hilft Ihnen die Renata-França-Drainage, wieder ein Gefühl von Leichtigkeit in Beinen und Bauch zu finden, und schenkt Ihnen einen echten Moment für sich.",
+                "linkIntro": "Um Ihre Bauchmuskulatur zu stärken und wieder Sport zu treiben, entdecken Sie auch ",
+                "link": "die Rückbildung nach der Geburt",
+                "linkEnd": "."
+            }
+        },
+        "note": "Wellness-Behandlung außerhalb des medizinischen Rahmens, keine Kostenerstattung. Während der Schwangerschaft oder bei Vorerkrankungen ist eine ärztliche Verordnung erforderlich."
+    },
+    "comparison": {
+        "title": "Therapeutisch oder Wellness: der Unterschied",
+        "text": "Nach einer Operation muss die Drainage an den Zustand Ihres Gewebes und an die Vorgaben Ihres Chirurgen angepasst werden: **Das ist keine Wellness-Sitzung**.",
+        "therapeutic": "Therapeutische Drainage",
+        "renata": "Renata-França-Drainage",
+        "rows": [
+            {
+                "label": "Für wen",
+                "therapeutic": "Chirurgie (ästhetisch, rekonstruktiv, Krampfadern), Lipödem, nach einer Krebsbehandlung, schwere Beine",
+                "renata": "Alle, die sich leichter fühlen möchten, auch während der Schwangerschaft (auf Verordnung) und nach der Geburt"
+            },
+            {
+                "label": "Ziel",
+                "therapeutic": "Schwellungen reduzieren, einer Fibrose vorbeugen, die Wundheilung unterstützen",
+                "renata": "Gefühl von Leichtigkeit, modellierender Effekt"
+            },
+            {
+                "label": "Technik",
+                "therapeutic": "Angepasst an den Zustand des Gewebes und die Vorgaben des Chirurgen",
+                "renata": "Rhythmus und Druck nach der Methode"
+            },
+            {
+                "label": "Verordnung",
+                "therapeutic": "Ja",
+                "renata": "Nein, außer während der Schwangerschaft oder bei Vorerkrankungen"
+            },
+            {
+                "label": "Kostenerstattung",
+                "therapeutic": "Sehr selten, nach Diagnose des Angiologen ([siehe oben])",
+                "renata": "Nein"
+            }
+        ]
+    },
+    "therapeutic": {
+        "title": "Die therapeutische Drainage",
+        "cards": {
+            "surgery": {
+                "title": "Ästhetische oder rekonstruktive Chirurgie",
+                "paragraphs": [
+                    "Fettabsaugung, Bauchdeckenstraffung, Facelift, Brustchirurgie … Eine manuelle Drainage, abgestimmt auf Ihr Gewebe, bei Bedarf kombiniert mit Taping, Narbenbehandlung und sanfter Rehabilitation, in Abstimmung mit Ihrem Chirurgen."
+                ],
+                "link": "Die postoperative Behandlung entdecken"
+            },
+            "lipedema": {
+                "title": "Lipödem",
+                "paragraphs": [
+                    "Eine chronische Erkrankung des Fettgewebes, die oft mit einer Gewichtszunahme verwechselt wird: unverhältnismäßige Fettverteilung, vor allem an den Beinen, berührungsempfindlich, mit Neigung zu blauen Flecken.",
+                    "Die manuelle Drainage ist eine tragende Säule der Behandlung, konservativ oder zur Vorbereitung einer Liposuktion. Diagnose gestellt oder Verdacht: Sprechen wir bei der Befundaufnahme darüber."
+                ]
+            },
+            "oncology": {
+                "title": "Nach einer Krebsbehandlung",
+                "paragraphs": [
+                    "Nach einer Operation oder Behandlung einer Krebserkrankung, zum Beispiel nach einer Lymphknotenentfernung, hilft die Drainage, einem Lymphödem vorzubeugen und es zu behandeln, in Abstimmung mit Ihrem Behandlungsteam."
+                ]
+            },
+            "varicose": {
+                "title": "Nach einer Krampfader-OP",
+                "paragraphs": [
+                    "Um Schwellungen zu begrenzen und die Erholung Ihrer Beine nach dem Eingriff zu unterstützen, nach den Vorgaben Ihres Gefäßchirurgen."
+                ]
+            },
+            "heavyLegs": {
+                "title": "Schwere Beine",
+                "paragraphs": [
+                    "Schwere oder geschwollene Beine am Ende des Tages, Venenschwäche: Die Befundaufnahme hilft, eine Bestandsaufnahme zu machen und die Behandlung anzupassen."
+                ],
+                "linkIntro": "Nur gelegentliche Beschwerden? ",
+                "link": "Auch die Renata-França-Drainage kann zu Ihnen passen."
+            }
+        },
+        "reimbursement": {
+            "title": "Wird die Drainage erstattet?",
+            "p1": "Sehr selten, **selbst mit ärztlicher Verordnung**. Die französische Krankenversicherung (Assurance Maladie) übernimmt sie nur in wenigen Fällen:",
+            "cases": [
+                "Primäres Lymphödem",
+                "Behandlung im Rahmen einer Krebserkrankung",
+                "Chronische Venenerkrankungen"
+            ],
+            "p2": "Ausschlaggebend sind die schriftliche Diagnose des Angiologen und meine Befundaufnahme. In diesen Fällen finden die Behandlungen in Lyon 5 statt. In allen anderen Fällen werden die Sitzungen zu den unten stehenden Preisen berechnet."
+        },
+        "prices": {
+            "title": "Preise der therapeutischen Drainage",
+            "lines": [
+                {
+                    "label": "Befundaufnahme (40 Min.)",
+                    "price": "70 €"
+                },
+                {
+                    "label": "Sitzung von 30 Min.",
+                    "price": "50 €"
+                },
+                {
+                    "label": "Sitzung von 45 Min.",
+                    "price": "75 €"
+                },
+                {
+                    "label": "Sitzung von 1 Std.",
+                    "price": "100 €"
+                }
+            ],
+            "payment": "Zahlung: bar, per Scheck, Überweisung, Wero."
+        }
+    },
+    "hesitate": {
+        "title": "Sie sind unsicher?",
+        "learnMore": "Mehr erfahren",
+        "items": [
+            {
+                "title": "Sie werden bald operiert",
+                "text": "Eine Befundaufnahme, um die passende Technik für Ihr Gewebe und den Eingriff zu wählen."
+            },
+            {
+                "title": "Sie wurden operiert",
+                "text": "Eine Befundaufnahme, dann angepasste Techniken der postoperativen Drainage."
+            },
+            {
+                "title": "Sie haben ein Lipödem",
+                "text": "Diagnostiziert oder vermutet: Beginnen Sie mit einer Befundaufnahme."
+            },
+            {
+                "title": "Sie haben oft schwere Beine",
+                "text": "Eine Befundaufnahme, um herauszufinden, ob eine therapeutische Drainage oder eine Wellness-Behandlung besser zu Ihnen passt."
+            },
+            {
+                "title": "Sie möchten sich leichter fühlen",
+                "text": "Dann ist die Drainage nach der Renata-França-Methode das Richtige."
+            },
+            {
+                "title": "Sie sind schwanger oder frischgebackene Mutter",
+                "text": "Die Renata-França-Drainage, mit einer an die Schwangerschaft angepassten Beinbehandlung."
+            }
+        ],
+        "p1": "Im Zweifel hilft die Befundaufnahme, eine Bestandsaufnahme zu machen und gemeinsam zu entscheiden."
+    }
+}

@@ -1,33 +1,97 @@
 {
-    "introText": "Chez LYVI, l'expertise de votre kiné rencontre la méthode Renata França pour vous offrir des drainages lymphatiques aux effets immédiats. À Lyon 1ᵉʳ ou à domicile, chaque séance est une parenthèse bien être\u00A0: un moment pour alléger et réénergiser votre corps.",
+    "hero": {
+        "titleLines": [
+            "Kinésithérapie pré et post-opératoire en chirurgie esthétique et réparatrice",
+            "Drainage lymphatique",
+            "Rééducation abdominale post-partum"
+        ],
+        "text": "Consultations à Lyon 1, près de l'Opéra, et à Lyon 5, quartier Point du Jour."
+    },
     "myApproach": {
-        "title": "MON APPROCHE",
-        "p1": "C'est avec bonne humeur et professionnalisme que je vous accueille pour vous proposer le meilleur des soins Renata França.",
-        "p2": "Que ce soit pour une séance ou pour une cure, mon engagement est de vous accompagner avec bienveillance et efficacité vers vos objectifs.",
-        "p3": "C'est dans un cocon de bien être au centre Coream que je vous propose le drainage lymphatique, le remodelage et le Miracle Face, pour des résultats dès la premiere seance\u00A0:",
-        "listItem1": "Sensation de légèreté",
-        "listItem2": "Peau lisse",
-        "listItem3": "Effet sculptant",
-        "p4": "Chez Lyvi, j'ai à cœur un objectif\u00A0: que vous repartiez détendue, légère et rayonnante."
+        "title": "MON APPROCHE DU SOIN",
+        "p1": "Je suis masseur-kinésithérapeute depuis 2012. Pendant plusieurs années, j'ai accompagné des sportifs de très haut niveau, dont l'équipe nationale allemande de gymnastique artistique. J'en ai gardé une exigence dans le soin, l'habitude de travailler en équipe avec les chirurgiens et les médecins, et la conviction que chaque prise en charge doit partir de la personne : son histoire, son corps, ses objectifs.",
+        "p2": "Je vous reçois dans un cadre calme et chaleureux, où je prends le temps de vous écouter. Mon engagement est de vous accompagner avec bienveillance et efficacité vers vos objectifs.",
+        "button": "En savoir plus"
     },
     "treatments": {
-        "title": "LES SOINS",
-        "p1": "Les soins Renata França sont des massages manuels rythmés avec de la pression et des pompages, qui permettent d'obtenir des résultats visibles dès la première séance. La technique stimule la circulation sanguine, réduit les gonflements et favorise l'élimination des toxines. Les massages permettent d'affiner la silhouette et de réduire l'aspect de la cellulite, tout en renforçant le système immunitaire."
+        "title": "LES SOINS QUE JE VOUS PROPOSE"
     },
-    "altMiracleFacePicture": "Miracle Face - Massage du visage",
-    "altDrainagePicture": "Drainage - Massage d'une jambe",
-    "altRemodelagePicture": "Remodelage - Massage cuisse + fesse",
+    "careCards": {
+        "drainage": {
+            "title": "Drainage lymphatique",
+            "text": "Un drainage thérapeutique adapté à vos tissus en cas de lipœdème ou d'autres pathologies veineuses ou lymphatiques, ou un drainage bien-être méthode Renata França pour une sensation de légèreté et une peau plus lisse.",
+            "alt": "Drainage lymphatique de la jambe"
+        },
+        "postOp": {
+            "title": "Kinésithérapie pré et post opératoire de chirurgie esthétique et réparatrice",
+            "text": "Bilan avant et après l'intervention, drainage adapté, taping, travail des cicatrices et reprise progressive du mouvement, en coordination avec votre chirurgien.",
+            "alt": "Marquage pré-opératoire tracé par le chirurgien avant une chirurgie esthétique"
+        },
+        "postPartum": {
+            "title": "Rééducation abdominale post-partum",
+            "text": "Diastasis, renforcement global, abdominaux hypopressifs et Pilates, des premières semaines du post-partum jusqu'à la reprise du sport. À Lyon 5 et à distance.",
+            "alt": "Mains posées sur le ventre"
+        },
+        "discover": "Découvrir",
+        "soon": {
+            "badge": "Bientôt au cabinet",
+            "text": "Photobiomodulation (LED) dès fin novembre, puis LPG : en complément de vos soins post-opératoires ou en soin bien-être."
+        }
+    },
+    "process": {
+        "title": "Comment se déroulent les soins ?",
+        "medical": {
+            "title": "Soins médicaux",
+            "steps": [
+                {
+                    "lead": "L'ordonnance",
+                    "text": " : une prescription de votre chirurgien ou de votre médecin. En tant que kinésithérapeute, elle m'est indispensable pour débuter les soins, mais elle ne donne pas toujours droit à un remboursement : les suites d'une chirurgie esthétique, par exemple, ne sont pas prises en charge par l'Assurance Maladie."
+                },
+                {
+                    "lead": "Le bilan",
+                    "text": " : pour comprendre votre intervention ou votre grossesse, évaluer vos besoins et établir un programme personnalisé, avec un devis si les soins ne sont pas remboursés."
+                },
+                {
+                    "lead": "Les séances",
+                    "text": " : à Lyon 1 ou à Lyon 5 (soins conventionnés). La rééducation abdominale post-partum se fait à Lyon 5 et à distance."
+                },
+                {
+                    "lead": "Un suivi coordonné",
+                    "text": " avec votre chirurgien, votre sage-femme ou votre médecin."
+                }
+            ]
+        },
+        "wellness": {
+            "title": "Soins bien-être",
+            "steps": [
+                {
+                    "lead": "Le rendez-vous",
+                    "text": " : réservation directe, sans ordonnance, sauf pendant la grossesse ou en cas de pathologie."
+                },
+                {
+                    "lead": "Un temps d'échange en début de séance",
+                    "text": " : vos attentes, vos antécédents, pour s'assurer que le soin vous convient."
+                },
+                {
+                    "lead": "La séance",
+                    "text": " : drainage méthode Renata França, remodelage ou Miracle Face, à Lyon 1 ou à Lyon 5."
+                },
+                {
+                    "lead": "Des conseils personnalisés",
+                    "text": " pour prolonger la sensation de légèreté et, si vous le souhaitez, un rythme de séances adapté."
+                }
+            ]
+        }
+    },
+    "doctors": {
+        "title": "Vous êtes chirurgien ou médecin ?",
+        "text": "Je prends en charge vos patient(e)s en suivant vos consignes et vous transmets un compte-rendu de l'évolution.",
+        "button": "Me contacter"
+    },
     "carouselImages": [
-        "Drainage",
-        "Remodelage",
-        "Miracle Face",
-        "Salle de massage"
-    ],
-    "applications": "Applications",
-    "aesthetic": "Esthétique",
-    "wellness": "Bien-être",
-    "postOp": "Post-opératoire",
-    "maternity": "Maternité",
-    "sportsRecovery": "Récupération sportive",
-    "remodelage": "Remodelage"
+        "Bilan pré-opératoire",
+        "Drainage post-opératoire",
+        "Taping & cicatrices",
+        "Le cabinet"
+    ]
 }

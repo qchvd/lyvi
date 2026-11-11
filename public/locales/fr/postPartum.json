@@ -1,0 +1,184 @@
+{
+    "hero": {
+        "title": "Rééducation abdominale post-partum et diastasis à Lyon",
+        "text": "Votre bébé est né, et vous avez envie de retrouver votre corps, votre énergie et votre sport ? Je vous accompagne **des premières semaines du post-partum jusqu'à la reprise sportive**, à votre rythme et en toute sécurité. Je vous reçois à Lyon 5, quartier Point du Jour, et je vous accompagne aussi à distance.",
+        "formulasButton": "Voir les formules",
+        "imageAlt": "Femme en short et chaussettes de sport en plein mouvement, symbole de la reprise sportive après l'accouchement"
+    },
+    "keyFacts": {
+        "title": "L'essentiel en un coup d'œil",
+        "items": [
+            {
+                "label": "Avant de commencer",
+                "value": "Rééducation périnéale débutée",
+                "detail": "Avec votre sage-femme ou un kiné formé"
+            },
+            {
+                "label": "Durée",
+                "value": "Du post-partum à la reprise du sport",
+                "detail": "À votre rythme, par étapes"
+            },
+            {
+                "label": "Où",
+                "value": "Lyon 5 et à distance",
+                "detail": "Deux formules au choix"
+            },
+            {
+                "label": "Remboursement",
+                "value": "Séances au cabinet, sur prescription",
+                "detail": "Le suivi à distance est sur devis"
+            }
+        ]
+    },
+    "forWhom": {
+        "title": "Pour qui ?",
+        "items": [
+            {
+                "title": "Vous étiez sportive avant votre grossesse",
+                "text": "Votre grossesse a peut-être été peu active : alitement, grande fatigue… Vous ne savez pas par où recommencer sans vous blesser."
+            },
+            {
+                "title": "Vous voulez vous mettre au sport",
+                "text": "C'est le moment idéal pour construire de bonnes bases, avec un accompagnement adapté à votre corps de jeune maman."
+            },
+            {
+                "title": "Vous avez un diastasis",
+                "text": "Ventre « qui ne revient pas », douleurs de dos ou de bassin : vous voulez comprendre ce qui se passe et comment agir."
+            }
+        ]
+    },
+    "drainageNote": "Envie de légèreté dans les jambes et le ventre ? [Découvrez aussi le drainage Renata França], adapté aux jeunes mamans et aux femmes enceintes.",
+    "perineum": {
+        "title": "Avant de commencer : la rééducation périnéale",
+        "text": "Le périnée est la base de tout le reste. Votre **rééducation périnéale doit avoir débuté**, avec votre sage-femme ou un kinésithérapeute formé en pelvi-périnéologie. Renforcer les abdominaux sur un périnée qui n'est pas encore prêt peut créer ou aggraver des fuites et une sensation de pesanteur."
+    },
+    "diastasis": {
+        "title": "Le diastasis des grands droits, c'est quoi ?",
+        "p1": "Pendant la grossesse, les deux muscles grands droits s'écartent pour laisser de la place au bébé. C'est normal. Chez certaines femmes, cet écart **persiste après l'accouchement** : ventre bombé, sensation de faiblesse abdominale, douleurs de dos.",
+        "p2": "Lors du bilan, je mesure votre diastasis et j'évalue comment votre paroi abdominale travaille, pour adapter les exercices.",
+        "p3": "Une chirurgie est parfois envisagée, souvent lors d'une abdominoplastie : ",
+        "p3Link": "je vous accompagne avant et après l'intervention",
+        "p3End": ".",
+        "imageAlt": "Schéma comparatif : à gauche, les deux muscles grands droits accolés le long de la ligne blanche ; à droite, un diastasis, avec un écartement en fuseau localisé autour du nombril, au-dessus et au-dessous, alors que les muscles restent ancrés en haut aux côtes et en bas au pubis.",
+        "labelRibs": "côtes",
+        "labelNavel": "nombril",
+        "labelPubis": "pubis",
+        "captionWithout": "Sans diastasis",
+        "captionWith": "Avec diastasis",
+        "caption": "Les grands droits restent ancrés aux côtes et au pubis : l'écartement se situe autour du nombril, au-dessus et au-dessous."
+    },
+    "approach": {
+        "title": "Mon approche : le corps dans sa globalité",
+        "p1": "La grossesse et l'accouchement modifient l'équilibre postural : pendant neuf mois, le bassin, le dos, les muscles respiratoires, la cage thoracique et les abdominaux se sont adaptés, tout comme la musculature de vos jambes. C'est pourquoi je vous propose une **prise en charge globale**, pour vous permettre de reprendre vos activités en toute confiance, aussi vite que votre corps le permet.",
+        "p2": "Le sport de haut niveau m'a appris qu'une reprise se prépare étape par étape, avec des repères clairs. Être maman et sportive m'a appris tout le reste : la fatigue, le manque de temps, l'envie de retrouver son corps. Je réunis ces deux expériences pour vous accompagner.",
+        "trainingLabel": "Formée à",
+        "trainings": [
+            "Abdominaux hypopressifs – ITMP",
+            "La course au féminin – La Clinique du Coureur",
+            "Pilates – KINESPORT Paris",
+            "Master Mouvement Performance Santé Ingénierie"
+        ]
+    },
+    "steps": {
+        "title": "Comment se déroule l'accompagnement ?",
+        "items": [
+            {
+                "title": "Le bilan",
+                "text": "Grossesse, accouchement, niveau sportif, fatigue, allaitement. J'évalue posture, respiration, paroi abdominale et diastasis."
+            },
+            {
+                "title": "Reconnecter",
+                "text": "Respiration, posture, gestes du quotidien (porter bébé, allaiter), premiers exercices doux."
+            },
+            {
+                "title": "Reconstruire",
+                "text": "Renforcement progressif et global : hypopressifs, Pilates, gainage, dos, bassin, jambes."
+            },
+            {
+                "title": "Reprendre le sport",
+                "text": "Course, sports collectifs, fitness, danse… avec des étapes claires pour savoir quand avancer."
+            }
+        ]
+    },
+    "formulas": {
+        "title": "Deux formules pour s'adapter à votre vie de jeune maman",
+        "featuredBadge": "La plus choisie",
+        "items": [
+            {
+                "title": "Mixte : cabinet et suivi à distance",
+                "intro": "Le cabinet de Lyon 5 et le suivi à distance, pour moins de rendez-vous.",
+                "points": [
+                    "Deux séances au cabinet de Lyon 5 pour le bilan et les bases",
+                    "Votre programme dans l'application Andrew, avec vidéos",
+                    "Échanges par messagerie et ajustements",
+                    "Points réguliers au cabinet"
+                ],
+                "price": [
+                    "Séances au cabinet : conventionnées, remboursées sur prescription",
+                    "Suivi à distance : forfait mensuel hors nomenclature, 50€ / mois"
+                ],
+                "featured": true
+            },
+            {
+                "title": "100 % à distance",
+                "intro": "Vous habitez loin ou ne pouvez pas vous déplacer.",
+                "points": [
+                    "Bilan en visio",
+                    "Programme dans l'application Andrew",
+                    "Messagerie (réponse sous 48h en semaine)",
+                    "Un point en visio de 30 minutes par mois"
+                ],
+                "price": [
+                    "Bilan en visio 30min : 50€",
+                    "Forfait mensuel hors nomenclature : 90€ / mois"
+                ]
+            }
+        ],
+        "footnote": "Le suivi à distance vous est proposé avec un devis et n'est pas remboursé par l'Assurance Maladie. Paiement : espèces, chèque, virement, Wero."
+    },
+    "faq": {
+        "title": "Questions fréquentes",
+        "items": [
+            {
+                "question": "Quand puis-je commencer ?",
+                "answer": "Dès que votre rééducation périnéale a commencé. Les premières séances peuvent avoir lieu tôt dans le post-partum, avec un travail doux adapté à votre récupération. Dans la formule mixte, les deux premières séances ont lieu au cabinet de Lyon 5."
+            },
+            {
+                "question": "J'ai été alitée pendant ma grossesse, est-ce que ça change quelque chose ?",
+                "answer": "Oui : après plusieurs mois peu actifs, votre corps a perdu en force et en endurance, en plus des changements liés à la grossesse. La reprise doit être encore plus progressive. C'est justement un cas que j'accompagne souvent."
+            },
+            {
+                "question": "Quand puis-je reprendre la course à pied ?",
+                "answer": "Il n'y a pas de date unique : cela dépend de votre périnée, de votre paroi abdominale, de votre condition physique et de votre récupération. Nous définissons ensemble des étapes à valider avant la reprise."
+            },
+            {
+                "question": "Je n'ai jamais fait de sport, est-ce pour moi ?",
+                "answer": "Oui. Le post-partum est un très bon moment pour commencer, avec des bases solides et un accompagnement adapté."
+            },
+            {
+                "question": "Puis-je venir si j'allaite ?",
+                "answer": "Oui, j'adapte les exercices à votre fatigue et à votre rythme de vie de jeune maman."
+            },
+            {
+                "question": "Puis-je faire des drainages après l'accouchement ?",
+                "answer": "Oui. En complément de votre rééducation, [le drainage méthode Renata França] vous aide à retrouver une sensation de légèreté dans les jambes et le ventre. C'est un soin bien-être, non remboursé. Il est aussi possible pendant la grossesse, sur ordonnance, avec une formule jambes adaptée."
+            },
+            {
+                "question": "Puis-je faire ma rééducation à distance ?",
+                "answer": "Oui, c'est le principe de mes deux formules. La formule mixte alterne quelques séances au cabinet de Lyon 5 et un suivi à distance avec l'application Andrew et une messagerie. La formule 100 % à distance commence par un bilan en visio."
+            },
+            {
+                "question": "Est-ce remboursé ?",
+                "answer": "Les séances au cabinet de Lyon 5 sont conventionnées et remboursées sur prescription médicale. Le suivi à distance, sous forme de forfait mensuel, n'est pas remboursé : il vous est proposé sur devis. Tous les tarifs vous sont communiqués avant le début des soins."
+            },
+            {
+                "question": "Quels moyens de paiement acceptez-vous ?",
+                "answer": "Espèces, chèque, virement et Wero."
+            }
+        ]
+    },
+    "ready": {
+        "title": "Prête à retrouver votre corps et votre sport ?",
+        "text": "La première étape est un bilan, pour faire le point et construire ensemble votre programme."
+    }
+}

@@ -1,6 +1,14 @@
 {
     "contact": "Contactez",
     "altAnaïsPortrait": "Portrait d'Anaïs",
-    "home": "A domicile",
-    "or": "ou"
+    "addressesLabel": "Adresses",
+    "lyon5": {
+        "name": "Lyon 5 – Point du Jour",
+        "conditions": "Soins conventionnés & non conventionnés"
+    },
+    "lyon1": {
+        "name": "Lyon 1 – Coream, Espace Santé & Bien-être",
+        "floor": "1<sup>er</sup> étage",
+        "conditions": "Soins non conventionnés"
+    }
 }

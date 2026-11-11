@@ -1,7 +1,8 @@
 {
     "home": "",
     "about": "/uber-mich",
-    "treatments": "/behandlungen",
-    "contact": "/kontakt",
-    "faq": "/faq"
+    "treatments": "/lymphdrainage",
+    "postOp": "/post-op",
+    "postPartum": "/rueckbildung",
+    "contact": "/kontakt"
 }

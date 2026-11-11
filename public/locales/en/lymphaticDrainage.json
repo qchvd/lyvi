@@ -1,0 +1,214 @@
+{
+    "hero": {
+        "title": "Lymphatic drainage in Lyon",
+        "text": "The word “drainage” covers two very different practices. Which one is right for you?",
+        "wellness": {
+            "title": "I want to feel lighter",
+            "text": "Drainage, Body Sculpting and Miracle Face, Renata França method. No prescription needed, except during pregnancy.",
+            "link": "Discover Renata França treatments"
+        },
+        "medical": {
+            "title": "I need drainage for my health",
+            "text": "After surgery, lipedema, heavy legs, after cancer treatment… Therapeutic drainage adapted to your tissues, on prescription.",
+            "link": "Discover therapeutic drainage"
+        }
+    },
+    "renata": {
+        "title": "Renata França treatments",
+        "text": "Rhythmic, enveloping treatments for a feeling of lightness and a sculpting effect. At the Lyon 1 and Lyon 5 practices.",
+        "mostBooked": "Most booked",
+        "sessions": "sessions",
+        "session": "session",
+        "price": "€{{price}}",
+        "cards": {
+            "drainage": {
+                "title": "Drainage",
+                "text": "The drainage that feels good and that you can feel. With a few precise, rhythmic movements, your body regains a pleasant feeling of lightness.",
+                "duration": "Duration: about 1 hr",
+                "benefits": [
+                    "Light legs",
+                    "Lightness throughout the body",
+                    "Lighter belly",
+                    "Smoother-looking skin",
+                    "Sculpting effect",
+                    "Relaxation"
+                ]
+            },
+            "remodelage": {
+                "title": "Body Sculpting",
+                "text": "The treatment that complements drainage. Rhythmic and deep, it gives a sculpting effect and skin that feels smoother to the touch.",
+                "duration": "Duration: about 1 hr",
+                "benefits": [
+                    "Sculpting effect",
+                    "Shaping effect",
+                    "Smoothing effect",
+                    "Contouring effect"
+                ]
+            },
+            "miracleFace": {
+                "title": "Miracle Face",
+                "text": "A rhythmic, enveloping facial treatment for a feeling of freshness and a rested look.",
+                "duration": "Duration: about 30 min",
+                "benefits": [
+                    "Lighter-feeling face",
+                    "Redefined contours",
+                    "Rested eyes",
+                    "Toning effect",
+                    "Soothing effect"
+                ]
+            }
+        },
+        "pregnancy": {
+            "title": "During pregnancy and after giving birth",
+            "pregnant": {
+                "title": "You are pregnant",
+                "text": "Heavy legs, a feeling of swelling: Renata França drainage can bring you a real feeling of lightness during your pregnancy. It is carried out on prescription.",
+                "formula": "Legs-only option, adapted to pregnancy:",
+                "price": "40-min session – €85"
+            },
+            "newMother": {
+                "title": "You are a new mother",
+                "text": "After giving birth, Renata França drainage helps you regain a feeling of lightness in your legs and belly, and gives you a real moment for yourself.",
+                "linkIntro": "To rebuild your core and get back to sport, also discover ",
+                "link": "postpartum abdominal rehabilitation",
+                "linkEnd": "."
+            }
+        },
+        "note": "A wellness treatment, outside a medical setting, not reimbursed. During pregnancy or if you have a medical condition, a prescription is required."
+    },
+    "comparison": {
+        "title": "Therapeutic or wellness: the difference",
+        "text": "After an operation, drainage must be adapted to the condition of your tissues and to your surgeon's instructions: **it is not a wellness session**.",
+        "therapeutic": "Therapeutic drainage",
+        "renata": "Renata França drainage",
+        "rows": [
+            {
+                "label": "For whom",
+                "therapeutic": "Surgery (cosmetic, reconstructive, varicose veins), lipedema, after cancer treatment, heavy legs",
+                "renata": "Anyone who wants to feel lighter, including during pregnancy (on prescription) and after giving birth"
+            },
+            {
+                "label": "Goal",
+                "therapeutic": "Reduce swelling, prevent fibrosis, support healing",
+                "renata": "Feeling of lightness, sculpting effect"
+            },
+            {
+                "label": "Technique",
+                "therapeutic": "Adapted to the condition of the tissues and the surgeon's instructions",
+                "renata": "Rhythm and pressure specific to the method"
+            },
+            {
+                "label": "Prescription",
+                "therapeutic": "Yes",
+                "renata": "No, except during pregnancy or if you have a medical condition"
+            },
+            {
+                "label": "Reimbursement",
+                "therapeutic": "Very rarely, based on the angiologist's diagnosis ([see above])",
+                "renata": "No"
+            }
+        ]
+    },
+    "therapeutic": {
+        "title": "Therapeutic drainage",
+        "cards": {
+            "surgery": {
+                "title": "Cosmetic or reconstructive surgery",
+                "paragraphs": [
+                    "Liposuction, tummy tuck, facelift, breast surgery… Manual drainage adapted to your tissues, combined if needed with taping, scar work and gentle rehabilitation, in coordination with your surgeon."
+                ],
+                "link": "Discover post-operative care"
+            },
+            "lipedema": {
+                "title": "Lipedema",
+                "paragraphs": [
+                    "A chronic disease of the fatty tissue, often mistaken for weight gain: disproportionate fat, mainly on the legs, tender to the touch, with a tendency to bruise.",
+                    "Manual drainage is a cornerstone of treatment, whether as conservative therapy or in preparation for liposuction. Diagnosed or suspected: let's talk about it at the assessment."
+                ]
+            },
+            "oncology": {
+                "title": "After cancer treatment",
+                "paragraphs": [
+                    "After surgery or treatment for cancer, for example after lymph node removal, drainage helps prevent and manage lymphedema, in coordination with your medical team."
+                ]
+            },
+            "varicose": {
+                "title": "After varicose vein surgery",
+                "paragraphs": [
+                    "To limit swelling and support your legs' recovery after the operation, following your vascular surgeon's instructions."
+                ]
+            },
+            "heavyLegs": {
+                "title": "Heavy legs",
+                "paragraphs": [
+                    "Heavy or swollen legs at the end of the day, venous insufficiency: the assessment helps take stock and adapt the treatment."
+                ],
+                "linkIntro": "Only occasional discomfort? ",
+                "link": "Renata França drainage may also suit you."
+            }
+        },
+        "reimbursement": {
+            "title": "Is drainage reimbursed?",
+            "p1": "Very rarely, **even with a prescription**. The French national health insurance (Assurance Maladie) only covers it in a few cases:",
+            "cases": [
+                "Primary lymphedema",
+                "Cancer care",
+                "Chronic venous conditions"
+            ],
+            "p2": "This is determined by the angiologist's written diagnosis and my assessment. In these cases, treatment takes place in Lyon 5. In all other cases, sessions are charged at the prices below."
+        },
+        "prices": {
+            "title": "Therapeutic drainage prices",
+            "lines": [
+                {
+                    "label": "Assessment (40 min)",
+                    "price": "€70"
+                },
+                {
+                    "label": "30-min session",
+                    "price": "€50"
+                },
+                {
+                    "label": "45-min session",
+                    "price": "€75"
+                },
+                {
+                    "label": "1-hr session",
+                    "price": "€100"
+                }
+            ],
+            "payment": "Payment: cash, cheque, bank transfer, Wero."
+        }
+    },
+    "hesitate": {
+        "title": "Not sure?",
+        "learnMore": "Learn more",
+        "items": [
+            {
+                "title": "You are about to have surgery",
+                "text": "An assessment to choose the technique suited to your tissues and the operation."
+            },
+            {
+                "title": "You have had surgery",
+                "text": "An assessment, then adapted post-operative drainage techniques."
+            },
+            {
+                "title": "You have lipedema",
+                "text": "Diagnosed or suspected: start with an assessment."
+            },
+            {
+                "title": "You often have heavy legs",
+                "text": "An assessment to find out whether therapeutic drainage or a wellness treatment suits you best."
+            },
+            {
+                "title": "You want to feel lighter",
+                "text": "That's Renata França drainage."
+            },
+            {
+                "title": "You are pregnant or a new mother",
+                "text": "Renata França drainage, with a legs option adapted to pregnancy."
+            }
+        ],
+        "p1": "If in doubt, the assessment lets us take stock and decide together."
+    }
+}

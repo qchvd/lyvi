@@ -1,6 +1,14 @@
 {
     "contact": "Kontaktierien Sie",
     "altAnaïsPortrait": "Porträt von Anaïs",
-    "home": "Zu Hause",
-    "or": "oder"
+    "addressesLabel": "Adressen",
+    "lyon5": {
+        "name": "Lyon 5 – Point du Jour",
+        "conditions": "Kassenleistungen & Selbstzahlerleistungen"
+    },
+    "lyon1": {
+        "name": "Lyon 1 – Coream, Gesundheits- & Wellnessraum",
+        "floor": "1. Etage",
+        "conditions": "Selbstzahlerleistungen"
+    }
 }

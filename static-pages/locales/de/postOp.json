@@ -1,62 +1,232 @@
 {
-    "mainTitle": "Prä- und postoperative Betreuung nach ästhetischen oder rekonstruktiven Eingriffen",
-    "intro.p1": "Planen Sie einen ästhetischen oder rekonstruktiven chirurgischen Eingriff – oder wurden Sie gerade operiert? Herzlich willkommen!",
-    "intro.p2": "Diese Seite beantwortet alle Fragen, die Sie zur physiotherapeutischen Begleitung vor und nach Ihrem Eingriff haben könnten: Fettabsaugung, Liposkulptur, Facelift, Lidstraffung, Bauchdeckenstraffung oder jeder anderen Operation.",
-    "intro.p3": "Als Physiotherapeutin biete ich Ihnen meine medizinisch-therapeutische Expertise an. Spezialisiert auf die Geweberegeneration, bin ich in der perioperativen Betreuung geschult und darin, klinische Anzeichen zu erkennen, die die Einschätzung Ihres Chirurgen erfordern. Ich erstelle für Sie ein individuelles Behandlungsprotokoll, um optimale ästhetische Ergebnisse zu erzielen.",
-    "beforeOpMainTitle": "Vor der Operation: Bereiten Sie Ihren Körper auf bessere Ergebnisse vor",
-    "beforeOp.p1": "Haben Sie bereits einen Termin bei Ihrem Chirurgen vereinbart und möchten die Ergebnisse Ihres Eingriffs optimieren? Jetzt ist der richtige Zeitpunkt, um an die präoperative Vorbereitung zu denken.",
-    "beforeOp.p2": "Sie wird zu oft vernachlässigt, obwohl sie eine entscheidende Rolle für die Qualität der Heilung, den postoperativen Komfort und die Geschwindigkeit spielt, mit der Ihr Körper nach der Belastung der Operation sein Gleichgewicht wiederfindet.",
-    "eachProtocoleIsDifferent": "Jedes Protokoll ist unterschiedlich",
-    "beforeOp.p3s1": ", denn es hängt von der Art des Eingriffs ab, den Sie erhalten. Deshalb beginnt alles mit einer ",
-    "reviewSession": "Erstuntersuchung",
-    "beforeOp.p3s2": ", die idealerweise ",
-    "sixWeeks": "6 Wochen",
-    "beforeOp.p3s3": " vor der Operation stattfindet. Diese Zeit ermöglicht es mir, Sie kennenzulernen, Ihren Eingriff, Ihren Lebensstil und Ihre Ziele zu verstehen, und Ihnen einen individuellen Behandlungsplan vorzuschlagen, der je nach Ihren Bedürfnissen Folgendes umfassen kann:",
-    "beforeOp.listItem1": "Sitzungen zur Lymphdrainage.",
-    "beforeOp.listItem2": "Bewegungstherapie, um Ihren Körper auf die Genesung nach der Operation vorzubereiten.",
-    "beforeOp.listItem3": "Therapeutische Massagen.",
-    "beforeOp.p4": "Es ist auch eine Gelegenheit, sehr praktische Fragen zu besprechen, die sich die meisten meiner Patientinnen stellen: welche Kompressionswäsche zu wählen ist und wie sie richtig getragen wird, oder welche Ernährungsgewohnheiten in den Wochen vor dem Eingriff sinnvoll sind, um eine gute Heilung zu fördern.",
-    "afterOpMainTitle": "Nach der Operation: Individuelle Unterstützung für Ihre Genesung",
-    "afterOpSubTitle1": "Die Verordnung – eine unverzichtbare Voraussetzung",
-    "afterOp.p1": "Aus medizinischen und rechtlichen Gründen kann die postoperative Behandlung nicht ohne eine Verordnung für physiotherapeutische Sitzungen beginnen:",
-    "afterOp.listItem1": "Wenn Sie in Frankreich operiert wurden: eine Verordnung Ihres Chirurgen oder Ihres Hausarztes.",
-    "afterOp.listItem2": "Wenn Sie im Ausland operiert wurden: eine Verordnung eines französischen Hausarztes, der Ihre Nachsorge in Frankreich übernimmt.",
-    "afterOpSubTitle2": "Wann sollte die Behandlung beginnen?",
-    "afterOp.p2s1": "Die Behandlung kann beginnen, sobald Ihr Chirurg Ihnen grünes Licht gibt. Je nach Art des Eingriffs und der Praxis Ihres Arztes liegt dieser Zeitraum in der Regel zwischen ",
-    "j3j15": "dem 3. und dem 15. Tag",
-    "afterOp.p2s2": " nach der Operation. Es gibt keine pauschale Regel: Ihr Chirurg legt den für Sie passenden Zeitpunkt fest.",
-    "afterOpSubTitle3": "Die erste Sitzung: eine Erstuntersuchung zur Erstellung Ihres Behandlungsplans",
-    "afterOp.p3": "Wie in der präoperativen Phase ist auch der erste postoperative Termin eine Erstuntersuchung. Sie ermöglicht es mir, Ihren Zustand genau zu beurteilen (Schwellungen, Hämatome, Beweglichkeit, Narben, Befinden) und Ihnen einen detaillierten Behandlungsplan vorzuschlagen, der je nach Ihrem Eingriff und dem Fortschritt Ihrer Genesung Folgendes umfassen kann:",
-    "afterOp.listItem3": "Lymphdrainage (eine an den Zustand Ihres Gewebes angepasste Technik) zur Reduzierung von Ödemen und zur Vorbeugung von Fibrosen.",
-    "afterOp.listItem4": "Taping, um das Gewebe zu stützen und den Rückgang von Ödemen zu unterstützen.",
-    "afterOp.listItem5": "Bewegungstherapie, um Beweglichkeit und Muskeltonus schonend wiederherzustellen.",
-    "afterOp.listItem6": "Individuelle Beratung zur Wiederaufnahme sportlicher Aktivität, angepasst an das Tempo Ihrer Heilung.",
-    "afterOpSubTitle4": "Interdisziplinäre Nachsorge in Abstimmung mit Ihrem Arzt",
-    "afterOp.p5": "Ihre Sicherheit steht immer an erster Stelle. Ich sorge dafür, dass ich Ihrem verordnenden Arzt regelmäßig über die durchgeführte Behandlung und den Verlauf Ihres Zustands berichte. Sollten mir ungewöhnliche Schmerzen oder klinische Anzeichen auffallen, verweise ich Sie umgehend an den zuständigen Facharzt.",
-    "interventionsMainTitle": "Bei welchen Eingriffen kann ich Sie begleiten?",
-    "interventions.p1": "Ich begleite die Nachsorge der meisten ästhetischen und rekonstruktiven Eingriffe, insbesondere:",
-    "interventions.listItem1": "Fettabsaugung / Liposkulptur",
-    "interventions.listItem2": "Facelift/Bodylift (Arme, Oberschenkel, Bauchdeckenstraffung)",
-    "interventions.listItem3": "Lidstraffung",
-    "interventions.listItem4": "Brustchirurgie",
-    "interventions.listItem5": "Rekonstruktive Chirurgie",
-    "interventions.p2": "Jedes Protokoll wird individuell angepasst: Die Drainage nach einer Fettabsaugung unterscheidet sich von der nach einem Facelift sowie von den Bedürfnissen bei rekonstruktiver Chirurgie.",
-    "lipedemaMainTitle": "Leiden Sie an einem Lipödem?",
-    "lipedema.p1": "Das Lipödem ist eine chronische Erkrankung des Fettgewebes, die oft mit einer einfachen Gewichtszunahme verwechselt wird und vor allem die Beine, manchmal auch die Arme betrifft. Es zeichnet sich durch eine unverhältnismäßige, druckempfindliche Fettansammlung sowie eine erhöhte Neigung zu blauen Flecken aus.",
-    "lipedema.p2": "Die manuelle Lymphdrainage ist ein zentraler Baustein der Lipödem-Behandlung, egal ob Sie im Vorfeld einer speziellen Fettabsaugung begleitet werden oder im Rahmen einer konservativen Behandlung. Wenn Sie vermuten, betroffen zu sein, oder wenn Ihnen die Diagnose gerade erst von einem Angiologen gestellt wurde, sprechen Sie mich gerne bei der Erstuntersuchung darauf an. Ich passe Ihren Behandlungsplan entsprechend an.",
-    "faqMainTitle": "Häufig gestellte Fragen",
-    "faq.q1": "Wie lange nach der Operation kann ich mit der Lymphdrainage beginnen?",
-    "faq.a1": "Das hängt vollständig von der Freigabe Ihres Chirurgen ab, in der Regel zwischen dem 3. und dem 15. Tag nach der Operation, je nach Eingriff und Behandler.",
-    "faq.q2": "Benötige ich eine Verordnung?",
-    "faq.a2": "Ja, immer. Wenn Sie in Frankreich operiert wurden: eine Verordnung Ihres Chirurgen oder Hausarztes. Wenn Sie im Ausland operiert wurden: eine Verordnung eines französischen Hausarztes.",
-    "faq.q3": "Wie viele Sitzungen sind erforderlich?",
-    "faq.a3": "Das ist abhängig vom Eingriff, dem Ausmaß der Schwellung und Ihrem individuellen Genesungstempo. Die genaue Anzahl der Sitzungen wird bei der Erstuntersuchung festgelegt und in Ihrem Kostenvoranschlag aufgeführt.",
-    "faq.q4": "Wird die postoperative Lymphdrainage von der französischen Sozialversicherung übernommen?",
-    "faq.a4": "Die Kostenübernahme der Lymphdrainage durch die französische Krankenversicherung unterliegt sehr spezifischen Kriterien, unabhängig davon, ob der Eingriff ästhetisch war. Bei rekonstruktiven Eingriffen, die von der Sozialversicherung übernommen werden, wird die Behandlung teilweise erstattet. Bei ästhetischen Eingriffen, die nicht von der Sozialversicherung übernommen werden, wird auch die postoperative Behandlung nicht von der Krankenversicherung erstattet.",
-    "faq.q5": "Kann ich die Betreuung beginnen, bevor ich überhaupt einen Operationstermin habe?",
-    "faq.a5": "Ja, es ist nie zu früh, um Ihre Fragen zu stellen. Um jedoch ein individuelles präoperatives Protokoll zu erstellen, empfehle ich eine Erstuntersuchung etwa 6 Wochen vor Ihrem Operationstermin.",
-    "faq.q6": "Warum eine Physiotherapeutin wählen?",
-    "faq.a6": "Eine Physiotherapeutin verfügt über eine medizinische Ausbildung, die es ihr ermöglicht, die verschiedenen Gewebezustände während der Heilung zu erkennen, auf ärztliche Verordnung zu arbeiten, Anzeichen zu erkennen, die die Einschätzung eines Arztes erfordern, und Ihre Nachsorge mit Ihrem Chirurgen zu koordinieren. Das ist zusätzlich zur ästhetischen Wirksamkeit eine Garantie für Sicherheit.",
-    "readyToStartMainTitle": "Bereit, Ihre Betreuung zu beginnen?",
-    "readyToStart.p1": "Ob Sie Ihren Eingriff noch planen oder gerade erst aus dem Operationssaal gekommen sind, der erste Schritt ist immer derselbe: eine Erstuntersuchung, um uns kennenzulernen, Ihre Bedürfnisse zu verstehen und gemeinsam Ihren Behandlungsplan zu erstellen."
+    "hero": {
+        "title": "Prä- und postoperative Physiotherapie in der ästhetischen und rekonstruktiven Chirurgie in Lyon",
+        "text": "Ich begleite Sie **vor und nach Ihrem Eingriff** für eine optimale Genesung, **in Abstimmung mit Ihrem Chirurgen**. Termine in Lyon 1 und Lyon 5.",
+        "pricesButton": "Preise ansehen",
+        "imageAlt": "Präoperative Markierung durch den Chirurgen vor einer ästhetischen Operation"
+    },
+    "keyFacts": {
+        "title": "Das Wichtigste auf einen Blick",
+        "items": [
+            {
+                "label": "Ärztliche Verordnung",
+                "value": "Erforderlich",
+                "detail": "Von Ihrem Chirurgen oder Arzt"
+            },
+            {
+                "label": "Behandlungsbeginn",
+                "value": "Zwischen Tag 3 und Tag 15",
+                "detail": "Nach Freigabe durch Ihren Chirurgen"
+            },
+            {
+                "label": "Anzahl der Sitzungen",
+                "value": "4 bis 25 Sitzungen",
+                "detail": "Je nach Eingriff, bei der Befundaufnahme festgelegt"
+            },
+            {
+                "label": "Kostenerstattung",
+                "value": "Rekonstruktive Chirurgie",
+                "detail": "Ästhetische Chirurgie wird nicht erstattet"
+            }
+        ]
+    },
+    "journey": {
+        "title": "Ihr Weg, Schritt für Schritt",
+        "steps": [
+            {
+                "when": "6 Wochen vorher",
+                "title": "Präoperative Befundaufnahme",
+                "text": "Ihren Eingriff verstehen und Ihren Körper vorbereiten: Drainage, Übungen, Tipps."
+            },
+            {
+                "when": "Am OP-Tag",
+                "title": "Der Eingriff",
+                "text": "Ihr Chirurg operiert Sie und stellt Ihnen die Verordnung für die Physiotherapie aus."
+            },
+            {
+                "when": "Ab Tag 3",
+                "title": "Postoperative Behandlung",
+                "text": "Befundaufnahme, dann angepasste Drainage, Taping und Narbenbehandlung."
+            },
+            {
+                "when": "Ab 3 Monaten",
+                "title": "Zurück zu Ihren Aktivitäten",
+                "text": "Schrittweise zurück zu Bewegung und Sport, im Tempo Ihrer Genesung."
+            }
+        ]
+    },
+    "protocol": {
+        "title": "Die Behandlungen in Ihrem Protokoll",
+        "subtitle": "Nach der Befundaufnahme ausgewählt, je nach Eingriff und Zustand Ihres Gewebes.",
+        "soon": "Bald",
+        "items": [
+            {
+                "title": "Lymphdrainage",
+                "text": "Manuell, auf Ihr Gewebe abgestimmt, um Schwellungen zu reduzieren und einer Fibrose vorzubeugen."
+            },
+            {
+                "title": "Manuelle Therapie",
+                "text": "Manuelle Techniken, um dem Gewebe wieder Beweglichkeit zu geben und Spannungen zu lösen."
+            },
+            {
+                "title": "Taping",
+                "text": "Um das Gewebe zu stützen und den Abbau der Schwellung zu fördern."
+            },
+            {
+                "title": "Narben",
+                "text": "Gezielte Behandlung, um sie geschmeidiger zu machen und ihr Aussehen zu verbessern."
+            },
+            {
+                "title": "Bewegung",
+                "text": "Sanfte Rehabilitation, um Beweglichkeit und Spannkraft zurückzugewinnen."
+            },
+            {
+                "title": "Beratung",
+                "text": "Kompression, Lebensweise, Wiedereinstieg in den Sport: eine persönliche Begleitung."
+            },
+            {
+                "title": "LPG",
+                "text": "Eine apparative Technik, die die manuelle Arbeit am Gewebe ergänzt.",
+                "soon": true
+            },
+            {
+                "title": "Photobiomodulation (LED)",
+                "text": "Eine Lichtbehandlung, ergänzend zum Protokoll.",
+                "soon": true
+            }
+        ]
+    },
+    "interventions": {
+        "title": "Die Eingriffe, die ich begleite",
+        "subtitle": "Richtwerte, denn jede Genesung verläuft anders. Die Anzahl der Sitzungen hängt auch von der Anzahl der operierten Zonen ab: Wir legen sie gemeinsam bei der Befundaufnahme fest, anschließend wird sie in Ihrem Kostenvoranschlag angegeben.",
+        "items": [
+            {
+                "name": "Fettabsaugung am Bauch + Bauchdeckenstraffung",
+                "sessions": "10 bis 25 Sitzungen",
+                "details": ["Sitzungen von 45 Min. bis 1 Std.", "Rhythmus: 3×/Woche im 1. Monat, 2×/Woche im 2., 1×/Woche im 3."]
+            },
+            {
+                "name": "Liposuktion bei Lipödem",
+                "sessions": "10 bis 25 Sitzungen",
+                "details": ["Sitzungen von 45 Min. bis 1 Std.", "Rhythmus: 3×/Woche im 1. Monat, 2×/Woche im 2., 1×/Woche im 3."]
+            },
+            {
+                "name": "Bauchdeckenstraffung, mit oder ohne Rektusdiastase",
+                "sessions": "10 bis 20 Sitzungen",
+                "details": ["Sitzungen von 30 bis 45 Min."]
+            },
+            {
+                "name": "Alleinige Fettabsaugung am Kinn",
+                "sessions": "6 bis 20 Sitzungen",
+                "details": ["Sitzungen von 30 Min.", "Rhythmus: 3×/Woche im 1. Monat, 2×/Woche im 2., 1×/Woche im 3."]
+            },
+            {
+                "name": "Facelift",
+                "sessions": "5 bis 12 Sitzungen",
+                "details": ["Sitzungen von 30 Min."]
+            },
+            {
+                "name": "Brustchirurgie",
+                "sessions": "4 bis 10 Sitzungen",
+                "details": ["Sitzungen von 30 Min."]
+            },
+            {
+                "name": "Blepharoplastik (Lidstraffung)",
+                "sessions": "4 bis 10 Sitzungen",
+                "details": ["Sitzungen von 30 Min."]
+            },
+            {
+                "name": "Körperstraffungen (Arme, Oberschenkel)",
+                "sessions": "8 bis 15 Sitzungen",
+                "details": ["Sitzungen von 30 bis 45 Min. je nach behandelten Zonen"]
+            },
+            {
+                "name": "Rekonstruktive Chirurgie",
+                "sessions": "Laut Verordnung"
+            }
+        ],
+        "rhythmNote": "Als Richtwert nach einer Fettabsaugung: drei Sitzungen pro Woche im ersten Monat, zwei pro Woche im zweiten Monat, dann eine pro Woche im dritten Monat.",
+        "lipedemaText": "Sie haben ein Lipödem, operiert oder nicht? ",
+        "lipedemaLink": "Die therapeutische Drainage kann Ihnen helfen."
+    },
+    "safety": {
+        "title": "Ihre Sicherheit steht an erster Stelle",
+        "text": "Ich halte mich an die Vorgaben Ihres Chirurgen und informiere ihn über Ihren Verlauf. Wenn mich ein klinisches Zeichen beunruhigt, verweise ich Sie umgehend an die richtige Fachperson."
+    },
+    "prices": {
+        "title": "Preise",
+        "aesthetic": {
+            "title": "Ästhetische Chirurgie",
+            "subtitle": "Keine Kostenerstattung, Kostenvoranschlag bei der Befundaufnahme",
+            "lines": [
+                {
+                    "label": "Befundaufnahme (40 Min.)",
+                    "price": "70 €"
+                },
+                {
+                    "label": "Sitzung von 30 Min.",
+                    "price": "50 €"
+                },
+                {
+                    "label": "Sitzung von 45 Min.",
+                    "price": "75 €"
+                },
+                {
+                    "label": "Sitzung von 1 Std.",
+                    "price": "100 €"
+                }
+            ]
+        },
+        "reconstructive": {
+            "title": "Rekonstruktive Chirurgie",
+            "subtitle": "Von der französischen Krankenversicherung (Assurance Maladie) übernommen, in Lyon 5",
+            "lines": [
+                {
+                    "label": "Befundaufnahme",
+                    "price": "23,65 €"
+                },
+                {
+                    "label": "Sitzungen",
+                    "price": "Kassentarif"
+                }
+            ],
+            "note": "Je nach Ihrer Situation können ergänzende Behandlungen außerhalb des Leistungskatalogs angeboten werden. Sie sind in Ihrem Kostenvoranschlag aufgeführt und werden von der Assurance Maladie nicht erstattet. Manche Zusatzversicherungen (mutuelles) übernehmen einen Teil davon: Fragen Sie bei Ihrer nach."
+        },
+        "payment": "Zahlung: bar, per Scheck, Überweisung, Wero."
+    },
+    "faq": {
+        "title": "Häufige Fragen",
+        "items": [
+            {
+                "question": "Wie lange nach der Operation kann ich beginnen?",
+                "answer": "Sobald Ihr Chirurg zustimmt, in der Regel zwischen Tag 3 und Tag 15, je nach Eingriff und Vorgehen des Chirurgen."
+            },
+            {
+                "question": "Brauche ich eine ärztliche Verordnung?",
+                "answer": "Ja, immer. Operation in Frankreich: Verordnung Ihres Chirurgen oder Hausarztes. Operation im Ausland: Verordnung eines französischen Arztes."
+            },
+            {
+                "question": "Wie viele Sitzungen sollte ich einplanen?",
+                "answer": "Jede Genesung verläuft anders: Die Anzahl der Sitzungen hängt vom Eingriff, der Anzahl der operierten Zonen, der Schwellung und Ihrem Genesungstempo ab. Als Richtwert: 6 bis 20 Sitzungen nach einer alleinigen Fettabsaugung am Kinn, 5 bis 12 nach einem Facelift, 10 bis 20 nach einer Bauchdeckenstraffung, 10 bis 25 nach einer Fettabsaugung am Bauch kombiniert mit einer Bauchdeckenstraffung oder nach einer Liposuktion bei Lipödem. Nach einer Fettabsaugung sind es in der Regel drei Sitzungen pro Woche im ersten Monat, zwei im zweiten und eine im dritten. Die genaue Anzahl wird bei der Befundaufnahme festgelegt und in Ihrem Kostenvoranschlag angegeben."
+            },
+            {
+                "question": "Werden die Behandlungen erstattet?",
+                "answer": "Nur wenn die Operation selbst von der französischen Krankenversicherung übernommen wird (rekonstruktive Chirurgie), und in diesem Fall in Lyon 5. Nach einer ästhetischen Operation werden die Behandlungen nicht erstattet. Bei rekonstruktiver Chirurgie können ergänzende Behandlungen außerhalb des Leistungskatalogs auf Kostenvoranschlag angeboten werden: Sie werden von der Assurance Maladie nicht erstattet, manchmal aber teilweise von Zusatzversicherungen (mutuelles)."
+            },
+            {
+                "question": "Kann ich beginnen, bevor ich einen OP-Termin habe?",
+                "answer": "Ja. Für ein passendes präoperatives Protokoll empfehle ich eine Befundaufnahme etwa 6 Wochen vor dem Eingriff."
+            },
+            {
+                "question": "Wo finden die Sitzungen statt?",
+                "answer": "In Lyon 1 (Coream, 22 rue Pizay) oder in Lyon 5 (59 bis avenue du Point du Jour). Erstattungsfähige Behandlungen finden in Lyon 5 statt."
+            }
+        ]
+    },
+    "ready": {
+        "title": "Bereit loszulegen?",
+        "training": "Ausgebildet in perioperativer Rehabilitation in der ästhetischen, plastischen und rekonstruktiven Chirurgie (AIME). ",
+        "aboutLink": "Mein Werdegang",
+        "addresses": "Lyon 1 – 22 rue Pizay (Coream) · Lyon 5 – 59 bis avenue du Point du Jour"
+    }
 }

@@ -1,8 +1,8 @@
 {
     "home": "",
     "about": "/a-propos",
-    "treatments": "/soins",
+    "treatments": "/drainage-lymphatique",
     "postOp": "/post-op",
-    "contact": "/contact",
-    "faq": "/faq"
+    "postPartum": "/post-partum",
+    "contact": "/contact"
 }

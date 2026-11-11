@@ -5,6 +5,8 @@ export function MenuBurger({ isSidebarOpen, toggleSidebar }: { isSidebarOpen: bo
 
     return (
         <button
+            type="button"
+            id="menu-burger"
             aria-expanded={isSidebarOpen}
             aria-controls="sidebar"
             aria-label={isSidebarOpen ? t("closeMenu") : t("openMenu")}

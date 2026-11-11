@@ -4,14 +4,37 @@
 :root {
   --color-brand-green: #627156;
   --color-brand-cream: #FAF2E8;
+  /* Cream veil over the drainage page header photo: 1 = photo hidden, 0 = photo fully visible */
+  --drainage-hero-veil-opacity: 0.8;
   --color-brand-dark-green: #2d3b23;
   --color-brand-dark-green-hover: #36472a;
   --color-brand-lime: #7CCF00;
   --color-brand-green-muted: #78896a;
+  /* Very light sage tint on cream, for alternating light sections */
+  --color-brand-sage-tint: #EBE6DA;
   --color-golden-light: #E8C77D;
   --color-golden-mid: #C9A961;
   --color-golden-dark: #8B6F3D;
   --color-doctolib-blue: #1076C5;
+  /* Post-partum accent (terracotta), reusable wherever post-partum care is shown */
+  --color-terracotta: #A4573E;
+  --color-terracotta-dark: #7E3F2B;
+  --color-terracotta-mid: #E1B6A3;
+  --color-terracotta-light: #F4E4DC;
+  --color-warm-bg: #FBF7F4;
+  --color-warm-border: #EADFD8;
+  --color-warm-text-secondary: #5B514C;
+  /* Well-being accent (golden sand), used for Renata França care and the "Bien-être" label */
+  --color-sand: #8A6420;
+  --color-sand-dark: #6E4F18;
+  --color-sand-text: #6B4F1D;
+  --color-sand-light: #F3ECDF;
+  --color-sand-bg: #FBF6EE;
+  --color-sand-border: #E8DCC6;
+  --color-sand-border-strong: #D9C9AE;
+  --color-sand-text-secondary: #4A4136;
+  /* Very light tint of the brand green, for medical care boxes */
+  --color-medical-tint: #EDF0E8;
 }
 
 /* figtree-regular - latin */
@@ -59,16 +82,16 @@ body {
   color: var(--color-brand-cream);
 }
 
-li a {
+nav li a {
   position: relative;
 }
 
-li a::after {
+nav li a::after {
   content: none;
 }
 
 @media (min-width: 1024px) {
-  li a::after {
+  nav li a::after {
     content: '';
     position: absolute;
     bottom: -5px;
@@ -78,14 +101,14 @@ li a::after {
     background-color: #FAF2E8;
   }
 
-  li a:hover::after,
-  li a.active::after {
+  nav li a:hover::after,
+  nav li a.active::after {
     width: 100%;
   }
 }
 
 @media (max-width: 1023px) {
-  li a.active::after {
+  nav li a.active::after {
     content: '';
     position: absolute;
     left: -20px;
@@ -96,19 +119,48 @@ li a::after {
   }
 }
 
-li a.lang-link::after {
-  content: none !important;
-}
-
 *:focus-visible:not(input):not(textarea),
 button.force-outline {
   outline: 2px solid #7CCF00;
   outline-offset: 2px;
 }
 
+/* Form fields: same focus outline as the rest of the site (the 2px underline alone was too discreet),
+   only when reached with the keyboard. Browsers always treat a click in a text field as :focus-visible,
+   so the "keyboard-navigation" class (set on <html> by useKeyboardNavigationClass) tells them apart */
 input:focus,
 textarea:focus {
   outline: none;
+}
+
+html.keyboard-navigation input:focus-visible,
+html.keyboard-navigation textarea:focus-visible {
+  outline: 2px solid #7CCF00;
+  outline-offset: 2px;
+}
+
+/* Elements that only receive focus from the code (page title after navigation, main after the skip link): no outline */
+main[tabindex="-1"]:focus-visible,
+h1[tabindex="-1"]:focus-visible {
+  outline: none;
+}
+
+/* "Skip to content" link: hidden above the screen, slides into view on keyboard focus */
+.skip-link {
+  position: absolute;
+  top: 0.75rem;
+  left: 1rem;
+  z-index: 100;
+  padding: 0.5rem 1rem;
+  border-radius: 9999px;
+  background-color: var(--color-brand-cream);
+  color: var(--color-brand-green);
+  font-weight: 700;
+  transform: translateY(-200%);
+}
+
+.skip-link:focus-visible {
+  transform: translateY(0);
 }
 
 .fluid-contact-title1 {
@@ -123,32 +175,8 @@ textarea:focus {
   font-size: clamp(1rem, 1.5vw + 0.5rem, 1.5rem);
 }
 
-.fluid-faq-title1 {
-  font-size: clamp(1.9rem, 10cqw, 4.5rem);
-  line-height: clamp(1.9rem, 10cqw, 4.5rem)
-}
-
-.fluid-treatments-title1 {
-  font-size: clamp(2.2rem, 12cqw, 6rem);
-}
-
-.fluid-post-op-title1 {
-  font-size: clamp(3.3rem, 15cqw, 6rem);
-}
-
 .fluid-about-me-title1 {
   font-size: clamp(3.3rem, 15cqw, 6rem);
-}
-
-.fluid-home-title1 {
-  font-size: clamp(3.1rem, 16cqw, 8rem);
-  container-type: inline-size;
-}
-
-@media (max-height: 500px) and (orientation: landscape) {
-  .fluid-home-title1 {
-    font-size: clamp(2rem, 12cqw, 5rem);
-  }
 }
 
 .btn-golden {
@@ -164,6 +192,110 @@ textarea:focus {
 
 .btn-golden:hover {
   background-image: linear-gradient(to top left, var(--color-golden-light), var(--color-golden-mid), var(--color-golden-dark));
+}
+
+/* Post-partum buttons: same shape as .btn-golden, in terracotta */
+.btn-terracotta {
+  cursor: pointer;
+  box-shadow: 0 10px 15px -3px rgb(0 0 0 / 0.1), 0 4px 6px -4px rgb(0 0 0 / 0.1);
+  width: fit-content;
+  padding: 0.75rem 1.25rem;
+  border-radius: 9999px;
+  background-color: var(--color-terracotta);
+  color: #FFFFFF;
+  font-weight: 500;
+  transition: background-color 0.3s;
+}
+
+.btn-terracotta:hover {
+  background-color: var(--color-terracotta-dark);
+}
+
+.btn-terracotta-outline {
+  cursor: pointer;
+  width: fit-content;
+  padding: calc(0.75rem - 1.5px) calc(1.25rem - 1.5px);
+  border-radius: 9999px;
+  border: 1.5px solid var(--color-terracotta);
+  color: var(--color-terracotta);
+  font-weight: 500;
+  transition: color 0.3s, border-color 0.3s;
+}
+
+.btn-terracotta-outline:hover {
+  border-color: var(--color-terracotta-dark);
+  color: var(--color-terracotta-dark);
+}
+
+/* Well-being (Renata França) buttons: same shape as .btn-golden, in sand */
+.btn-sand {
+  cursor: pointer;
+  box-shadow: 0 10px 15px -3px rgb(0 0 0 / 0.1), 0 4px 6px -4px rgb(0 0 0 / 0.1);
+  width: fit-content;
+  padding: 0.75rem 1.25rem;
+  border-radius: 9999px;
+  background-color: var(--color-sand);
+  color: #FFFFFF;
+  font-weight: 500;
+  transition: background-color 0.3s;
+}
+
+.btn-sand:hover {
+  background-color: var(--color-sand-dark);
+}
+
+/* Secondary button: same shape as .btn-golden, outlined instead of filled */
+.btn-golden-outline {
+  cursor: pointer;
+  width: fit-content;
+  padding: calc(0.75rem - 1.5px) calc(1.25rem - 1.5px);
+  border-radius: 9999px;
+  border: 1.5px solid var(--color-golden-light);
+  color: var(--color-golden-light);
+  font-weight: 500;
+  transition: background-color 0.3s;
+}
+
+.btn-golden-outline:hover {
+  background-color: rgb(232 199 125 / 0.15);
+}
+
+/* French home title: letters appear one after another (delay set inline) */
+.hero-title-letter {
+  display: inline-block;
+  animation: fadeIn 0.3s ease-out both;
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .hero-title-letter {
+    animation: none;
+  }
+
+  /* Letter-by-letter titles of the About and Contact pages (animation set inline) */
+  .animated-letter {
+    animation: none !important;
+  }
+}
+
+/* Care type labels ("Soin médical" / "Bien-être"), reusable across the site */
+.care-badge {
+  display: inline-block;
+  width: fit-content;
+  padding: 0.2rem 0.75rem;
+  border-radius: 9999px;
+  font-size: 0.875rem;
+  font-weight: 700;
+  line-height: 1.4;
+}
+
+.care-badge-medical {
+  background-color: var(--color-brand-dark-green);
+  color: var(--color-brand-cream);
+}
+
+.care-badge-wellness {
+  background-color: var(--color-sand-light);
+  color: var(--color-sand-text);
 }
 
 .form-field {
@@ -198,18 +330,6 @@ textarea:focus {
     opacity: 1;
     transform: translateY(0);
   }
-}
-
-.opacity-0 {
-  opacity: 0;
-}
-
-.handwritten {
-  font-family: "Annie Use Your Telescope"
-}
-
-.word-spacing-tight {
-  word-spacing: -0.2em;
 }
 
 .svg-circle {
@@ -441,13 +561,13 @@ textarea:focus {
   }
 }
 
-@layer utilities {
-  .img-smooth {
-    image-rendering: -webkit-optimize-contrast;
-    image-rendering: crisp-edges;
-    backface-visibility: hidden;
-    transform: translateZ(0);
-  }
+/* Keyboard users get the same expanded pill as mouse hover */
+.social-pill:focus-visible {
+  width: var(--social-pill-expanded-width, 11rem);
+}
+
+.social-pill:focus-visible .social-pill-label {
+  opacity: 1;
 }
 
 @keyframes slideUpFromBottom {
@@ -496,6 +616,19 @@ textarea:focus {
   
   .cookie-banner-container.no-animation {
     animation: none !important;
+    transform: none !important;
+  }
+}
+/* Reduced motion: the cookie banner appears in place, without sliding up */
+@media (prefers-reduced-motion: reduce) {
+  .cookie-banner-container {
+    animation: none !important;
+    transform: translateX(-50%) !important;
+  }
+}
+
+@media (prefers-reduced-motion: reduce) and (min-width: 768px) {
+  .cookie-banner-container {
     transform: none !important;
   }
 }

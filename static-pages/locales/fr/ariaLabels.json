@@ -1,18 +1,15 @@
 {
     "home": "Accueil",
-    "languageSelector": "Sélectionne ta langue",
-    "form": {
-        "required": "requis"
-    },
+    "languageSelector": "Sélectionnez votre langue",
     "instagramLink": "Suivez-moi sur Instagram",
     "doctolibLink": "Prendre rendez-vous sur Doctolib",
     "sessionSelector1": "Sélectionnez 1 séance",
     "sessionSelector5": "Sélectionnez 5 séances",
     "sessionSelector8": "Sélectionnez 8 séances",
-    "homeTypeWriterTitle": "LISSEZ. SCULPTEZ. RAYONNEZ.",
-    "aboutTypeWriterTitle": "A PROPOS",
-    "treatmentsTypeWriterTitle": "SOINS",
-    "faqTypeWriterTitle": "FOIRE AUX QUESTIONS",
+    "aboutTypeWriterTitle": "À PROPOS",
     "openMenu": "Ouvrir le menu",
-    "closeMenu": "Ferme le menu"
+    "closeMenu": "Fermer le menu",
+    "newTab": "(s'ouvre dans un nouvel onglet)",
+    "skipToContent": "Aller au contenu",
+    "sessionCount": "Nombre de séances"
 }

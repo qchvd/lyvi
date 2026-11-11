@@ -16,8 +16,8 @@ const homeCarouselImages = [
 
 const homeTreatmentImages = [
   'drainagePicture.webp',
-  'remodelagePicture.webp',
-  'miracleFacePicture.webp'
+  'postOpMarkingPicture.webp',
+  'postOpHeroPicture.webp'
 ];
 
 // ⭐ Configuration ABOUT

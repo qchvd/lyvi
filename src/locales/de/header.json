@@ -1,10 +1,13 @@
 {
     "home": "Startseite",
     "about": "Über mich",
-    "treatments": "Behandlungen",
-    "benefits": "Vorteile",
+    "treatments": "Lymphdrainage",
     "postOp": "Post-op",
+    "postPartum": "Rückbildung",
     "contact": "Kontakt",
-    "faq": "FAQ",
-    "appointment": "Termin vereinbaren"
+    "appointment": "Termin vereinbaren",
+    "careBadges": {
+        "medical": "Medizinische Behandlung",
+        "wellness": "Wellness"
+    }
 }

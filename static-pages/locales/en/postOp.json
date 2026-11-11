@@ -1,62 +1,232 @@
 {
-    "mainTitle": "Pre- and post-operative care following cosmetic or reconstructive surgery",
-    "intro.p1": "Are you planning to have cosmetic or reconstructive surgery—or have you just had surgery? Welcome!",
-    "intro.p2": "This page answers all the questions you might have about physical therapy before and after your procedure: liposuction, liposculpture, facelift, blepharoplasty, abdominoplasty, or any other surgery.",
-    "intro.p3": "As a physiotherapist, I offer you my paramedical expertise. Specialized in tissue repair, I am trained in peri-operative care and in recognizing the clinical signs that require your surgeon's opinion. I build a tailored care protocol for you to achieve optimal aesthetic results.",
-    "beforeOpMainTitle": "Before surgery: Prepare your body for better results",
-    "beforeOp.p1": "Have you scheduled an appointment with your surgeon and want to maximize the results of your procedure? Now is the right time to start thinking about pre-operative preparation.",
-    "beforeOp.p2": "It is too often overlooked, although it plays a crucial role in the quality of healing, post-operative comfort, and how quickly your body regains its balance after the stress of surgery.",
-    "eachProtocoleIsDifferent": "Each protocol is different",
-    "beforeOp.p3s1": ", because it depends on the type of surgery you'll be having. That's why it all starts with an ",
-    "reviewSession": "assessment session",
-    "beforeOp.p3s2": ", which ideally takes place ",
-    "sixWeeks": "6 weeks",
-    "beforeOp.p3s3": " before the surgery. This time allows me to get to know you, understand your procedure, your lifestyle, and your goals, and to offer you a personalized care plan that may include, depending on your needs:",
-    "beforeOp.listItem1": "Lymphatic drainage sessions.",
-    "beforeOp.listItem2": "Exercise-based rehabilitation to prepare your body for post-surgery recovery.",
-    "beforeOp.listItem3": "Therapeutic massages.",
-    "beforeOp.p4": "It's also an opportunity to discuss very practical questions that most of my patients have: which compression garment to choose and how to wear it properly, or what dietary habits to adopt in the weeks leading up to the procedure to promote proper healing.",
-    "afterOpMainTitle": "After surgery: Tailored support for your recovery",
-    "afterOpSubTitle1": "The prescription, an essential prerequisite",
-    "afterOp.p1": "For medical and legal reasons, post-operative care cannot begin without a prescription for physical therapy sessions:",
-    "afterOp.listItem1": "If you had surgery in France, a prescription from your surgeon or your primary care physician.",
-    "afterOp.listItem2": "If you had surgery abroad, a prescription from a French primary care physician who will take over your follow-up care in France.",
-    "afterOpSubTitle2": "When should you start treatment?",
-    "afterOp.p2s1": "Treatment can begin as soon as your surgeon gives you the go-ahead. Depending on the type of procedure and your doctor's practice, this timeframe generally ranges from ",
-    "j3j15": "D+3 to D+15",
-    "afterOp.p2s2": ". There is no one-size-fits-all rule: your surgeon will determine the right time for you.",
-    "afterOpSubTitle3": "The first session: an assessment to help you develop your care plan",
-    "afterOp.p3": "As with the pre-operative phase, the first post-operative appointment is an assessment. It allows me to accurately evaluate your condition (swelling, bruising, range of motion, scars, how you're feeling) and to recommend a detailed care plan that, depending on your procedure and the progress of your recovery, may include:",
-    "afterOp.listItem3": "Lymphatic drainage (a technique tailored to the condition of your tissues) to reduce edema and prevent fibrosis.",
-    "afterOp.listItem4": "Taping, to support the tissues and improve the resolution of edema.",
-    "afterOp.listItem5": "Rehabilitation through movement, to gently restore mobility and muscle tone.",
-    "afterOp.listItem6": "Personalized advice on returning to exercise, tailored to the pace of your healing.",
-    "afterOpSubTitle4": "Multidisciplinary follow-up, in coordination with your doctor",
-    "afterOp.p5": "Your safety always comes first. I make sure to regularly report back to your prescribing doctor on the care provided and the progress of your condition. If any unusual pain or clinical sign concerns me, I immediately refer you to the appropriate healthcare professional.",
-    "interventionsMainTitle": "Which procedures can I support?",
-    "interventions.p1": "I provide post-operative support for most cosmetic and reconstructive surgeries, including:",
-    "interventions.listItem1": "Liposuction / liposculpture",
-    "interventions.listItem2": "Facelift/body lift (arms, thighs, abdominoplasty)",
-    "interventions.listItem3": "Blepharoplasty",
-    "interventions.listItem4": "Breast surgery",
-    "interventions.listItem5": "Reconstructive surgery",
-    "interventions.p2": "Each protocol is individualized: drainage after liposuction is different from that following a facelift, as well as from the needs of reconstructive surgery.",
-    "lipedemaMainTitle": "Do you suffer from lipedema?",
-    "lipedema.p1": "Lipedema is a chronic condition of the fatty tissue, often mistaken for simple weight gain, that mainly affects the legs and sometimes the arms. It is characterized by a disproportionate, tender accumulation of fat, along with a tendency to bruise easily.",
-    "lipedema.p2": "Manual lymphatic drainage is a cornerstone of lipedema care, whether you are being followed in preparation for a specific liposuction procedure or as part of a conservative treatment approach. If you think you may be affected, or if you have just been diagnosed by an angiologist, feel free to mention it during the assessment. I will tailor your care plan accordingly.",
-    "faqMainTitle": "Frequently asked questions",
-    "faq.q1": "How long after surgery can I start drainage sessions?",
-    "faq.a1": "This depends entirely on your surgeon's approval, generally between D+3 and D+15 depending on the procedure and the practitioner.",
-    "faq.q2": "Do I need a prescription?",
-    "faq.a2": "Yes, always. If you had surgery in France: a prescription from your surgeon or primary care physician. If you had surgery abroad: a prescription from a French primary care physician.",
-    "faq.q3": "How many sessions are needed?",
-    "faq.a3": "This varies depending on the procedure, the extent of the swelling, and your recovery pace. The exact number of sessions is determined during the initial assessment and detailed in your quote.",
-    "faq.q4": "Is post-operative drainage reimbursed by French social security?",
-    "faq.a4": "Reimbursement of lymphatic drainage by French health insurance follows very specific criteria, independent of whether the surgery was cosmetic. For reconstructive surgeries covered by social security, the care is partly reimbursed. For cosmetic surgeries not covered by social security, post-operative care will likewise not be covered by health insurance.",
-    "faq.q5": "Can I start care before I even have a surgery date?",
-    "faq.a5": "Yes, it's never too early to ask your questions. However, to build a tailored pre-operative protocol, I recommend an assessment about 6 weeks before your surgery date.",
-    "faq.q6": "Why choose a physiotherapist?",
-    "faq.a6": "A physiotherapist has medical training that allows them to recognize the different states of tissue during healing, to work under medical prescription, to detect signs that require a doctor's opinion, and to coordinate your follow-up with your surgeon. This is a guarantee of safety in addition to aesthetic effectiveness.",
-    "readyToStartMainTitle": "Ready to start your care support?",
-    "readyToStart.p1": "Whether you're still planning your procedure or have just left the operating room, the first step is always the same: an assessment to get to know each other, understand your needs, and build your care support together."
+    "hero": {
+        "title": "Pre- and post-operative physical therapy for cosmetic and reconstructive surgery in Lyon",
+        "text": "I support you **before and after your operation** for an optimal recovery, **working closely with your surgeon**. Appointments in Lyon 1 and Lyon 5.",
+        "pricesButton": "See prices",
+        "imageAlt": "Pre-operative markings drawn by the surgeon before cosmetic surgery"
+    },
+    "keyFacts": {
+        "title": "At a glance",
+        "items": [
+            {
+                "label": "Prescription",
+                "value": "Required",
+                "detail": "From your surgeon or doctor"
+            },
+            {
+                "label": "Start of treatment",
+                "value": "Between day 3 and day 15",
+                "detail": "With your surgeon's approval"
+            },
+            {
+                "label": "Number of sessions",
+                "value": "4 to 25 sessions",
+                "detail": "Depending on the operation, set at the assessment"
+            },
+            {
+                "label": "Reimbursement",
+                "value": "Reconstructive surgery",
+                "detail": "Cosmetic surgery is not reimbursed"
+            }
+        ]
+    },
+    "journey": {
+        "title": "Your journey, step by step",
+        "steps": [
+            {
+                "when": "6 weeks before",
+                "title": "Pre-operative assessment",
+                "text": "Understanding your operation and preparing your body: drainage, exercises, advice."
+            },
+            {
+                "when": "The day of surgery",
+                "title": "The operation",
+                "text": "Your surgeon operates and gives you the prescription for physical therapy."
+            },
+            {
+                "when": "From day 3",
+                "title": "Post-operative care",
+                "text": "Assessment, then adapted drainage, taping and scar work."
+            },
+            {
+                "when": "From 3 months",
+                "title": "Back to your activities",
+                "text": "A gradual return to movement and sport, at the pace of your recovery."
+            }
+        ]
+    },
+    "protocol": {
+        "title": "The treatments in your protocol",
+        "subtitle": "Chosen after the assessment, depending on your operation and the condition of your tissues.",
+        "soon": "Coming soon",
+        "items": [
+            {
+                "title": "Lymphatic drainage",
+                "text": "Manual, adapted to your tissues, to reduce swelling and prevent fibrosis."
+            },
+            {
+                "title": "Manual therapy",
+                "text": "Hands-on techniques to restore tissue mobility and relieve tension."
+            },
+            {
+                "title": "Taping",
+                "text": "To support the tissues and help the swelling go down."
+            },
+            {
+                "title": "Scars",
+                "text": "Targeted work to make them more supple and improve their appearance."
+            },
+            {
+                "title": "Movement",
+                "text": "Gentle rehabilitation to regain mobility and muscle tone."
+            },
+            {
+                "title": "Advice",
+                "text": "Compression, lifestyle, return to sport: personalized support."
+            },
+            {
+                "title": "LPG",
+                "text": "A mechanical technique that complements the manual work on the tissues.",
+                "soon": true
+            },
+            {
+                "title": "Photobiomodulation (LED)",
+                "text": "A light-based treatment, alongside the protocol.",
+                "soon": true
+            }
+        ]
+    },
+    "interventions": {
+        "title": "The operations I work with",
+        "subtitle": "These ranges are a guide, as every recovery is unique. The number of sessions also depends on how many areas were operated on: we set it together at the assessment, and it is then specified in your quote.",
+        "items": [
+            {
+                "name": "Abdominal liposuction + tummy tuck",
+                "sessions": "10 to 25 sessions",
+                "details": ["Sessions of 45 min to 1 hr", "Frequency: 3×/week in month 1, 2×/week in month 2, 1×/week in month 3"]
+            },
+            {
+                "name": "Lipedema liposuction",
+                "sessions": "10 to 25 sessions",
+                "details": ["Sessions of 45 min to 1 hr", "Frequency: 3×/week in month 1, 2×/week in month 2, 1×/week in month 3"]
+            },
+            {
+                "name": "Tummy tuck, with or without diastasis",
+                "sessions": "10 to 20 sessions",
+                "details": ["Sessions of 30 to 45 min"]
+            },
+            {
+                "name": "Chin liposuction only",
+                "sessions": "6 to 20 sessions",
+                "details": ["30-min sessions", "Frequency: 3×/week in month 1, 2×/week in month 2, 1×/week in month 3"]
+            },
+            {
+                "name": "Facelift",
+                "sessions": "5 to 12 sessions",
+                "details": ["30-min sessions"]
+            },
+            {
+                "name": "Breast surgery",
+                "sessions": "4 to 10 sessions",
+                "details": ["30-min sessions"]
+            },
+            {
+                "name": "Blepharoplasty (eyelid surgery)",
+                "sessions": "4 to 10 sessions",
+                "details": ["30-min sessions"]
+            },
+            {
+                "name": "Body lifts (arms, thighs)",
+                "sessions": "8 to 15 sessions",
+                "details": ["Sessions of 30 to 45 min depending on the areas treated"]
+            },
+            {
+                "name": "Reconstructive surgery",
+                "sessions": "As prescribed"
+            }
+        ],
+        "rhythmNote": "As a guide, after liposuction: three sessions a week in the first month, two a week in the second month, then one a week in the third month.",
+        "lipedemaText": "Do you have lipedema, whether or not you have had surgery? ",
+        "lipedemaLink": "Therapeutic drainage can help."
+    },
+    "safety": {
+        "title": "Your safety comes first",
+        "text": "I follow your surgeon's instructions and keep them informed of your progress. If a clinical sign worries me, I refer you to the right professional without delay."
+    },
+    "prices": {
+        "title": "Prices",
+        "aesthetic": {
+            "title": "Cosmetic surgery",
+            "subtitle": "Not reimbursed, quote provided at the assessment",
+            "lines": [
+                {
+                    "label": "Assessment (40 min)",
+                    "price": "€70"
+                },
+                {
+                    "label": "30-min session",
+                    "price": "€50"
+                },
+                {
+                    "label": "45-min session",
+                    "price": "€75"
+                },
+                {
+                    "label": "1-hr session",
+                    "price": "€100"
+                }
+            ]
+        },
+        "reconstructive": {
+            "title": "Reconstructive surgery",
+            "subtitle": "Covered by the French national health insurance (Assurance Maladie), in Lyon 5",
+            "lines": [
+                {
+                    "label": "Assessment",
+                    "price": "€23.65"
+                },
+                {
+                    "label": "Sessions",
+                    "price": "Standard health insurance rate"
+                }
+            ],
+            "note": "Depending on your situation, some additional treatments not covered by the national fee schedule may be offered. They are detailed in your quote and are not reimbursed by the Assurance Maladie. Some complementary health insurers (mutuelles) reimburse part of them: check with yours."
+        },
+        "payment": "Payment: cash, cheque, bank transfer, Wero."
+    },
+    "faq": {
+        "title": "Frequently asked questions",
+        "items": [
+            {
+                "question": "How soon after the operation can I start?",
+                "answer": "As soon as your surgeon agrees, usually between day 3 and day 15 depending on the operation and the surgeon's practice."
+            },
+            {
+                "question": "Do I need a prescription?",
+                "answer": "Yes, always. Operated on in France: a prescription from your surgeon or your GP. Operated on abroad: a prescription from a French doctor."
+            },
+            {
+                "question": "How many sessions should I plan for?",
+                "answer": "Every recovery is unique: the number of sessions depends on the operation, how many areas were operated on, the swelling and how quickly you recover. As a guide: 6 to 20 sessions after chin liposuction only, 5 to 12 after a facelift, 10 to 20 after a tummy tuck, 10 to 25 after abdominal liposuction combined with a tummy tuck or after lipedema liposuction. After liposuction, the usual frequency is three sessions a week in the first month, two in the second, then one in the third. The exact number is set at the assessment and specified in your quote."
+            },
+            {
+                "question": "Is the treatment reimbursed?",
+                "answer": "Only if the surgery itself is covered by the French national health insurance (reconstructive surgery), and in that case in Lyon 5. After cosmetic surgery, the treatment is not reimbursed. For reconstructive surgery, some additional treatments outside the national fee schedule may be offered with a quote: they are not reimbursed by the Assurance Maladie, but are sometimes partly covered by complementary health insurers (mutuelles)."
+            },
+            {
+                "question": "Can I start before I have a date for my operation?",
+                "answer": "Yes. For a suitable pre-operative protocol, I recommend an assessment about 6 weeks before the operation."
+            },
+            {
+                "question": "Where do the sessions take place?",
+                "answer": "In Lyon 1 (Coream, 22 rue Pizay) or in Lyon 5 (59 bis avenue du Point du Jour). Reimbursed treatment takes place in Lyon 5."
+            }
+        ]
+    },
+    "ready": {
+        "title": "Ready to start?",
+        "training": "Trained in peri-operative rehabilitation for cosmetic, plastic and reconstructive surgery (AIME). ",
+        "aboutLink": "My background",
+        "addresses": "Lyon 1 – 22 rue Pizay (Coream) · Lyon 5 – 59 bis avenue du Point du Jour"
+    }
 }

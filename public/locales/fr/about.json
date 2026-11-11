@@ -1,31 +1,39 @@
 {
     "hello": "Bonjour, je suis",
     "introductionText": {
-        "p1": "Quand je me suis formée à la méthode Renata França en 2023, j'ai d'abord pratiqué dans les cabinets de kiné dans lesquels je travaillais.",
-        "p2": "Mais rapidement, je me suis sentie en décalage. Je proposais des soins de bien-être premium dans un lieu par nature médical, bruyant et impersonnel. C'était l'inverse de ma vision.",
-        "p3": "J'avais envie d'offrir quelque chose d'intimiste, de cocooning, une parenthèse de détente et de sérénité dans une vie bien remplie.",
-        "p4": "C'est comme ça qu'est né Lyvi, de la volonté de lier les effets immédiats des soins Renata à mes compétences de kiné, dans un cadre élégant et apaisant.",
-        "pilars": "Lyvi repose sur quatre piliers : vous faire atteindre vos objectifs, faire de chaque séance un moment d'exception centré sur vous, vous apporter un accompagnement professionnel nourri de mon expertise de kiné du sport de haut niveau et proposer une expérience de soin qui me ressemble."
+        "p1": "Je suis masseur-kinésithérapeute depuis 2012. Après plusieurs années auprès de sportifs de haut niveau à Berlin, puis cinq ans en orthopédie à Lyon, je me suis passionnée pour la façon dont le corps récupère : après une chirurgie, après une grossesse, ou simplement au fil d'une vie bien remplie.",
+        "p2": "Aujourd'hui, je vous accompagne avant et après une chirurgie esthétique ou réparatrice, et après la naissance de votre bébé jusqu'à la reprise du sport. Je vous propose aussi des drainages : thérapeutiques quand votre santé le demande, ou bien-être avec la méthode Renata França.",
+        "p3": "Mon leitmotiv : mettre mon expertise au service de vos objectifs, avec une écoute attentive et des soins choisis pour leur efficacité, dans des lieux chaleureux à Lyon 1 et à Lyon 5."
     },
     "objectivesText": {
         "title": "MON OBJECTIF : VOUS EMMENER VERS LE VÔTRE",
-        "p1": "Quel que soit votre objectif à long terme, chaque séance commence par un temps d'écoute et d'échange pour définir votre objectif du jour selon votre ressenti, vos envies, votre état de fatigue.",
-        "p2": "J'adapte ensuite le soin sur mesure pour qu'il soit le plus en phase possible avec votre besoin du moment, avec à chaque fois, la promesse de ressortir énergisée, rayonnante et emplie d'une sensation de légèreté.",
-        "p3": "Les résultats sont visibles, vous sentez que quelque chose s'est déjà remis en route dans votre corps et vous atteignez votre objectif final de manière douce et fluide."
+        "p1": "Que vous prépariez une opération, que vous veniez d'accoucher ou que vous ayez simplement besoin de légèreté, chaque prise en charge commence par un temps d'écoute : votre histoire, votre ressenti, votre état de fatigue, et l'objectif du jour.",
+        "p2": "J'adapte ensuite chaque séance pour qu'elle soit au plus près de vos besoins du moment, en lien avec votre chirurgien ou votre médecin quand c'est nécessaire."
     },
     "youMatterText": {
         "title": "FAIRE DE VOUS LE CENTRE DU MONDE, LE TEMPS D'UN INSTANT",
         "p1": "Au-delà des soins personnalisés, Lyvi c'est une expérience à part entière, centrée sur vous.",
-        "p2": "Tout a été pensé pour que vous vous sentiez comme chez vous. Je vous accueille avec le sourire, en français, allemand ou anglais pour que la langue ne soit jamais une barrière.",
-        "p3": "Le lieu se veut chaleureux, cosy, intimiste et réconfortant — ce que les allemands résument en un seul mot : gemütlich.",
-        "p4": "Chacun de vos besoins est anticipé, tout est fluide et confortable pour rendre ce moment unique."
+        "p2": "Tout a été pensé pour que vous vous sentiez comme chez vous. Je vous accueille avec le sourire, en français, allemand ou anglais, pour que la langue ne soit jamais une barrière.",
+        "p3": "Le lieu se veut chaleureux, cosy, intimiste et réconfortant, ce que les Allemands résument en un seul mot : gemütlich.",
+        "p4": "Et parce que la vie de jeune maman laisse peu de temps, une partie du suivi post-partum peut même se faire à distance."
     },
     "physioText": {
-        "title": "DES SOINS RENATA AVEC L'EXPERTISE DE VOTRE KINÉ",
-        "p1": "J'ai toujours été passionnée par le sport automobile. Mon rêve de gosse c'était de travailler chez Porsche. Et dans ma tête de petite fille, rentrer chez eux impliquait forcément de savoir parler allemand. C'est donc dans ce but que j'ai commencé à l'apprendre, toute seule, à 8 ans. 😅",
-        "p2": "Aujourd'hui, je ne travaille pas (encore) chez Porsche mais le fait de parler couramment allemand m'a ouvert d'autres portes dont celle du sport de haut niveau.",
-        "p3": "J'ai entre autres été kiné de l'équipe nationale de gymnastique artistique masculine allemande à Berlin pendant plusieurs années. Et j'ai eu l'opportunité d'accompagner des athlètes parmi lesquels certains sont devenus champion du monde ou vice-champion olympique.",
-        "p4": "Côtoyer le sport de performance exige d'être efficace quoi qu'il arrive. C'est cette efficacité accrue et cette expertise du corps que je mets au profit des soins Renata, aussi bien dans la précision des gestes que dans les conseils apportés."
+        "title": "L'EXIGENCE DU SPORT DE HAUT NIVEAU",
+        "p1": "J'ai toujours été passionnée par le sport automobile. Mon rêve de gosse, c'était de travailler chez Porsche. Et dans ma tête de petite fille, rentrer chez eux impliquait forcément de savoir parler allemand. C'est donc dans ce but que j'ai commencé à l'apprendre, toute seule, à 8 ans. 😅",
+        "p2": "Aujourd'hui, je ne travaille pas (encore) chez Porsche, mais parler couramment allemand m'a ouvert d'autres portes, dont celle du sport de haut niveau.",
+        "p3": "J'ai notamment été kiné de l'équipe nationale de gymnastique artistique masculine allemande à Berlin pendant plusieurs années, et j'ai accompagné des athlètes dont certains sont devenus champion du monde ou vice-champion olympique.",
+        "p4": "Côtoyer le sport de performance exige d'être efficace quoi qu'il arrive, et de travailler main dans la main avec les médecins. C'est cette exigence que je mets aujourd'hui au service de chaque soin : la précision du geste, la coordination avec votre chirurgien, et des conseils pour reprendre le mouvement en confiance.",
+        "trainingsTitle": "FORMÉE À",
+        "trainings": [
+            "Rééducation péri-opératoire en chirurgie esthétique, plastique et reconstructrice – AIME",
+            "Kinésithérapie des cicatrices – Ambroise Paré Formation",
+            "Méthode Renata França",
+            "Abdominaux hypopressifs – ITMP",
+            "La course au féminin – La Clinique du Coureur",
+            "Thérapie manuelle – INOMT Berlin",
+            "Pilates – KINESPORT",
+            "Master Mouvement Performance Santé Ingénierie"
+        ]
     },
     "likeMeText": {
         "title": "UN ACCOMPAGNEMENT À MON IMAGE",

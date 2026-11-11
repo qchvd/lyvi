@@ -2,8 +2,25 @@
 <html lang="fr">
 
 <head>
-    <!-- Google Tag Manager -->
-    <script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+    <!-- Google consent mode: must run before GTM. Everything is denied until the visitor accepts the cookie banner;
+         a previous choice (cookie "lyviCookieConsent2", set by the banner) is applied right away.
+         The banner covers audience measurement and Google Ads conversions: accepting grants both.
+         (Cookie renamed from "lyviCookieConsent" when ads were added: earlier consents did not cover ads.) -->
+    <script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag(){dataLayer.push(arguments);}
+    var lyviConsent = /(?:^|; )lyviCookieConsent2=true(?:;|$)/.test(document.cookie) ? 'granted' : 'denied';
+    gtag('consent', 'default', {
+        analytics_storage: lyviConsent,
+        ad_storage: lyviConsent,
+        ad_user_data: lyviConsent,
+        ad_personalization: lyviConsent
+    });
+    </script>
+    <!-- Google Tag Manager. Not loaded during the prerender (Puppeteer sets navigator.webdriver):
+         otherwise the scripts GTM injects are baked into the static pages (GTM then loads twice)
+         and every build sends fake visits to Google. -->
+    <script>if (!navigator.webdriver) (function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
     new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
     j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
     'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);

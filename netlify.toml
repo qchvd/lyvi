@@ -2,7 +2,7 @@
   skip_processing = true
 
 # =======================================================
-# Redirection du domaine Netlify vers domaine principal
+# Domaine Netlify -> domaine principal
 # =======================================================
 
 [[redirects]]
@@ -18,32 +18,278 @@
   force = true
 
 # =======================================================
-# Détection de langue pour la racine "/"
+# Racine "/" : choix de la langue du navigateur
 # =======================================================
 
-# FR
 [[redirects]]
   from = "/"
   to = "/fr"
   status = 302
   conditions = {Language = ["fr"]}
 
-# DE
 [[redirects]]
   from = "/"
   to = "/de"
   status = 302
   conditions = {Language = ["de"]}
 
-# EN (fallback)
 [[redirects]]
   from = "/"
   to = "/en"
   status = 302
 
 # =======================================================
-# Forcer Netlify à servir /fr, /en, /de SANS le slash
-# (contre le trailing slash redirect automatique)
+# Fichiers techniques du pré-rendu (fr-a-propos/, fr/index.html, fr-404/...) :
+# jamais accessibles directement, pour éviter les doublons d'URL.
+# Placés avant les pages : Netlify applique la première règle qui correspond,
+# et une réécriture (200) ne repasse pas par les règles.
+# =======================================================
+
+# Formulaire caché pour la détection du formulaire de contact par Netlify (lu au déploiement) :
+# le fichier doit être publié, mais son URL n'est pas une page du site
+[[redirects]]
+  from = "/contact.html"
+  to = "/en-404/index.html"
+  status = 404
+  force = true
+
+[[redirects]]
+  from = "/fr/index.html"
+  to = "/fr-404/index.html"
+  status = 404
+  force = true
+
+[[redirects]]
+  from = "/en/index.html"
+  to = "/en-404/index.html"
+  status = 404
+  force = true
+
+[[redirects]]
+  from = "/de/index.html"
+  to = "/de-404/index.html"
+  status = 404
+  force = true
+
+[[redirects]]
+  from = "/fr-a-propos"
+  to = "/fr-404/index.html"
+  status = 404
+  force = true
+
+[[redirects]]
+  from = "/fr-a-propos/*"
+  to = "/fr-404/index.html"
+  status = 404
+  force = true
+
+[[redirects]]
+  from = "/fr-drainage-lymphatique"
+  to = "/fr-404/index.html"
+  status = 404
+  force = true
+
+[[redirects]]
+  from = "/fr-drainage-lymphatique/*"
+  to = "/fr-404/index.html"
+  status = 404
+  force = true
+
+[[redirects]]
+  from = "/fr-post-op"
+  to = "/fr-404/index.html"
+  status = 404
+  force = true
+
+[[redirects]]
+  from = "/fr-post-op/*"
+  to = "/fr-404/index.html"
+  status = 404
+  force = true
+
+[[redirects]]
+  from = "/fr-post-partum"
+  to = "/fr-404/index.html"
+  status = 404
+  force = true
+
+[[redirects]]
+  from = "/fr-post-partum/*"
+  to = "/fr-404/index.html"
+  status = 404
+  force = true
+
+[[redirects]]
+  from = "/fr-contact"
+  to = "/fr-404/index.html"
+  status = 404
+  force = true
+
+[[redirects]]
+  from = "/fr-contact/*"
+  to = "/fr-404/index.html"
+  status = 404
+  force = true
+
+[[redirects]]
+  from = "/en-about"
+  to = "/en-404/index.html"
+  status = 404
+  force = true
+
+[[redirects]]
+  from = "/en-about/*"
+  to = "/en-404/index.html"
+  status = 404
+  force = true
+
+[[redirects]]
+  from = "/en-lymphatic-drainage"
+  to = "/en-404/index.html"
+  status = 404
+  force = true
+
+[[redirects]]
+  from = "/en-lymphatic-drainage/*"
+  to = "/en-404/index.html"
+  status = 404
+  force = true
+
+[[redirects]]
+  from = "/en-post-op"
+  to = "/en-404/index.html"
+  status = 404
+  force = true
+
+[[redirects]]
+  from = "/en-post-op/*"
+  to = "/en-404/index.html"
+  status = 404
+  force = true
+
+[[redirects]]
+  from = "/en-postpartum"
+  to = "/en-404/index.html"
+  status = 404
+  force = true
+
+[[redirects]]
+  from = "/en-postpartum/*"
+  to = "/en-404/index.html"
+  status = 404
+  force = true
+
+[[redirects]]
+  from = "/en-contact"
+  to = "/en-404/index.html"
+  status = 404
+  force = true
+
+[[redirects]]
+  from = "/en-contact/*"
+  to = "/en-404/index.html"
+  status = 404
+  force = true
+
+[[redirects]]
+  from = "/de-uber-mich"
+  to = "/de-404/index.html"
+  status = 404
+  force = true
+
+[[redirects]]
+  from = "/de-uber-mich/*"
+  to = "/de-404/index.html"
+  status = 404
+  force = true
+
+[[redirects]]
+  from = "/de-lymphdrainage"
+  to = "/de-404/index.html"
+  status = 404
+  force = true
+
+[[redirects]]
+  from = "/de-lymphdrainage/*"
+  to = "/de-404/index.html"
+  status = 404
+  force = true
+
+[[redirects]]
+  from = "/de-post-op"
+  to = "/de-404/index.html"
+  status = 404
+  force = true
+
+[[redirects]]
+  from = "/de-post-op/*"
+  to = "/de-404/index.html"
+  status = 404
+  force = true
+
+[[redirects]]
+  from = "/de-rueckbildung"
+  to = "/de-404/index.html"
+  status = 404
+  force = true
+
+[[redirects]]
+  from = "/de-rueckbildung/*"
+  to = "/de-404/index.html"
+  status = 404
+  force = true
+
+[[redirects]]
+  from = "/de-kontakt"
+  to = "/de-404/index.html"
+  status = 404
+  force = true
+
+[[redirects]]
+  from = "/de-kontakt/*"
+  to = "/de-404/index.html"
+  status = 404
+  force = true
+
+[[redirects]]
+  from = "/fr-404"
+  to = "/fr-404/index.html"
+  status = 404
+  force = true
+
+[[redirects]]
+  from = "/fr-404/*"
+  to = "/fr/404"
+  status = 404
+  force = true
+
+[[redirects]]
+  from = "/en-404"
+  to = "/en-404/index.html"
+  status = 404
+  force = true
+
+[[redirects]]
+  from = "/en-404/*"
+  to = "/en/404"
+  status = 404
+  force = true
+
+[[redirects]]
+  from = "/de-404"
+  to = "/de-404/index.html"
+  status = 404
+  force = true
+
+[[redirects]]
+  from = "/de-404/*"
+  to = "/de/404"
+  status = 404
+  force = true
+
+# =======================================================
+# Pages : accueil et pages pré-rendues de chaque langue
+# (A garder en phase avec routes.json et prerender.config.js)
 # =======================================================
 
 [[redirects]]
@@ -64,36 +310,6 @@
   status = 200
   force = true
 
-# =======================================================
-# Rewrites explicites pour les pages individuelles
-# =======================================================
-
-# EN
-[[redirects]]
-  from = "/en/about"
-  to = "/en-about/index.html"
-  status = 200
-
-[[redirects]]
-  from = "/en/treatments"
-  to = "/en-treatments/index.html"
-  status = 200
-
-[[redirects]]
-  from = "/en/post-op"
-  to = "/en-post-op/index.html"
-  status = 200
-
-[[redirects]]
-  from = "/en/contact"
-  to = "/en-contact/index.html"
-  status = 200
-
-[[redirects]]
-  from = "/en/faq"
-  to = "/en-faq/index.html"
-  status = 200
-
 # FR
 [[redirects]]
   from = "/fr/a-propos"
@@ -101,8 +317,8 @@
   status = 200
 
 [[redirects]]
-  from = "/fr/soins"
-  to = "/fr-soins/index.html"
+  from = "/fr/drainage-lymphatique"
+  to = "/fr-drainage-lymphatique/index.html"
   status = 200
 
 [[redirects]]
@@ -111,13 +327,48 @@
   status = 200
 
 [[redirects]]
+  from = "/fr/post-partum"
+  to = "/fr-post-partum/index.html"
+  status = 200
+
+[[redirects]]
   from = "/fr/contact"
   to = "/fr-contact/index.html"
   status = 200
 
+# Ancienne page FAQ française (supprimée) : redirection permanente vers la page
+# Drainage lymphatique, qui contient désormais la FAQ. Seule redirection de page du site.
+# Doit rester avant la règle "/fr/*" (404) plus bas.
 [[redirects]]
   from = "/fr/faq"
-  to = "/fr-faq/index.html"
+  to = "/fr/drainage-lymphatique"
+  status = 301
+  force = true
+
+# EN
+[[redirects]]
+  from = "/en/about"
+  to = "/en-about/index.html"
+  status = 200
+
+[[redirects]]
+  from = "/en/lymphatic-drainage"
+  to = "/en-lymphatic-drainage/index.html"
+  status = 200
+
+[[redirects]]
+  from = "/en/post-op"
+  to = "/en-post-op/index.html"
+  status = 200
+
+[[redirects]]
+  from = "/en/postpartum"
+  to = "/en-postpartum/index.html"
+  status = 200
+
+[[redirects]]
+  from = "/en/contact"
+  to = "/en-contact/index.html"
   status = 200
 
 # DE
@@ -127,8 +378,8 @@
   status = 200
 
 [[redirects]]
-  from = "/de/behandlungen"
-  to = "/de-behandlungen/index.html"
+  from = "/de/lymphdrainage"
+  to = "/de-lymphdrainage/index.html"
   status = 200
 
 [[redirects]]
@@ -137,30 +388,37 @@
   status = 200
 
 [[redirects]]
+  from = "/de/rueckbildung"
+  to = "/de-rueckbildung/index.html"
+  status = 200
+
+[[redirects]]
   from = "/de/kontakt"
   to = "/de-kontakt/index.html"
   status = 200
 
-[[redirects]]
-  from = "/de/faq"
-  to = "/de-faq/index.html"
-  status = 200
-
 # =======================================================
-# Fallback SPA dans chaque langue
+# Toute autre adresse : page 404 de la langue, avec un vrai statut 404
+# (pas de redirection : les anciennes URL comme /fr/soins, /en/faq ou /de/faq n'existent plus ;
+#  seule exception : /fr/faq, redirigée plus haut)
 # =======================================================
-
-[[redirects]]
-  from = "/en/*"
-  to = "/en/index.html"
-  status = 200
 
 [[redirects]]
   from = "/fr/*"
-  to = "/fr/index.html"
-  status = 200
+  to = "/fr-404/index.html"
+  status = 404
+
+[[redirects]]
+  from = "/en/*"
+  to = "/en-404/index.html"
+  status = 404
 
 [[redirects]]
   from = "/de/*"
-  to = "/de/index.html"
-  status = 200
+  to = "/de-404/index.html"
+  status = 404
+
+[[redirects]]
+  from = "/*"
+  to = "/en-404/index.html"
+  status = 404

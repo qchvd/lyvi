@@ -46,7 +46,9 @@ export function useTranslatedSlug() {
         }
 
         // Step 3: Return the translated slug (already has leading slash from routes)
-        return targetRoutes[key] || `/${normalizeSlug(slug)}`
+        // If the page doesn't exist in the target language,
+        // fall back to the home page of that language
+        return targetRoutes[key] ?? ""
     }
 
     return { getTranslatedSlug }
