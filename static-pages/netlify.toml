@@ -1,3 +1,9 @@
+# Installs Chrome for the prerender first (does nothing if it is already in the cache:
+# see .puppeteerrc.cjs). Without it, a build using cached node_modules fails with
+# "Could not find Chrome". Overrides the build command set in the Netlify app.
+[build]
+  command = "npx puppeteer browsers install chrome && npm run prerender"
+
 [build.processing]
   skip_processing = true
 

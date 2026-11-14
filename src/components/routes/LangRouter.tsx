@@ -12,13 +12,13 @@ import { DOCTOLIB_URL, INSTAGRAM_URL } from "../../constants/urls"
 const practiceSchema = {
   "@context": "https://schema.org",
   "@graph": [
-    { street: CONTACT_INFO.address.street, city: CONTACT_INFO.address.city, district: "Lyon 1" },
-    { street: CONTACT_INFO.addressLyon5.street, city: CONTACT_INFO.addressLyon5.city, district: "Lyon 5" },
-  ].map(({ street, city, district }) => {
+    { street: CONTACT_INFO.address.street, city: CONTACT_INFO.address.city, district: "Lyon 1", id: "lyon1" },
+    { street: CONTACT_INFO.addressLyon5.street, city: CONTACT_INFO.addressLyon5.city, district: "Saint-Cyr-au-Mont-d'Or", id: "saintcyr" },
+  ].map(({ street, city, district, id }) => {
     const [postalCode, locality] = city.split(" ")
     return {
       "@type": "Physiotherapist",
-      "@id": `https://lyvicare.com/#${district.replace(" ", "").toLowerCase()}`,
+      "@id": `https://lyvicare.com/#${id}`,
       name: `Lyvi – Anaïs Eynard, kinésithérapeute ${district}`,
       url: "https://lyvicare.com/fr",
       image: "https://lyvicare.com/og-image.jpg",

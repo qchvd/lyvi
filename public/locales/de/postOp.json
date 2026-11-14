@@ -1,7 +1,7 @@
 {
     "hero": {
         "title": "Prä- und postoperative Physiotherapie in der ästhetischen und rekonstruktiven Chirurgie in Lyon",
-        "text": "Ich begleite Sie **vor und nach Ihrem Eingriff** für eine optimale Genesung, **in Abstimmung mit Ihrem Chirurgen**. Termine in Lyon 1 und Lyon 5.",
+        "text": "Ich begleite Sie **vor und nach Ihrem Eingriff** für eine optimale Genesung, **in Abstimmung mit Ihrem Chirurgen**. Termine in Lyon 1 und Saint-Cyr-au-Mont-d'Or.",
         "pricesButton": "Preise ansehen",
         "imageAlt": "Präoperative Markierung durch den Chirurgen vor einer ästhetischen Operation"
     },
@@ -179,7 +179,7 @@
         },
         "reconstructive": {
             "title": "Rekonstruktive Chirurgie",
-            "subtitle": "Von der französischen Krankenversicherung (Assurance Maladie) übernommen, in Lyon 5",
+            "subtitle": "Von der französischen Krankenversicherung (Assurance Maladie) übernommen, in Saint-Cyr-au-Mont-d'Or",
             "lines": [
                 {
                     "label": "Befundaufnahme",
@@ -211,7 +211,7 @@
             },
             {
                 "question": "Werden die Behandlungen erstattet?",
-                "answer": "Nur wenn die Operation selbst von der französischen Krankenversicherung übernommen wird (rekonstruktive Chirurgie), und in diesem Fall in Lyon 5. Nach einer ästhetischen Operation werden die Behandlungen nicht erstattet. Bei rekonstruktiver Chirurgie können ergänzende Behandlungen außerhalb des Leistungskatalogs auf Kostenvoranschlag angeboten werden: Sie werden von der Assurance Maladie nicht erstattet, manchmal aber teilweise von Zusatzversicherungen (mutuelles)."
+                "answer": "Nur wenn die Operation selbst von der französischen Krankenversicherung übernommen wird (rekonstruktive Chirurgie), und in diesem Fall in Saint-Cyr-au-Mont-d'Or. Nach einer ästhetischen Operation werden die Behandlungen nicht erstattet. Bei rekonstruktiver Chirurgie können ergänzende Behandlungen außerhalb des Leistungskatalogs auf Kostenvoranschlag angeboten werden: Sie werden von der Assurance Maladie nicht erstattet, manchmal aber teilweise von Zusatzversicherungen (mutuelles)."
             },
             {
                 "question": "Kann ich beginnen, bevor ich einen OP-Termin habe?",
@@ -219,7 +219,7 @@
             },
             {
                 "question": "Wo finden die Sitzungen statt?",
-                "answer": "In Lyon 1 (Coream, 22 rue Pizay) oder in Lyon 5 (59 bis avenue du Point du Jour). Erstattungsfähige Behandlungen finden in Lyon 5 statt."
+                "answer": "In Lyon 1 (Coream, 22 rue Pizay) oder in Saint-Cyr-au-Mont-d'Or (La Villa des Monts d'Or, 15 route de Lyon). Erstattungsfähige Behandlungen finden in Saint-Cyr-au-Mont-d'Or statt."
             }
         ]
     },
@@ -227,6 +227,6 @@
         "title": "Bereit loszulegen?",
         "training": "Ausgebildet in perioperativer Rehabilitation in der ästhetischen, plastischen und rekonstruktiven Chirurgie (AIME). ",
         "aboutLink": "Mein Werdegang",
-        "addresses": "Lyon 1 – 22 rue Pizay (Coream) · Lyon 5 – 59 bis avenue du Point du Jour"
+        "addresses": "Lyon 1 – 22 rue Pizay (Coream) · Saint-Cyr-au-Mont-d'Or – 15 route de Lyon (La Villa des Monts d'Or)"
     }
 }

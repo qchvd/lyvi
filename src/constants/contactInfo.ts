@@ -7,10 +7,10 @@ export const CONTACT_INFO = {
         street: "22 Rue Pizay",
         city: "69001 Lyon"
     },
-    // Second practice (Lyon 5)
+    // Second practice (Saint-Cyr-au-Mont-d'Or). Key name kept from the former Lyon 5 practice.
     addressLyon5: {
-        street: "59 bis avenue du Point du Jour",
-        detail: "(allée Emmanuelle Gounont)",
-        city: "69005 Lyon"
+        place: "La Villa des Monts d'Or",
+        street: "15 Route de Lyon",
+        city: "69450 Saint-Cyr-au-Mont-d'Or"
     }
 } as const

@@ -1,7 +1,7 @@
 {
     "hero": {
         "title": "Pre- and post-operative physical therapy for cosmetic and reconstructive surgery in Lyon",
-        "text": "I support you **before and after your operation** for an optimal recovery, **working closely with your surgeon**. Appointments in Lyon 1 and Lyon 5.",
+        "text": "I support you **before and after your operation** for an optimal recovery, **working closely with your surgeon**. Appointments in Lyon 1 and Saint-Cyr-au-Mont-d'Or.",
         "pricesButton": "See prices",
         "imageAlt": "Pre-operative markings drawn by the surgeon before cosmetic surgery"
     },
@@ -179,7 +179,7 @@
         },
         "reconstructive": {
             "title": "Reconstructive surgery",
-            "subtitle": "Covered by the French national health insurance (Assurance Maladie), in Lyon 5",
+            "subtitle": "Covered by the French national health insurance (Assurance Maladie), in Saint-Cyr-au-Mont-d'Or",
             "lines": [
                 {
                     "label": "Assessment",
@@ -211,7 +211,7 @@
             },
             {
                 "question": "Is the treatment reimbursed?",
-                "answer": "Only if the surgery itself is covered by the French national health insurance (reconstructive surgery), and in that case in Lyon 5. After cosmetic surgery, the treatment is not reimbursed. For reconstructive surgery, some additional treatments outside the national fee schedule may be offered with a quote: they are not reimbursed by the Assurance Maladie, but are sometimes partly covered by complementary health insurers (mutuelles)."
+                "answer": "Only if the surgery itself is covered by the French national health insurance (reconstructive surgery), and in that case in Saint-Cyr-au-Mont-d'Or. After cosmetic surgery, the treatment is not reimbursed. For reconstructive surgery, some additional treatments outside the national fee schedule may be offered with a quote: they are not reimbursed by the Assurance Maladie, but are sometimes partly covered by complementary health insurers (mutuelles)."
             },
             {
                 "question": "Can I start before I have a date for my operation?",
@@ -219,7 +219,7 @@
             },
             {
                 "question": "Where do the sessions take place?",
-                "answer": "In Lyon 1 (Coream, 22 rue Pizay) or in Lyon 5 (59 bis avenue du Point du Jour). Reimbursed treatment takes place in Lyon 5."
+                "answer": "In Lyon 1 (Coream, 22 rue Pizay) or in Saint-Cyr-au-Mont-d'Or (La Villa des Monts d'Or, 15 route de Lyon). Reimbursed treatment takes place in Saint-Cyr-au-Mont-d'Or."
             }
         ]
     },
@@ -227,6 +227,6 @@
         "title": "Ready to start?",
         "training": "Trained in peri-operative rehabilitation for cosmetic, plastic and reconstructive surgery (AIME). ",
         "aboutLink": "My background",
-        "addresses": "Lyon 1 – 22 rue Pizay (Coream) · Lyon 5 – 59 bis avenue du Point du Jour"
+        "addresses": "Lyon 1 – 22 rue Pizay (Coream) · Saint-Cyr-au-Mont-d'Or – 15 route de Lyon (La Villa des Monts d'Or)"
     }
 }

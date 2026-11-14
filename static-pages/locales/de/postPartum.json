@@ -1,7 +1,7 @@
 {
     "hero": {
         "title": "Rückbildung, Bauchmuskeltraining und Rektusdiastase nach der Geburt in Lyon",
-        "text": "Ihr Baby ist da, und Sie möchten Ihren Körper, Ihre Energie und Ihren Sport zurückgewinnen? Ich begleite Sie **von den ersten Wochen nach der Geburt bis zum Wiedereinstieg in den Sport**, in Ihrem Tempo und sicher. Ich empfange Sie in Lyon 5, im Viertel Point du Jour, und begleite Sie auch online.",
+        "text": "Ihr Baby ist da, und Sie möchten Ihren Körper, Ihre Energie und Ihren Sport zurückgewinnen? Ich begleite Sie **von den ersten Wochen nach der Geburt bis zum Wiedereinstieg in den Sport**, in Ihrem Tempo und sicher. Ich empfange Sie in Saint-Cyr-au-Mont-d'Or, und begleite Sie auch online.",
         "formulasButton": "Angebote ansehen",
         "imageAlt": "Frau in Shorts und Sportsocken in voller Bewegung, Symbol für den Wiedereinstieg in den Sport nach der Geburt"
     },
@@ -20,7 +20,7 @@
             },
             {
                 "label": "Wo",
-                "value": "Lyon 5 und online",
+                "value": "Saint-Cyr-au-Mont-d'Or und online",
                 "detail": "Zwei Angebote zur Wahl"
             },
             {
@@ -106,9 +106,9 @@
         "items": [
             {
                 "title": "Kombiniert: Praxis und Online-Begleitung",
-                "intro": "Die Praxis in Lyon 5 und die Online-Begleitung, für weniger Termine.",
+                "intro": "Die Praxis in Saint-Cyr-au-Mont-d'Or und die Online-Begleitung, für weniger Termine.",
                 "points": [
-                    "Zwei Sitzungen in der Praxis in Lyon 5 für die Befundaufnahme und die Grundlagen",
+                    "Zwei Sitzungen in der Praxis in Saint-Cyr-au-Mont-d'Or für die Befundaufnahme und die Grundlagen",
                     "Ihr Programm in der App Andrew, mit Videos",
                     "Austausch per Nachricht und Anpassungen",
                     "Regelmäßige Termine in der Praxis"
@@ -141,7 +141,7 @@
         "items": [
             {
                 "question": "Wann kann ich beginnen?",
-                "answer": "Sobald Ihr Beckenbodentraining begonnen hat. Die ersten Sitzungen können früh nach der Geburt stattfinden, mit sanfter Arbeit, die auf Ihre Erholung abgestimmt ist. Im kombinierten Angebot finden die ersten beiden Sitzungen in der Praxis in Lyon 5 statt."
+                "answer": "Sobald Ihr Beckenbodentraining begonnen hat. Die ersten Sitzungen können früh nach der Geburt stattfinden, mit sanfter Arbeit, die auf Ihre Erholung abgestimmt ist. Im kombinierten Angebot finden die ersten beiden Sitzungen in der Praxis in Saint-Cyr-au-Mont-d'Or statt."
             },
             {
                 "question": "Ich hatte in der Schwangerschaft Bettruhe. Ändert das etwas?",
@@ -165,11 +165,11 @@
             },
             {
                 "question": "Kann ich meine Rückbildung online machen?",
-                "answer": "Ja, darauf beruhen meine beiden Angebote. Das kombinierte Angebot verbindet einige Sitzungen in der Praxis in Lyon 5 mit einer Online-Begleitung über die App Andrew und Nachrichten. Das Angebot 100 % online beginnt mit einer Befundaufnahme per Video."
+                "answer": "Ja, darauf beruhen meine beiden Angebote. Das kombinierte Angebot verbindet einige Sitzungen in der Praxis in Saint-Cyr-au-Mont-d'Or mit einer Online-Begleitung über die App Andrew und Nachrichten. Das Angebot 100 % online beginnt mit einer Befundaufnahme per Video."
             },
             {
                 "question": "Wird das erstattet?",
-                "answer": "Die Sitzungen in der Praxis in Lyon 5 sind Kassenleistungen und werden auf ärztliche Verordnung von der französischen Krankenversicherung erstattet. Die Online-Begleitung als monatliche Pauschale wird nicht erstattet: Sie wird Ihnen auf Kostenvoranschlag angeboten. Alle Preise werden Ihnen vor Beginn der Behandlung mitgeteilt."
+                "answer": "Die Sitzungen in der Praxis in Saint-Cyr-au-Mont-d'Or sind Kassenleistungen und werden auf ärztliche Verordnung von der französischen Krankenversicherung erstattet. Die Online-Begleitung als monatliche Pauschale wird nicht erstattet: Sie wird Ihnen auf Kostenvoranschlag angeboten. Alle Preise werden Ihnen vor Beginn der Behandlung mitgeteilt."
             },
             {
                 "question": "Welche Zahlungsmittel akzeptieren Sie?",

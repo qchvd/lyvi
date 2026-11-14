@@ -1,7 +1,7 @@
 {
     "hero": {
         "title": "Rééducation abdominale post-partum et diastasis à Lyon",
-        "text": "Votre bébé est né, et vous avez envie de retrouver votre corps, votre énergie et votre sport ? Je vous accompagne **des premières semaines du post-partum jusqu'à la reprise sportive**, à votre rythme et en toute sécurité. Je vous reçois à Lyon 5, quartier Point du Jour, et je vous accompagne aussi à distance.",
+        "text": "Votre bébé est né, et vous avez envie de retrouver votre corps, votre énergie et votre sport ? Je vous accompagne **des premières semaines du post-partum jusqu'à la reprise sportive**, à votre rythme et en toute sécurité. Je vous reçois à Saint-Cyr-au-Mont-d'Or et je vous accompagne aussi à distance.",
         "formulasButton": "Voir les formules",
         "imageAlt": "Femme en short et chaussettes de sport en plein mouvement, symbole de la reprise sportive après l'accouchement"
     },
@@ -20,7 +20,7 @@
             },
             {
                 "label": "Où",
-                "value": "Lyon 5 et à distance",
+                "value": "Saint-Cyr-au-Mont-d'Or et à distance",
                 "detail": "Deux formules au choix"
             },
             {
@@ -106,9 +106,9 @@
         "items": [
             {
                 "title": "Mixte : cabinet et suivi à distance",
-                "intro": "Le cabinet de Lyon 5 et le suivi à distance, pour moins de rendez-vous.",
+                "intro": "Le cabinet de Saint-Cyr-au-Mont-d'Or et le suivi à distance, pour moins de rendez-vous.",
                 "points": [
-                    "Deux séances au cabinet de Lyon 5 pour le bilan et les bases",
+                    "Deux séances au cabinet de Saint-Cyr-au-Mont-d'Or pour le bilan et les bases",
                     "Votre programme dans l'application Andrew, avec vidéos",
                     "Échanges par messagerie et ajustements",
                     "Points réguliers au cabinet"
@@ -141,7 +141,7 @@
         "items": [
             {
                 "question": "Quand puis-je commencer ?",
-                "answer": "Dès que votre rééducation périnéale a commencé. Les premières séances peuvent avoir lieu tôt dans le post-partum, avec un travail doux adapté à votre récupération. Dans la formule mixte, les deux premières séances ont lieu au cabinet de Lyon 5."
+                "answer": "Dès que votre rééducation périnéale a commencé. Les premières séances peuvent avoir lieu tôt dans le post-partum, avec un travail doux adapté à votre récupération. Dans la formule mixte, les deux premières séances ont lieu au cabinet de Saint-Cyr-au-Mont-d'Or."
             },
             {
                 "question": "J'ai été alitée pendant ma grossesse, est-ce que ça change quelque chose ?",
@@ -165,11 +165,11 @@
             },
             {
                 "question": "Puis-je faire ma rééducation à distance ?",
-                "answer": "Oui, c'est le principe de mes deux formules. La formule mixte alterne quelques séances au cabinet de Lyon 5 et un suivi à distance avec l'application Andrew et une messagerie. La formule 100 % à distance commence par un bilan en visio."
+                "answer": "Oui, c'est le principe de mes deux formules. La formule mixte alterne quelques séances au cabinet de Saint-Cyr-au-Mont-d'Or et un suivi à distance avec l'application Andrew et une messagerie. La formule 100 % à distance commence par un bilan en visio."
             },
             {
                 "question": "Est-ce remboursé ?",
-                "answer": "Les séances au cabinet de Lyon 5 sont conventionnées et remboursées sur prescription médicale. Le suivi à distance, sous forme de forfait mensuel, n'est pas remboursé : il vous est proposé sur devis. Tous les tarifs vous sont communiqués avant le début des soins."
+                "answer": "Les séances au cabinet de Saint-Cyr-au-Mont-d'Or sont conventionnées et remboursées sur prescription médicale. Le suivi à distance, sous forme de forfait mensuel, n'est pas remboursé : il vous est proposé sur devis. Tous les tarifs vous sont communiqués avant le début des soins."
             },
             {
                 "question": "Quels moyens de paiement acceptez-vous ?",
