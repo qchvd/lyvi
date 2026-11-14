@@ -60,8 +60,8 @@ export function Footer() {
                                         className={addressLinkClassName}
                                     >
                                         {t("lyon5.name")}<br />
+                                        {CONTACT_INFO.addressLyon5.place}<br />
                                         {CONTACT_INFO.addressLyon5.street}<br />
-                                        {CONTACT_INFO.addressLyon5.detail}<br />
                                         {CONTACT_INFO.addressLyon5.city}<br />
                                         {t("lyon5.conditions")}
                                         <span className="sr-only"> {t("ariaLabels:newTab")}</span>

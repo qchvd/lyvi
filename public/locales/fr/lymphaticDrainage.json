@@ -15,7 +15,7 @@
     },
     "renata": {
         "title": "Les soins méthode Renata França",
-        "text": "Des soins rythmés et enveloppants, pour une sensation de légèreté et un effet remodelant. Au cabinet de Lyon 1 et de Lyon 5.",
+        "text": "Des soins rythmés et enveloppants, pour une sensation de légèreté et un effet remodelant. Au cabinet de Lyon 1 et de Saint-Cyr-au-Mont-d'Or.",
         "mostBooked": "Le plus réservé",
         "sessions": "séances",
         "session": "séance",
@@ -164,7 +164,7 @@
                 "Soins de cancérologie",
                 "Pathologies veineuses chroniques"
             ],
-            "p2": "C'est le diagnostic écrit de l'angiologue et mon bilan qui le déterminent. Dans ces cas, les soins ont lieu à Lyon 5. Dans tous les autres cas, les séances sont facturées selon les tarifs ci-dessous."
+            "p2": "C'est le diagnostic écrit de l'angiologue et mon bilan qui le déterminent. Dans ces cas, les soins ont lieu à Saint-Cyr-au-Mont-d'Or. Dans tous les autres cas, les séances sont facturées selon les tarifs ci-dessous."
         },
         "prices": {
             "title": "Tarifs du drainage thérapeutique",
@@ -233,7 +233,7 @@
             },
             {
                 "question": "Le drainage est-il remboursé ?",
-                "answer": "Très rarement, même avec une ordonnance. L'Assurance Maladie ne le prend en charge que pour un lymphœdème primaire, des soins de cancérologie ou une pathologie veineuse chronique, sur diagnostic écrit de l'angiologue et après mon bilan. Ces soins ont lieu à Lyon 5. Le drainage Renata França n'est jamais remboursé."
+                "answer": "Très rarement, même avec une ordonnance. L'Assurance Maladie ne le prend en charge que pour un lymphœdème primaire, des soins de cancérologie ou une pathologie veineuse chronique, sur diagnostic écrit de l'angiologue et après mon bilan. Ces soins ont lieu à Saint-Cyr-au-Mont-d'Or. Le drainage Renata França n'est jamais remboursé."
             },
             {
                 "question": "J'ai les jambes lourdes : quel drainage choisir ?",
@@ -267,7 +267,7 @@
             },
             {
                 "question": "Où se déroulent les séances et comment payer ?",
-                "answer": "À Lyon 1 (Coream, 22 rue Pizay) et à Lyon 5 (59 bis avenue du Point du Jour). Paiement : espèces, chèque, virement, Wero."
+                "answer": "À Lyon 1 (Coream, 22 rue Pizay) et à Saint-Cyr-au-Mont-d'Or (La Villa des Monts d'Or, 15 route de Lyon). Paiement : espèces, chèque, virement, Wero."
             }
         ]
     }

@@ -1,7 +1,7 @@
 {
     "hero": {
         "title": "Kinésithérapie pré et post-opératoire en chirurgie esthétique et réparatrice à Lyon",
-        "text": "Je vous accompagne **avant et après votre intervention**, pour une récupération optimale, **en lien avec votre chirurgien**. Consultations à Lyon 1 et à Lyon 5.",
+        "text": "Je vous accompagne **avant et après votre intervention**, pour une récupération optimale, **en lien avec votre chirurgien**. Consultations à Lyon 1 et à Saint-Cyr-au-Mont-d'Or.",
         "pricesButton": "Voir les tarifs",
         "imageAlt": "Marquage pré-opératoire tracé par le chirurgien avant une chirurgie esthétique"
     },
@@ -179,7 +179,7 @@
         },
         "reconstructive": {
             "title": "Chirurgie réparatrice",
-            "subtitle": "Prise en charge par l'Assurance Maladie, à Lyon 5",
+            "subtitle": "Prise en charge par l'Assurance Maladie, à Saint-Cyr-au-Mont-d'Or",
             "lines": [
                 {
                     "label": "Bilan",
@@ -211,7 +211,7 @@
             },
             {
                 "question": "Les soins sont-ils remboursés ?",
-                "answer": "Uniquement si la chirurgie elle-même est prise en charge par l'Assurance Maladie (chirurgie réparatrice), et dans ce cas à Lyon 5. Après une chirurgie esthétique, les soins ne sont pas remboursés. En chirurgie réparatrice, certains soins complémentaires hors nomenclature peuvent être proposés sur devis : ils ne sont pas remboursés par l'Assurance Maladie, mais parfois en partie par les mutuelles."
+                "answer": "Uniquement si la chirurgie elle-même est prise en charge par l'Assurance Maladie (chirurgie réparatrice), et dans ce cas à Saint-Cyr-au-Mont-d'Or. Après une chirurgie esthétique, les soins ne sont pas remboursés. En chirurgie réparatrice, certains soins complémentaires hors nomenclature peuvent être proposés sur devis : ils ne sont pas remboursés par l'Assurance Maladie, mais parfois en partie par les mutuelles."
             },
             {
                 "question": "Puis-je commencer avant d'avoir une date d'opération ?",
@@ -219,7 +219,7 @@
             },
             {
                 "question": "Où se déroulent les séances ?",
-                "answer": "À Lyon 1 (Coream, 22 rue Pizay) ou à Lyon 5 (59 bis avenue du Point du Jour). Les soins remboursés ont lieu à Lyon 5."
+                "answer": "À Lyon 1 (Coream, 22 rue Pizay) ou à Saint-Cyr-au-Mont-d'Or (La Villa des Monts d'Or, 15 route de Lyon). Les soins remboursés ont lieu à Saint-Cyr-au-Mont-d'Or."
             }
         ]
     },
@@ -227,6 +227,6 @@
         "title": "Prête à commencer ?",
         "training": "Formée à la rééducation péri-opératoire en chirurgie esthétique, plastique et reconstructrice (AIME). ",
         "aboutLink": "Mon parcours",
-        "addresses": "Lyon 1 – 22 rue Pizay (Coream) · Lyon 5 – 59 bis avenue du Point du Jour"
+        "addresses": "Lyon 1 – 22 rue Pizay (Coream) · Saint-Cyr-au-Mont-d'Or – 15 route de Lyon (La Villa des Monts d'Or)"
     }
 }
