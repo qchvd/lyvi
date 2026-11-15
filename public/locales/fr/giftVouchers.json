@@ -84,5 +84,8 @@
         "practicesTitle": "Les cabinets",
         "questions": "Une question ? Il suffit de répondre à cet e-mail.",
         "signature": "À bientôt,\nAnaïs Eynard\nKinésithérapeute – Lyvi"
+    },
+    "stripe": {
+        "beneficiaryField": "Prénom du bénéficiaire"
     }
 }

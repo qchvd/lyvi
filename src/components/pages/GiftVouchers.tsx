@@ -96,7 +96,7 @@ export function GiftVouchers() {
     const vouchersOf = (group: GiftVoucher["group"]) => GIFT_VOUCHERS.filter((voucher) => voucher.group === group)
 
     const selectedVoucher = GIFT_VOUCHERS.find((voucher) => voucher.id === selectedId)
-    const selectedLink = selectedId ? GIFT_VOUCHER_LINKS[selectedId] : ""
+    const selectedLink = selectedId ? (GIFT_VOUCHER_LINKS[i18n.language] ?? GIFT_VOUCHER_LINKS.fr)?.[selectedId] ?? "" : ""
     const steps = t("steps.items", { returnObjects: true }) as TitledText[]
     const conditions = t("conditions.items", { returnObjects: true }) as string[]
 

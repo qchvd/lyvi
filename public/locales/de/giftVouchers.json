@@ -84,5 +84,8 @@
         "practicesTitle": "Die Praxen",
         "questions": "Eine Frage? Antworten Sie einfach auf diese E-Mail.",
         "signature": "Bis bald,\nAnaïs Eynard\nPhysiotherapeutin – Lyvi"
+    },
+    "stripe": {
+        "beneficiaryField": "Vorname der beschenkten Person"
     }
 }

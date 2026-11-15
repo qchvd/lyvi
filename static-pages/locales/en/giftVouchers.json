@@ -84,5 +84,8 @@
         "practicesTitle": "The practices",
         "questions": "Any question? Simply reply to this email.",
         "signature": "See you soon,\nAnaïs Eynard\nPhysical therapist – Lyvi"
+    },
+    "stripe": {
+        "beneficiaryField": "Recipient's first name"
     }
 }
