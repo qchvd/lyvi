@@ -331,13 +331,13 @@ export function Home() {
         />
       </Helmet>
             <Header />
-            <main id="main-content" inert={isSidebarOpen ? true : undefined} className="pt-18 min-h-screen overflow-x-hidden">
+            <main id="main-content" inert={isSidebarOpen ? true : undefined} className="pt-[var(--header-h)] min-h-screen overflow-x-hidden">
                 <div
-                    className={`flex ${shouldStack ? 'flex-col' : 'md:flex-row'} py-8 md:py-10`}
+                    className={`flex ${shouldStack ? 'flex-col' : 'md:flex-row'} py-8 md:py-[calc(2.5rem-var(--banner-h)/2)]`}
                     style={{
                         // The hero may grow beyond the screen height instead of overflowing
                         minHeight: !shouldStack && window.matchMedia('(orientation: landscape)').matches
-                            ? `calc(100vh - 4.5rem)`
+                            ? `calc(100vh - var(--header-h))`
                             : 'auto'
                     }}
                 >

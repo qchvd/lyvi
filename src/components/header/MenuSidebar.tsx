@@ -51,7 +51,7 @@ export function MenuSidebar({
                 id="sidebar"
                 ref={sidebarRef}
                 inert={!isSidebarOpen ? true : undefined}
-                className={`fixed top-[72px] inset-0 bg-[#627156] p-4 overflow-y-auto transform transition-transform duration-300 ease-in-out lg:hidden
+                className={`fixed top-[var(--header-h)] inset-0 bg-[#627156] p-4 overflow-y-auto transform transition-transform duration-300 ease-in-out lg:hidden
                     ${isSidebarOpen ? "translate-x-0" : "-translate-x-full"}`}
             >
                 <Navbar windowWidth={windowWidth} />

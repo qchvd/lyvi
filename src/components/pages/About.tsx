@@ -327,7 +327,7 @@ export function About() {
       </Helmet>
       <Header />
       {/* containerType: 'inline-size' enables container queries for responsive fluid typography */}
-      <main id="main-content" inert={isSidebarOpen ? true : undefined} className="pt-18 min-h-screen" style={{ containerType: 'inline-size' }}>
+      <main id="main-content" inert={isSidebarOpen ? true : undefined} className="pt-[var(--header-h)] min-h-screen" style={{ containerType: 'inline-size' }}>
         {/* Animated title with staggered fade-in effect for each letter */}
         {/* Real h1 for search engines and screen readers; the animated title (one span per letter) is decorative */}
         <h1 className="sr-only">{t("meta:aboutH1")}</h1>

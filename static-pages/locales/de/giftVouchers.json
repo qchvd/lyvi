@@ -1,0 +1,91 @@
+{
+    "hero": {
+        "title": "Eine Renata-França-Behandlung verschenken",
+        "text": "Ein Moment der Leichtigkeit für Ihre Liebsten. Der Gutschein wird Ihnen direkt nach der Zahlung als PDF zugeschickt, bereit zum Ausdrucken oder Weiterleiten. Er ist ein Jahr lang gültig, in der Praxis in Lyon 1 oder in Saint-Cyr-au-Mont-d'Or."
+    },
+    "card": {
+        "title": "Gutscheine",
+        "groups": {
+            "single": "Einzelsitzung",
+            "cure5": "Kur mit 5 Sitzungen",
+            "cure8": "Kur mit 8 Sitzungen"
+        },
+        "cares": {
+            "drainage": "Lymphdrainage",
+            "remodelage": "Körpermodellierung",
+            "miracleFace": "Miracle Face"
+        },
+        "sessions_one": "{{count}} Sitzung",
+        "sessions_other": "{{count}} Sitzungen",
+        "price": "{{price}} €",
+        "selectLabel": "Behandlung zum Verschenken",
+        "selectPlaceholder": "Wählen Sie die Behandlung",
+        "button": "Diese Behandlung verschenken",
+        "comingSoon": "Die Online-Zahlung ist bald verfügbar.",
+        "secure": "Sichere Zahlung über Stripe"
+    },
+    "steps": {
+        "title": "So funktioniert es",
+        "items": [
+            {
+                "title": "Behandlung wählen",
+                "text": "Wählen Sie die Behandlung aus der Liste und bezahlen Sie sicher online mit Karte."
+            },
+            {
+                "title": "Gutschein erhalten",
+                "text": "Der Gutschein wird Ihnen direkt nach der Zahlung als PDF per E-Mail zugeschickt, mit einem persönlichen Code. Sie können ihn ausdrucken oder weiterleiten."
+            },
+            {
+                "title": "Die beschenkte Person bucht einen Termin",
+                "text": "Über Doctolib, indem „Bon cadeau“ (Gutschein) als Terminanlass ausgewählt wird. Die Behandlung ist bereits bezahlt."
+            }
+        ]
+    },
+    "conditions": {
+        "title": "Bedingungen",
+        "items": [
+            "Ein Jahr ab Kaufdatum gültig.",
+            "Einlösbar in der Praxis in Lyon 1 oder in Saint-Cyr-au-Mont-d'Or.",
+            "Nicht erstattungsfähig und nicht in bar auszahlbar.",
+            "Eine Kur gilt nur für ein und dieselbe Person.",
+            "In der Schwangerschaft wird die Drainage auf ärztliche Verordnung durchgeführt.",
+            "Die Behandlung ist nicht möglich bei Fieber oder Infektion, Venenentzündung, Nieren- oder Herzinsuffizienz oder einer offenen Wunde. Für Miracle Face sind nach einer Injektion im Gesicht 8 Tage abzuwarten.",
+            "Im Zweifel kontaktieren Sie mich bitte, bevor Sie die Behandlung verschenken."
+        ]
+    },
+    "thanks": {
+        "title": "Vielen Dank für Ihre Bestellung!",
+        "text": "Ihr Gutschein wurde soeben per E-Mail an {{email}} geschickt. Sie können ihn auch sofort herunterladen.",
+        "download": "Gutschein herunterladen",
+        "pending": "Ihr Gutschein wird gerade erstellt…",
+        "late": "Ihre Zahlung ist eingegangen. Ihr Gutschein wird Ihnen in wenigen Minuten per E-Mail zugeschickt.",
+        "spam": "Sie finden ihn nicht? Bitte schauen Sie auch in Ihren Spam-Ordner.",
+        "back": "Zurück zu den Gutscheinen"
+    },
+    "voucher": {
+        "title": "Gutschein",
+        "fileName": "lyvi-gutschein"
+    },
+    "email": {
+        "subject": "Ihr Lyvi-Gutschein für {{beneficiary}}",
+        "preheader": "Der Gutschein ist im Anhang, bereit zum Ausdrucken oder Weitergeben.",
+        "greeting": "Guten Tag,",
+        "intro": "Vielen Dank für Ihre Bestellung! Im Anhang dieser E-Mail finden Sie den Gutschein für {{beneficiary}} als PDF. Sie können ihn ausdrucken oder direkt per E-Mail oder Nachricht weitergeben.",
+        "summaryTitle": "Übersicht",
+        "labels": {
+            "care": "Behandlung",
+            "beneficiary": "Für",
+            "validUntil": "Gültig bis",
+            "code": "Code"
+        },
+        "bookingTitle": "Wie wird gebucht?",
+        "booking": "{{beneficiary}} bucht über Doctolib einen Termin mit dem Anlass « Bon cadeau » (Gutschein) und wählt dann die Behandlung. Die Behandlung ist bereits bezahlt.",
+        "bookingButton": "Termin auf Doctolib buchen",
+        "practicesTitle": "Die Praxen",
+        "questions": "Eine Frage? Antworten Sie einfach auf diese E-Mail.",
+        "signature": "Bis bald,\nAnaïs Eynard\nPhysiotherapeutin – Lyvi"
+    },
+    "stripe": {
+        "beneficiaryField": "Vorname der beschenkten Person"
+    }
+}

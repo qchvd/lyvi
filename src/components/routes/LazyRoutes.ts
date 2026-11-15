@@ -12,3 +12,4 @@ export const LazyPostPartum = lazy(() => import("../pages/PostPartum").then(modu
 export const LazyContact = lazy(() => import("../pages/Contact").then(module => ({ default: module.Contact })))
 export const LazyPageNotFound = lazy(() => import("../pages/PageNotFound").then(module => ({ default: module.PageNotFound })))
 export const LazyConfirmationMessageSent = lazy(() => import("../pages/ConfirmationMessageSent").then(module => ({ default: module.ConfirmationMessageSent })))
+export const LazyGiftVouchers = lazy(() => import("../pages/GiftVouchers").then(module => ({ default: module.GiftVouchers })))

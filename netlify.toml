@@ -7,6 +7,20 @@
 [build.processing]
   skip_processing = true
 
+# Branch deploys (e.g. modifs-anais--lyvicare.netlify.app) are not a public copy of the site:
+# instead of the site, they only publish a redirection of every page to lyvicare.com.
+[context.branch-deploy]
+  command = "mkdir -p branch-redirect && printf '/* https://lyvicare.com/:splat 301!\\n' > branch-redirect/_redirects && printf 'Redirection to lyvicare.com' > branch-redirect/index.html"
+  publish = "branch-redirect"
+
+# Gift vouchers (Stripe webhook, PDF, email): see netlify/lib/giftVoucher.mjs.
+# esbuild bundles the shared code and the translation files they import.
+[functions]
+  directory = "netlify/functions"
+  node_bundler = "esbuild"
+  # Voucher templates, font and email logo, read by netlify/lib/giftVoucher.mjs
+  included_files = ["netlify/lib/voucher-templates/**", "netlify/lib/fonts/**", "netlify/lib/email/**"]
+
 # =======================================================
 # Domaine Netlify -> domaine principal
 # =======================================================
@@ -138,6 +152,18 @@
   force = true
 
 [[redirects]]
+  from = "/fr-bons-cadeaux"
+  to = "/fr-404/index.html"
+  status = 404
+  force = true
+
+[[redirects]]
+  from = "/fr-bons-cadeaux/*"
+  to = "/fr-404/index.html"
+  status = 404
+  force = true
+
+[[redirects]]
   from = "/en-about"
   to = "/en-404/index.html"
   status = 404
@@ -198,6 +224,18 @@
   force = true
 
 [[redirects]]
+  from = "/en-gift-vouchers"
+  to = "/en-404/index.html"
+  status = 404
+  force = true
+
+[[redirects]]
+  from = "/en-gift-vouchers/*"
+  to = "/en-404/index.html"
+  status = 404
+  force = true
+
+[[redirects]]
   from = "/de-uber-mich"
   to = "/de-404/index.html"
   status = 404
@@ -253,6 +291,18 @@
 
 [[redirects]]
   from = "/de-kontakt/*"
+  to = "/de-404/index.html"
+  status = 404
+  force = true
+
+[[redirects]]
+  from = "/de-gutscheine"
+  to = "/de-404/index.html"
+  status = 404
+  force = true
+
+[[redirects]]
+  from = "/de-gutscheine/*"
   to = "/de-404/index.html"
   status = 404
   force = true
@@ -342,6 +392,11 @@
   to = "/fr-contact/index.html"
   status = 200
 
+[[redirects]]
+  from = "/fr/bons-cadeaux"
+  to = "/fr-bons-cadeaux/index.html"
+  status = 200
+
 # Ancienne page FAQ française (supprimée) : redirection permanente vers la page
 # Drainage lymphatique, qui contient désormais la FAQ. Seule redirection de page du site.
 # Doit rester avant la règle "/fr/*" (404) plus bas.
@@ -377,6 +432,11 @@
   to = "/en-contact/index.html"
   status = 200
 
+[[redirects]]
+  from = "/en/gift-vouchers"
+  to = "/en-gift-vouchers/index.html"
+  status = 200
+
 # DE
 [[redirects]]
   from = "/de/uber-mich"
@@ -401,6 +461,11 @@
 [[redirects]]
   from = "/de/kontakt"
   to = "/de-kontakt/index.html"
+  status = 200
+
+[[redirects]]
+  from = "/de/gutscheine"
+  to = "/de-gutscheine/index.html"
   status = 200
 
 # =======================================================

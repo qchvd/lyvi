@@ -2,6 +2,10 @@
 @import "tw-animate-css";
 
 :root {
+  /* Height of the gift vouchers banner above the menu (0 when hidden) and of the whole fixed header (menu bar 4.5rem + banner).
+     The home hero loses the banner height from its padding so it still fits on the screen. */
+  --banner-h: 0rem;
+  --header-h: calc(4.5rem + var(--banner-h));
   --color-brand-green: #627156;
   --color-brand-cream: #FAF2E8;
   /* Cream veil over the drainage page header photo: 1 = photo hidden, 0 = photo fully visible */
@@ -630,5 +634,29 @@ h1[tabindex="-1"]:focus-visible {
 @media (prefers-reduced-motion: reduce) and (min-width: 768px) {
   .cookie-banner-container {
     transform: none !important;
+  }
+}
+
+/* Gift vouchers banner above the menu (src/components/header/GiftBanner.tsx): the header grows by its height */
+:root:has(.gift-banner) {
+  --banner-h: 2.25rem;
+}
+
+/* Gift icon of the gift vouchers banner: sways from left to right with a little hop */
+.gift-wiggle {
+  transform-origin: 50% 90%;
+  animation: gift-wiggle 0.9s ease-in-out infinite;
+}
+
+@keyframes gift-wiggle {
+  0%, 100% { transform: rotate(-12deg) translateY(0); }
+  25% { transform: rotate(0deg) translateY(-2px); }
+  50% { transform: rotate(12deg) translateY(0); }
+  75% { transform: rotate(0deg) translateY(-2px); }
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .gift-wiggle {
+    animation: none;
   }
 }

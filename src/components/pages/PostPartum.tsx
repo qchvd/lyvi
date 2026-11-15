@@ -84,10 +84,11 @@ function scrollToFormulas(event: MouseEvent<HTMLAnchorElement>) {
     trackEvent("CTA", "Click", "Formulas - Post-partum - Hero")
 }
 
-function Section({ className, children, id }: { className: string; children: ReactNode; id?: string }) {
+// first: page's first block, filling the screen height under the header on landscape tablets/desktops
+function Section({ className, children, id, first = false }: { className: string; children: ReactNode; id?: string; first?: boolean }) {
     return (
-        <section id={id} className={`px-8 lg:px-10 py-14 md:py-20 scroll-mt-18 ${className}`}>
-            <div className="mx-auto max-w-6xl">{children}</div>
+        <section id={id} className={`px-8 lg:px-10 py-14 md:py-20 ${first ? "md:landscape:min-h-[calc(100svh-var(--header-h))] md:landscape:py-6 md:landscape:flex md:landscape:flex-col md:landscape:justify-center" : ""} scroll-mt-[var(--header-h)] ${className}`}>
+            <div className="w-full mx-auto max-w-6xl">{children}</div>
         </section>
     )
 }
@@ -174,9 +175,9 @@ export function PostPartum() {
             {/* White page background so the footer wave joins the last (white) section */}
             <div className="min-h-screen flex flex-col bg-white">
                 <Header />
-                <main id="main-content" inert={isSidebarOpen ? true : undefined} className="pt-18 flex-1 text-[var(--color-brand-green)]">
+                <main id="main-content" inert={isSidebarOpen ? true : undefined} className="pt-[var(--header-h)] flex-1 text-[var(--color-brand-green)]">
                     {/* ===== 1. PAGE HEADER ===== */}
-                    <Section className={whiteSection}>
+                    <Section first className={whiteSection}>
                         <div className="grid grid-cols-1 md:grid-cols-2 gap-10 lg:gap-16 items-center">
                             <div>
                                 <CareBadge type="medical" />
@@ -199,7 +200,7 @@ export function PostPartum() {
                                 alt={t("hero.imageAlt")}
                                 width={1333}
                                 height={2000}
-                                className="block mx-auto w-auto h-auto max-w-full max-h-[560px] rounded-lg bg-[var(--color-terracotta-light)]"
+                                className="block mx-auto w-auto h-auto max-w-full max-h-[560px] md:landscape:max-h-[min(560px,calc(100svh-var(--header-h)-3rem))] rounded-lg bg-[var(--color-terracotta-light)]"
                             />
                         </div>
                     </Section>

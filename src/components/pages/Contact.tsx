@@ -206,7 +206,7 @@ export function Contact() {
   return (
     <>
       <Header />
-      <main id="main-content" inert={isSidebarOpen ? true : undefined} className="pt-18 h-full relative">
+      <main id="main-content" inert={isSidebarOpen ? true : undefined} className="pt-[var(--header-h)] h-full relative">
         {/* Fixed sidebar with Instagram and Doctolib links */}
         <div className="fixed top-1/2 -translate-y-1/2 right-0 z-10 flex flex-col items-end gap-2 w-12">
           <SocialPill
@@ -512,7 +512,7 @@ export function Contact() {
               </div>
             </motion.aside>
           </section>
-          <div className="hidden lg:block lg:w-1/2 lg:fixed lg:right-0 lg:top-18 lg:bottom-0">
+          <div className="hidden lg:block lg:w-1/2 lg:fixed lg:right-0 lg:top-[var(--header-h)] lg:bottom-0">
             <ImageContent className="w-full h-full object-cover" />
           </div>
         </div >

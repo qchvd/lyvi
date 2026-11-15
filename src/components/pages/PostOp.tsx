@@ -62,7 +62,7 @@ function scrollToPrices(event: MouseEvent<HTMLAnchorElement>) {
 
 function Section({ className, children, id }: { className: string; children: ReactNode; id?: string }) {
     return (
-        <section id={id} className={`px-8 lg:px-10 py-14 md:py-20 scroll-mt-18 ${className}`}>
+        <section id={id} className={`px-8 lg:px-10 py-14 md:py-20 scroll-mt-[var(--header-h)] ${className}`}>
             <div className="mx-auto max-w-6xl">{children}</div>
         </section>
     )
@@ -165,10 +165,11 @@ export function PostOp() {
             </Helmet>
             <div className="min-h-screen flex flex-col">
                 <Header />
-                <main id="main-content" inert={isSidebarOpen ? true : undefined} className="pt-18 flex-1">
+                <main id="main-content" inert={isSidebarOpen ? true : undefined} className="pt-[var(--header-h)] flex-1">
                     {/* ===== 1. PAGE HEADER ===== */}
-                    <section className="px-8 lg:px-10 py-12 md:py-16">
-                        <div className="mx-auto max-w-6xl grid grid-cols-1 md:grid-cols-2 gap-10 lg:gap-16 items-center">
+                    {/* Fills the screen height under the header on landscape tablets/desktops (photo shrinks if the screen is too low) */}
+                    <section className="px-8 lg:px-10 py-12 md:py-16 md:landscape:min-h-[calc(100svh-var(--header-h))] md:landscape:py-6 md:landscape:flex md:landscape:flex-col md:landscape:justify-center">
+                        <div className="w-full mx-auto max-w-6xl grid grid-cols-1 md:grid-cols-2 gap-10 lg:gap-16 items-center">
                             <div>
                                 <CareBadge type="medical" />
                                 <h1 className="text-[1.7rem] lg:text-4xl font-bold leading-snug mt-5">{renderWithoutHyphenBreaks(t("hero.title"))}</h1>
@@ -188,7 +189,7 @@ export function PostOp() {
                                 alt={t("hero.imageAlt")}
                                 width={800}
                                 height={1200}
-                                className="block mx-auto w-auto h-auto max-w-full max-h-[560px] rounded-lg bg-[var(--color-brand-cream)]/15"
+                                className="block mx-auto w-auto h-auto max-w-full max-h-[560px] md:landscape:max-h-[min(560px,calc(100svh-var(--header-h)-3rem))] rounded-lg bg-[var(--color-brand-cream)]/15"
                             />
                         </div>
                     </section>

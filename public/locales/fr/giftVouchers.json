@@ -1,0 +1,91 @@
+{
+    "hero": {
+        "title": "Offrir un soin Renata França",
+        "text": "Un moment de légèreté à offrir à vos proches. Le bon cadeau vous est envoyé en PDF dès le paiement, prêt à imprimer ou à transférer. Il est valable un an, au cabinet de Lyon 1 ou de Saint-Cyr-au-Mont-d'Or."
+    },
+    "card": {
+        "title": "Les bons cadeaux",
+        "groups": {
+            "single": "Séance unique",
+            "cure5": "Cure de 5 séances",
+            "cure8": "Cure de 8 séances"
+        },
+        "cares": {
+            "drainage": "Drainage lymphatique",
+            "remodelage": "Remodelage",
+            "miracleFace": "Miracle Face"
+        },
+        "sessions_one": "{{count}} séance",
+        "sessions_other": "{{count}} séances",
+        "price": "{{price}} €",
+        "selectLabel": "Soin à offrir",
+        "selectPlaceholder": "Choisissez le soin à offrir",
+        "button": "Offrir ce soin",
+        "comingSoon": "Le paiement en ligne sera bientôt disponible.",
+        "secure": "Paiement sécurisé par Stripe"
+    },
+    "steps": {
+        "title": "Comment ça marche",
+        "items": [
+            {
+                "title": "Choisissez le soin",
+                "text": "Sélectionnez le soin à offrir dans la liste, puis réglez en ligne par carte bancaire, en toute sécurité."
+            },
+            {
+                "title": "Recevez le bon cadeau",
+                "text": "Le bon en PDF vous est envoyé par e-mail dès le paiement, avec un code unique. Vous pouvez l'imprimer ou le transférer."
+            },
+            {
+                "title": "Votre proche prend rendez-vous",
+                "text": "Sur Doctolib, en sélectionnant « Bon cadeau » parmi les motifs de rendez-vous. Le soin est déjà réglé."
+            }
+        ]
+    },
+    "conditions": {
+        "title": "Conditions",
+        "items": [
+            "Valable un an à compter de la date d'achat.",
+            "Utilisable au cabinet de Lyon 1 ou de Saint-Cyr-au-Mont-d'Or.",
+            "Non remboursable et non échangeable contre de l'argent.",
+            "Une cure est réservée à une seule et même personne.",
+            "Pendant la grossesse, le drainage est réalisé sur ordonnance.",
+            "Le soin n'est pas possible en cas de fièvre ou d'infection, de phlébite, d'insuffisance rénale ou cardiaque, ou de plaie ouverte. Pour le Miracle Face, il faut attendre 8 jours après une injection au niveau du visage.",
+            "En cas de doute, contactez-moi avant d'offrir le soin."
+        ]
+    },
+    "thanks": {
+        "title": "Merci pour votre commande !",
+        "text": "Votre bon cadeau vient de vous être envoyé par e-mail à {{email}}. Vous pouvez aussi le télécharger dès maintenant.",
+        "download": "Télécharger le bon cadeau",
+        "pending": "Votre bon cadeau est en cours de création…",
+        "late": "Votre paiement est bien reçu. Votre bon cadeau vous sera envoyé par e-mail dans quelques minutes.",
+        "spam": "Vous ne le trouvez pas ? Pensez à regarder dans vos courriers indésirables.",
+        "back": "Revenir aux bons cadeaux"
+    },
+    "voucher": {
+        "title": "Bon cadeau",
+        "fileName": "bon-cadeau-lyvi"
+    },
+    "email": {
+        "subject": "Votre bon cadeau Lyvi pour {{beneficiary}}",
+        "preheader": "Le bon cadeau est en pièce jointe, prêt à être imprimé ou transmis.",
+        "greeting": "Bonjour,",
+        "intro": "Merci pour votre commande ! Vous trouverez le bon cadeau pour {{beneficiary}} en pièce jointe de cet e-mail, au format PDF. Vous pouvez l'imprimer ou le transmettre directement par e-mail ou par message.",
+        "summaryTitle": "Récapitulatif",
+        "labels": {
+            "care": "Soin",
+            "beneficiary": "Pour",
+            "validUntil": "Valable jusqu'au",
+            "code": "Code"
+        },
+        "bookingTitle": "Comment réserver ?",
+        "booking": "{{beneficiary}} prend rendez-vous sur Doctolib en choisissant le motif « Bon cadeau », puis le soin. Le soin est déjà réglé.",
+        "bookingButton": "Prendre rendez-vous sur Doctolib",
+        "practicesTitle": "Les cabinets",
+        "questions": "Une question ? Il suffit de répondre à cet e-mail.",
+        "signature": "À bientôt,\nAnaïs Eynard\nKinésithérapeute – Lyvi"
+    },
+    "stripe": {
+        "beneficiaryField": "Prénom du bénéficiaire"
+    }
+}
