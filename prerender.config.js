@@ -18,6 +18,9 @@ export default {
     "/fr/contact",
     "/en/contact",
     "/de/kontakt",
+    "/fr/bons-cadeaux",
+    "/en/gift-vouchers",
+    "/de/gutscheine",
     // 404 page of each language, served by Netlify with a 404 status for any unknown URL
     "/fr/404",
     "/en/404",

@@ -20,6 +20,7 @@
         "sessions": "Sitzungen",
         "session": "Sitzung",
         "price": "{{price}} €",
+        "giftLink": "Eine Behandlung verschenken",
         "cards": {
             "drainage": {
                 "title": "Drainage",

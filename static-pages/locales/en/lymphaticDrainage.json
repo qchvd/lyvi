@@ -20,6 +20,7 @@
         "sessions": "sessions",
         "session": "session",
         "price": "€{{price}}",
+        "giftLink": "Give a treatment as a gift",
         "cards": {
             "drainage": {
                 "title": "Drainage",

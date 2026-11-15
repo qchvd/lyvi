@@ -2,7 +2,7 @@ import { useEffect, useRef, useState, type ReactNode } from "react"
 import { useTranslation } from "react-i18next"
 import { Link, useLocation, useNavigate } from "react-router-dom"
 import { Helmet } from "react-helmet-async"
-import { ArrowRight, Info, Plus } from "lucide-react"
+import { ArrowRight, Gift, Info, Plus } from "lucide-react"
 import { Header } from "../header/Header"
 import { Footer } from "../footer/Footer"
 import { useSidebar } from "../../contexts/SidebarContext"
@@ -11,6 +11,7 @@ import { CTA } from "../header/CTA"
 import { CareBadge } from "../CareBadge"
 import { RenataCard } from "../treatments/RenataCard"
 import { trackEvent } from "../../utils/analytics"
+import { RENATA_PRICES, SESSION_COUNTS, savings, type RenataCare } from "../../constants/renataPrices"
 import facialMassageImage from "../../assets/images/facialMassage.webp"
 import legMassageImage from "../../assets/images/legMassagePhoto.webp"
 import remodelingMassageImage from "../../assets/images/remodelingMassagePhoto.webp"
@@ -107,10 +108,11 @@ function FaqAccordion({ items, links }: { items: FaqItem[]; links: Record<string
     )
 }
 
-function Section({ className, children, id }: { className: string; children: ReactNode; id?: string }) {
+// first: page's first block, filling the screen height under the header on landscape tablets/desktops
+function Section({ className, children, id, first = false }: { className: string; children: ReactNode; id?: string; first?: boolean }) {
     return (
-        <section id={id} className={`px-8 lg:px-10 py-14 md:py-20 scroll-mt-18 ${className}`}>
-            <div className="mx-auto max-w-6xl">{children}</div>
+        <section id={id} className={`px-8 lg:px-10 py-14 md:py-20 ${first ? "md:landscape:min-h-[calc(100svh-var(--header-h))] md:landscape:py-6 md:landscape:flex md:landscape:flex-col md:landscape:justify-center" : ""} scroll-mt-[var(--header-h)] ${className}`}>
+            <div className="w-full mx-auto max-w-6xl">{children}</div>
         </section>
     )
 }
@@ -196,6 +198,7 @@ export function LymphaticDrainage() {
 
     const postOpPath = `/${i18n.language}${t("routes:postOp")}`
     const postPartumPath = `/${i18n.language}${t("routes:postPartum")}`
+    const giftVouchersPath = `/${i18n.language}${t("routes:giftVouchers")}`
     const anchorPath = (anchor: string) => `${pathname}#${anchor}`
     const comparisonRows = t("comparison.rows", { returnObjects: true }) as ComparisonRow[]
     const therapeuticCards = t("therapeutic.cards", { returnObjects: true }) as Record<string, TherapeuticCard>
@@ -222,20 +225,15 @@ export function LymphaticDrainage() {
         })),
     }
 
-    // Prices of the Renata França cards (1, 5 and 8 sessions packages)
-    const priceMapDrainage: Record<number, number> = { 1: 130, 5: 120, 8: 110 }
-    const priceMapRemodelage: Record<number, number> = { 1: 130, 5: 120, 8: 110 }
-    const priceMapMiracleFace: Record<number, number> = { 1: 60, 5: 55, 8: 50 }
+    // Prices of the Renata França cards (1, 5 and 8 sessions packages): shared with the gift vouchers page
     // Savings in euros (formatted per language with the "renata.price" text)
-    const savingsDrainage: Record<number, number> = { 1: 0, 5: 50, 8: 160 }
-    const savingsRemodelage: Record<number, number> = { 1: 0, 5: 50, 8: 160 }
-    const savingsMiracleFace: Record<number, number> = { 1: 0, 5: 25, 8: 80 }
+    const savingsMap = (care: RenataCare) => Object.fromEntries(SESSION_COUNTS.map((sessions) => [sessions, savings(care, sessions)]))
 
     const renataCards = [
-        { key: "drainage", image: legMassageImage, alt: t("treatments:altDrainagePicture"), priceMap: priceMapDrainage, savingsMap: savingsDrainage, featured: true },
-        { key: "remodelage", image: remodelingMassageImage, alt: t("treatments:altRemodelagePicture"), priceMap: priceMapRemodelage, savingsMap: savingsRemodelage },
-        { key: "miracleFace", image: facialMassageImage, alt: t("treatments:altMiracleFacePicture"), priceMap: priceMapMiracleFace, savingsMap: savingsMiracleFace },
-    ]
+        { key: "drainage" as const, image: legMassageImage, alt: t("treatments:altDrainagePicture"), featured: true },
+        { key: "remodelage" as const, image: remodelingMassageImage, alt: t("treatments:altRemodelagePicture") },
+        { key: "miracleFace" as const, image: facialMassageImage, alt: t("treatments:altMiracleFacePicture") },
+    ].map((card) => ({ ...card, priceMap: RENATA_PRICES[card.key], savingsMap: savingsMap(card.key) }))
 
     return (
         <>
@@ -247,9 +245,9 @@ export function LymphaticDrainage() {
             {/* Cream page background so the footer wave joins the last (cream) section */}
             <div className="min-h-screen flex flex-col bg-[var(--color-brand-cream)]">
                 <Header />
-                <main id="main-content" inert={isSidebarOpen ? true : undefined} className="pt-18 flex-1 text-[var(--color-brand-green)]">
+                <main id="main-content" inert={isSidebarOpen ? true : undefined} className="pt-[var(--header-h)] flex-1 text-[var(--color-brand-green)]">
                     {/* ===== 1. PAGE HEADER: two doors ===== */}
-                    <Section className="relative overflow-hidden bg-[var(--color-brand-cream)]">
+                    <Section first className="relative overflow-hidden bg-[var(--color-brand-cream)]">
                         {/* Decorative background photo: upright on phones, turned to landscape from tablets up */}
                         <picture aria-hidden="true">
                             <source
@@ -311,7 +309,7 @@ export function LymphaticDrainage() {
                                 <li
                                     key={key}
                                     id={key === "lipedema" ? LIPEDEMA_ANCHOR : undefined}
-                                    className={`flex flex-col rounded-lg bg-[var(--color-medical-tint)] p-6 scroll-mt-24 ${fiveCardsSpan(index)}`}
+                                    className={`flex flex-col rounded-lg bg-[var(--color-medical-tint)] p-6 scroll-mt-[calc(var(--header-h)+1.5rem)] ${fiveCardsSpan(index)}`}
                                 >
                                     <h3 className="text-lg font-bold text-[var(--color-brand-dark-green)]">{card.title}</h3>
                                     {card.paragraphs.map((paragraph, paragraphIndex) => (
@@ -410,8 +408,20 @@ export function LymphaticDrainage() {
                             })}
                         </div>
 
+                        {/* Link to the gift vouchers page */}
+                        <p className="text-center mt-8">
+                            <Link
+                                to={giftVouchersPath}
+                                className="inline-flex items-center gap-2 font-semibold underline text-[var(--color-sand-text)] hover:text-[var(--color-sand-dark)]"
+                                onClick={() => trackEvent('Drainage page', 'Click', 'Gift vouchers page')}
+                            >
+                                <Gift className="w-5 h-5" strokeWidth={1.5} aria-hidden="true" />
+                                {t("renata.giftLink")}
+                            </Link>
+                        </p>
+
                         {/* Pregnancy and new mothers box */}
-                        <aside id={PREGNANCY_ANCHOR} className="rounded-lg bg-white border border-[var(--color-sand-border)] p-6 lg:p-8 mt-10 scroll-mt-24">
+                        <aside id={PREGNANCY_ANCHOR} className="rounded-lg bg-white border border-[var(--color-sand-border)] p-6 lg:p-8 mt-10 scroll-mt-[calc(var(--header-h)+1.5rem)]">
                             <h3 className="text-2xl font-bold text-[var(--color-brand-dark-green)]">{pregnancy.title}</h3>
                             <div className="grid grid-cols-1 md:grid-cols-2 gap-8 mt-6">
                                 <div className="flex flex-col">

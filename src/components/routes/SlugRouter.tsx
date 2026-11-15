@@ -8,13 +8,14 @@ import {
   LazyTreatments,
   LazyPostOp,
   LazyPostPartum,
-  LazyContact
+  LazyContact,
+  LazyGiftVouchers
 } from "./LazyRoutes"
 import { useLayoutEffect, useState, Suspense, type ComponentType } from "react"
 import { Helmet } from "react-helmet-async"
 import { useTranslatedSlug } from "../../hooks/useTranslatedSlug"
 
-type RouteKey = "home" | "about" | "treatments" | "postOp" | "postPartum" | "contact"
+type RouteKey = "home" | "about" | "treatments" | "postOp" | "postPartum" | "contact" | "giftVouchers"
 
 // Maps route keys to their corresponding page components
 const routeMap: Record<RouteKey, ComponentType> = {
@@ -23,7 +24,8 @@ const routeMap: Record<RouteKey, ComponentType> = {
   treatments: LazyTreatments,
   postOp: LazyPostOp,
   postPartum: LazyPostPartum,
-  contact: LazyContact
+  contact: LazyContact,
+  giftVouchers: LazyGiftVouchers
 }
 
 /**

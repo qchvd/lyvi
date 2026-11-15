@@ -20,6 +20,7 @@
         "sessions": "séances",
         "session": "séance",
         "price": "{{price}}€",
+        "giftLink": "Offrir un soin",
         "cards": {
             "drainage": {
                 "title": "Drainage",

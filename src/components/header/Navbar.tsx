@@ -9,8 +9,8 @@ interface NavbarProps {
 export function Navbar({ windowWidth }: NavbarProps) {
     const { i18n, t } = useTranslation(["header", "routes"])
     const { setIsSidebarOpen } = useSidebar()
-    // Same order as the home title: post-op first, then lymphatic drainage ("treatments"), then post-partum
-    const tabs = ["home", "about", "postOp", "treatments", "postPartum", "contact"]
+    // Care pages in the same order as the home title (post-op, lymphatic drainage = "treatments", post-partum), then about and contact
+    const tabs = ["home", "postOp", "treatments", "postPartum", "about", "contact"]
 
     // Resets contact form and closes sidebar on navigation
     const handleNavClick = (key: string) => {

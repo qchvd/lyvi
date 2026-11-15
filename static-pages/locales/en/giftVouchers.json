@@ -1,0 +1,76 @@
+{
+    "hero": {
+        "title": "Give a Renata França treatment",
+        "text": "A moment of lightness to offer your loved ones. The gift voucher is sent to you as a PDF as soon as you pay, ready to print or forward. It is valid for one year, at the Lyon 1 or Saint-Cyr-au-Mont-d'Or practice."
+    },
+    "card": {
+        "title": "Gift vouchers",
+        "groups": {
+            "single": "Single session",
+            "cure5": "5-session package",
+            "cure8": "8-session package"
+        },
+        "cares": {
+            "drainage": "Lymphatic drainage",
+            "remodelage": "Body Sculpting",
+            "miracleFace": "Miracle Face"
+        },
+        "sessions_one": "{{count}} session",
+        "sessions_other": "{{count}} sessions",
+        "price": "€{{price}}",
+        "selectLabel": "Treatment to give",
+        "selectPlaceholder": "Choose the treatment to give",
+        "button": "Give this treatment",
+        "comingSoon": "Online payment will be available soon.",
+        "secure": "Secure payment by Stripe"
+    },
+    "steps": {
+        "title": "How it works",
+        "items": [
+            {
+                "title": "Choose the treatment",
+                "text": "Select the treatment you want to give from the list, then pay online by card, securely."
+            },
+            {
+                "title": "Receive the gift voucher",
+                "text": "The PDF voucher is emailed to you as soon as you pay, with a unique code. You can print it or forward it."
+            },
+            {
+                "title": "Your loved one books an appointment",
+                "text": "On Doctolib, by choosing “Bon cadeau” (gift voucher) as the reason for the appointment. The treatment is already paid for."
+            }
+        ]
+    },
+    "conditions": {
+        "title": "Terms",
+        "items": [
+            "Valid for one year from the date of purchase.",
+            "Can be used at the Lyon 1 or Saint-Cyr-au-Mont-d'Or practice.",
+            "Non-refundable and cannot be exchanged for cash.",
+            "A package is for one and the same person.",
+            "During pregnancy, drainage requires a prescription.",
+            "The treatment is not possible in case of fever or infection, phlebitis, kidney or heart failure, or an open wound. For Miracle Face, wait 8 days after a facial injection.",
+            "If in doubt, contact me before giving the treatment."
+        ]
+    },
+    "thanks": {
+        "title": "Thank you for your order!",
+        "text": "Your gift voucher has just been emailed to {{email}}. You can also download it right now.",
+        "download": "Download the gift voucher",
+        "pending": "Your gift voucher is being created…",
+        "late": "Your payment has been received. Your gift voucher will be emailed to you within a few minutes.",
+        "spam": "Can't find it? Please check your spam folder.",
+        "back": "Back to gift vouchers"
+    },
+    "voucher": {
+        "title": "Gift voucher",
+        "fileName": "lyvi-gift-voucher"
+    },
+    "email": {
+        "subject": "Your Lyvi gift voucher",
+        "greeting": "Hello,",
+        "body": "Thank you for your order! Please find attached your gift voucher for {{beneficiary}}: {{care}}, valid until {{date}}.",
+        "booking": "To use it, simply book an appointment on Doctolib and choose the reason « Bon cadeau » (gift voucher).",
+        "signature": "See you soon,\nAnaïs Eynard\nPhysical therapist – Lyvi\nlyvicare.com"
+    }
+}
