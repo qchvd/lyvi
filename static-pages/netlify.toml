@@ -7,6 +7,12 @@
 [build.processing]
   skip_processing = true
 
+# Branch deploys (e.g. modifs-anais--lyvicare.netlify.app) are not a public copy of the site:
+# instead of the site, they only publish a redirection of every page to lyvicare.com.
+[context.branch-deploy]
+  command = "mkdir -p branch-redirect && printf '/* https://lyvicare.com/:splat 301!\\n' > branch-redirect/_redirects && printf 'Redirection to lyvicare.com' > branch-redirect/index.html"
+  publish = "branch-redirect"
+
 # Gift vouchers (Stripe webhook, PDF, email): see netlify/lib/giftVoucher.mjs.
 # esbuild bundles the shared code and the translation files they import.
 [functions]

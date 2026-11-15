@@ -4,7 +4,7 @@
 //
 //   node scripts/stripe-gift-vouchers.mjs [--base-url https://…] [--live]
 //
-// - Reads STRIPE_SECRET_KEY from .env. Refuses a live key (sk_live_) unless --live is given.
+// - Reads STRIPE_SECRET_KEY from .env (secret or restricted key). Refuses a live key unless --live is given.
 // - Vouchers and prices come from src/constants/giftVouchers.ts (itself based on renataPrices.ts).
 // - Can be run again safely: existing products/links are reused; a changed price gets a new price and a new link.
 // - --base-url: site where Stripe sends the buyer after paying (default https://lyvicare.com;
@@ -24,9 +24,11 @@ const baseUrl = (args.includes("--base-url") ? args[args.indexOf("--base-url") +
 const env = Object.fromEntries(fs.readFileSync(path.join(root, ".env"), "utf8").split(/\r?\n/)
     .filter((line) => /^\s*[A-Z_]+=/.test(line)).map((line) => [line.slice(0, line.indexOf("=")).trim(), line.slice(line.indexOf("=") + 1).trim()]))
 const key = env.STRIPE_SECRET_KEY || ""
-if (!/^sk_(test|live)_/.test(key)) throw new Error("STRIPE_SECRET_KEY missing or invalid in .env")
-if (key.startsWith("sk_live_") && !args.includes("--live")) throw new Error("Live key in .env: add --live to really create the live products")
-const mode = key.startsWith("sk_live_") ? "LIVE" : "test"
+// Secret key (sk_) or restricted key (rk_) with write access to Products, Prices and Payment Links
+if (!/^[sr]k_(test|live)_/.test(key)) throw new Error("STRIPE_SECRET_KEY missing or invalid in .env")
+const live = /^[sr]k_live_/.test(key)
+if (live && !args.includes("--live")) throw new Error("Live key in .env: add --live to really create the live products")
+const mode = live ? "LIVE" : "test"
 const stripe = new Stripe(key)
 
 // Vouchers of the site (TypeScript constants, bundled on the fly)
