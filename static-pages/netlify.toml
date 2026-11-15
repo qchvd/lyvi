@@ -12,8 +12,8 @@
 [functions]
   directory = "netlify/functions"
   node_bundler = "esbuild"
-  # Voucher background images and font, read by netlify/lib/giftVoucher.mjs
-  included_files = ["netlify/lib/voucher-templates/**", "netlify/lib/fonts/**"]
+  # Voucher templates, font and email logo, read by netlify/lib/giftVoucher.mjs
+  included_files = ["netlify/lib/voucher-templates/**", "netlify/lib/fonts/**", "netlify/lib/email/**"]
 
 # =======================================================
 # Domaine Netlify -> domaine principal

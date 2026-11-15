@@ -67,10 +67,22 @@
         "fileName": "lyvi-gift-voucher"
     },
     "email": {
-        "subject": "Your Lyvi gift voucher",
+        "subject": "Your Lyvi gift voucher for {{beneficiary}}",
+        "preheader": "The gift voucher is attached, ready to be printed or passed on.",
         "greeting": "Hello,",
-        "body": "Thank you for your order! Please find attached your gift voucher for {{beneficiary}}: {{care}}, valid until {{date}}.",
-        "booking": "To use it, simply book an appointment on Doctolib and choose the reason « Bon cadeau » (gift voucher).",
-        "signature": "See you soon,\nAnaïs Eynard\nPhysical therapist – Lyvi\nlyvicare.com"
+        "intro": "Thank you for your order! You will find the gift voucher for {{beneficiary}} attached to this email as a PDF. You can print it or pass it on directly by email or message.",
+        "summaryTitle": "Summary",
+        "labels": {
+            "care": "Treatment",
+            "beneficiary": "For",
+            "validUntil": "Valid until",
+            "code": "Code"
+        },
+        "bookingTitle": "How to book?",
+        "booking": "{{beneficiary}} books an appointment on Doctolib by choosing the reason « Bon cadeau » (gift voucher), then the treatment. The treatment is already paid for.",
+        "bookingButton": "Book on Doctolib",
+        "practicesTitle": "The practices",
+        "questions": "Any question? Simply reply to this email.",
+        "signature": "See you soon,\nAnaïs Eynard\nPhysical therapist – Lyvi"
     }
 }

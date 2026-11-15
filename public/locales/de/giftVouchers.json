@@ -67,10 +67,22 @@
         "fileName": "lyvi-gutschein"
     },
     "email": {
-        "subject": "Ihr Lyvi-Gutschein",
+        "subject": "Ihr Lyvi-Gutschein für {{beneficiary}}",
+        "preheader": "Der Gutschein ist im Anhang, bereit zum Ausdrucken oder Weitergeben.",
         "greeting": "Guten Tag,",
-        "body": "Vielen Dank für Ihre Bestellung! Im Anhang finden Sie Ihren Gutschein für {{beneficiary}}: {{care}}, gültig bis {{date}}.",
-        "booking": "Zum Einlösen einfach über Doctolib einen Termin mit dem Anlass « Bon cadeau » (Gutschein) buchen.",
-        "signature": "Bis bald,\nAnaïs Eynard\nPhysiotherapeutin – Lyvi\nlyvicare.com"
+        "intro": "Vielen Dank für Ihre Bestellung! Im Anhang dieser E-Mail finden Sie den Gutschein für {{beneficiary}} als PDF. Sie können ihn ausdrucken oder direkt per E-Mail oder Nachricht weitergeben.",
+        "summaryTitle": "Übersicht",
+        "labels": {
+            "care": "Behandlung",
+            "beneficiary": "Für",
+            "validUntil": "Gültig bis",
+            "code": "Code"
+        },
+        "bookingTitle": "Wie wird gebucht?",
+        "booking": "{{beneficiary}} bucht über Doctolib einen Termin mit dem Anlass « Bon cadeau » (Gutschein) und wählt dann die Behandlung. Die Behandlung ist bereits bezahlt.",
+        "bookingButton": "Termin auf Doctolib buchen",
+        "practicesTitle": "Die Praxen",
+        "questions": "Eine Frage? Antworten Sie einfach auf diese E-Mail.",
+        "signature": "Bis bald,\nAnaïs Eynard\nPhysiotherapeutin – Lyvi"
     }
 }

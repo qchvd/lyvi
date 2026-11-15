@@ -67,10 +67,22 @@
         "fileName": "bon-cadeau-lyvi"
     },
     "email": {
-        "subject": "Votre bon cadeau Lyvi",
+        "subject": "Votre bon cadeau Lyvi pour {{beneficiary}}",
+        "preheader": "Le bon cadeau est en pièce jointe, prêt à être imprimé ou transmis.",
         "greeting": "Bonjour,",
-        "body": "Merci pour votre commande ! Vous trouverez en pièce jointe votre bon cadeau pour {{beneficiary}} : {{care}}, valable jusqu'au {{date}}.",
-        "booking": "Pour en profiter, il suffit de prendre rendez-vous sur Doctolib en choisissant le motif « Bon cadeau ».",
-        "signature": "À bientôt,\nAnaïs Eynard\nKinésithérapeute – Lyvi\nlyvicare.com"
+        "intro": "Merci pour votre commande ! Vous trouverez le bon cadeau pour {{beneficiary}} en pièce jointe de cet e-mail, au format PDF. Vous pouvez l'imprimer ou le transmettre directement par e-mail ou par message.",
+        "summaryTitle": "Récapitulatif",
+        "labels": {
+            "care": "Soin",
+            "beneficiary": "Pour",
+            "validUntil": "Valable jusqu'au",
+            "code": "Code"
+        },
+        "bookingTitle": "Comment réserver ?",
+        "booking": "{{beneficiary}} prend rendez-vous sur Doctolib en choisissant le motif « Bon cadeau », puis le soin. Le soin est déjà réglé.",
+        "bookingButton": "Prendre rendez-vous sur Doctolib",
+        "practicesTitle": "Les cabinets",
+        "questions": "Une question ? Il suffit de répondre à cet e-mail.",
+        "signature": "À bientôt,\nAnaïs Eynard\nKinésithérapeute – Lyvi"
     }
 }
